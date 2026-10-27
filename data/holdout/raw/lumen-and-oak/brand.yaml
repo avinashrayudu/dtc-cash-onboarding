@@ -1,0 +1,8 @@
+brand: Lumen & Oak
+currency: EUR
+own_accounts:
+  operating_last4: '9398'
+  savings_last4: '4050'
+  card_last5: 01951
+note: 'Synthetic brand. Captured on the kickoff call: name, currency, own account
+  numbers.'

@@ -1,0 +1,178 @@
+{
+  "brand": "North Arc Outdoor",
+  "slug": "north-arc-outdoor",
+  "split": "train",
+  "currency": "USD",
+  "files": {
+    "upload_1/bank_operating_1.csv": {
+      "source_type": "bank",
+      "column_map": {
+        "date": "Posting Date",
+        "description": "Description",
+        "amount": "Amount",
+        "balance": "Balance"
+      },
+      "meta": {
+        "order": "newest_first",
+        "date_format": "mdy"
+      },
+      "n_rows": 77
+    },
+    "upload_1/card_1.csv": {
+      "source_type": "card",
+      "column_map": {
+        "date": "Posted Date",
+        "description": "Payee",
+        "amount": "Amount"
+      },
+      "meta": {
+        "charge_sign": "negative",
+        "date_format": "mdy"
+      },
+      "n_rows": 82
+    },
+    "upload_1/order_lines_1.csv": {
+      "source_type": "orders_list",
+      "column_map": {
+        "order_id": "Order ID",
+        "created_at": "Order Date",
+        "total": "Order Total",
+        "subtotal": "Order Subtotal",
+        "shipping": "Order Shipping",
+        "taxes": "Order Tax",
+        "discount": "Order Discount"
+      },
+      "meta": {
+        "totals": "repeated_per_line"
+      },
+      "n_rows": 10591
+    },
+    "upload_1/payouts_1.csv": {
+      "source_type": "payouts",
+      "column_map": {
+        "payout_date": "Payout Date",
+        "charges": "Charges",
+        "refunds": "Refunds",
+        "adjustments": "Adjustments",
+        "fees": "Fees",
+        "net": "Total",
+        "currency": "Currency",
+        "status": "Status"
+      },
+      "meta": {},
+      "n_rows": 44
+    },
+    "upload_1/amazon_date_range_1.csv": {
+      "source_type": "amazon_range",
+      "column_map": {
+        "date_time": "date/time",
+        "settlement_id": "settlement id",
+        "type": "type",
+        "order_id": "order id",
+        "description": "description",
+        "product_sales": "product sales",
+        "selling_fees": "selling fees",
+        "fba_fees": "fba fees",
+        "other": "other",
+        "total": "total"
+      },
+      "meta": {},
+      "n_rows": 2074
+    },
+    "upload_1/chart_of_accounts_1.xlsx": {
+      "source_type": "coa",
+      "column_map": {
+        "number": "Number",
+        "name": "Name",
+        "type": "Account Type"
+      },
+      "meta": {},
+      "n_rows": 25
+    },
+    "upload_2/bank_operating_2.csv": {
+      "source_type": "bank",
+      "column_map": {
+        "date": "Posting Date",
+        "description": "Description",
+        "amount": "Amount",
+        "balance": "Balance"
+      },
+      "meta": {
+        "order": "newest_first",
+        "date_format": "mdy"
+      },
+      "n_rows": 85
+    },
+    "upload_2/card_2.csv": {
+      "source_type": "card",
+      "column_map": {
+        "date": "Posted Date",
+        "description": "Payee",
+        "amount": "Amount"
+      },
+      "meta": {
+        "charge_sign": "negative",
+        "date_format": "mdy"
+      },
+      "n_rows": 77
+    },
+    "upload_2/order_lines_2.csv": {
+      "source_type": "orders_list",
+      "column_map": {
+        "order_id": "Order ID",
+        "created_at": "Order Date",
+        "total": "Order Total",
+        "subtotal": "Order Subtotal",
+        "shipping": "Order Shipping",
+        "taxes": "Order Tax",
+        "discount": "Order Discount"
+      },
+      "meta": {
+        "totals": "repeated_per_line"
+      },
+      "n_rows": 10326
+    },
+    "upload_2/payouts_2.csv": {
+      "source_type": "payouts",
+      "column_map": {
+        "payout_date": "Payout Date",
+        "charges": "Charges",
+        "refunds": "Refunds",
+        "adjustments": "Adjustments",
+        "fees": "Fees",
+        "net": "Total",
+        "currency": "Currency",
+        "status": "Status"
+      },
+      "meta": {},
+      "n_rows": 39
+    },
+    "upload_2/amazon_date_range_2.csv": {
+      "source_type": "amazon_range",
+      "column_map": {
+        "date_time": "date/time",
+        "settlement_id": "settlement id",
+        "type": "type",
+        "order_id": "order id",
+        "description": "description",
+        "product_sales": "product sales",
+        "selling_fees": "selling fees",
+        "fba_fees": "fba fees",
+        "other": "other",
+        "total": "total"
+      },
+      "meta": {},
+      "n_rows": 1463
+    },
+    "upload_2/chart_of_accounts_2.xlsx": {
+      "source_type": "coa",
+      "column_map": {
+        "number": "Number",
+        "name": "Name",
+        "type": "Account Type"
+      },
+      "meta": {},
+      "n_rows": 26
+    }
+  }
+}

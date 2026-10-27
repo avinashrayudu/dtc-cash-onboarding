@@ -1,0 +1,117 @@
+label,account,amount,date,is_duplicate,counterparty
+processor_payout,operating,41750.75,2026-08-25,True,Shopify
+wholesale_payout,operating,5957.3,2026-08-25,True,Faire Wholesale
+processor_payout,operating,13389.83,2026-08-26,True,Shopify
+processor_payout,operating,13036.66,2026-08-27,True,Shopify
+wholesale_payout,operating,3914.48,2026-08-27,True,Faire Wholesale
+processor_payout,operating,13558.93,2026-08-28,True,Shopify
+wholesale_payout,operating,931.15,2026-08-28,True,Faire Wholesale
+payroll,operating,-4674.88,2026-08-28,True,Nmbrs
+payroll,operating,-14803.78,2026-08-28,True,Nmbrs
+processor_payout,operating,13531.78,2026-08-31,True,Shopify
+processor_payout,operating,44469.98,2026-09-01,False,Shopify
+wholesale_payout,operating,4073.0,2026-09-01,False,Faire Wholesale
+rent,operating,-3966.67,2026-09-01,False,Westerdok Vastgoed
+processor_payout,operating,13157.91,2026-09-02,False,Shopify
+wholesale_payout,operating,2401.51,2026-09-02,False,Faire Wholesale
+processor_payout,operating,12080.93,2026-09-03,False,Shopify
+wholesale_payout,operating,2778.05,2026-09-03,False,Faire Wholesale
+processor_payout,operating,14000.42,2026-09-04,False,Shopify
+wholesale_payout,operating,1482.83,2026-09-04,False,Faire Wholesale
+processor_payout,operating,14742.24,2026-09-07,False,Shopify
+wholesale_payout,operating,1284.17,2026-09-07,False,Faire Wholesale
+freight_duty,operating,-20196.0,2026-09-07,False,Rijnmond Cargo
+processor_payout,operating,41273.13,2026-09-08,False,Shopify
+wholesale_payout,operating,1257.7,2026-09-08,False,Faire Wholesale
+processor_payout,operating,14012.04,2026-09-09,False,Shopify
+wholesale_payout,operating,1444.63,2026-09-09,False,Faire Wholesale
+processor_payout,operating,14439.14,2026-09-10,False,Shopify
+wholesale_payout,operating,1820.91,2026-09-10,False,Faire Wholesale
+freight_duty,operating,-11220.0,2026-09-10,False,US Customs CBP
+fulfillment_3pl,operating,-22019.42,2026-09-10,False,Polderpack Fulfilment
+processor_payout,operating,13018.19,2026-09-11,False,Shopify
+wholesale_payout,operating,1605.17,2026-09-11,False,Faire Wholesale
+payroll,operating,-4801.02,2026-09-11,False,Nmbrs
+payroll,operating,-15203.23,2026-09-11,False,Nmbrs
+own_account_transfer,operating,-92000.0,2026-09-14,False,Savings
+processor_payout,operating,13719.8,2026-09-14,False,Shopify
+wholesale_payout,operating,1439.19,2026-09-14,False,Faire Wholesale
+processor_payout,operating,45342.37,2026-09-15,False,Shopify
+wholesale_payout,operating,5149.11,2026-09-15,False,Faire Wholesale
+software_opex,operating,-275.0,2026-09-15,False,Intuit
+processor_payout,operating,9806.84,2026-09-16,False,Shopify
+wholesale_payout,operating,1742.64,2026-09-16,False,Faire Wholesale
+processor_payout,operating,13077.43,2026-09-17,False,Shopify
+wholesale_payout,operating,2809.79,2026-09-17,False,Faire Wholesale
+processor_payout,operating,11168.54,2026-09-18,False,Shopify
+wholesale_payout,operating,2916.45,2026-09-18,False,Faire Wholesale
+own_account_transfer,operating,-104000.0,2026-09-21,False,Savings
+processor_payout,operating,11561.28,2026-09-21,False,Shopify
+wholesale_payout,operating,1679.6,2026-09-21,False,Faire Wholesale
+sales_tax,operating,-77847.31,2026-09-21,False,BELASTINGDIENST
+own_account_transfer,operating,291000.0,2026-09-22,False,Savings
+processor_payout,operating,48196.04,2026-09-22,False,Shopify
+wholesale_payout,operating,2420.75,2026-09-22,False,Faire Wholesale
+bank_fee,operating,-35.0,2026-09-22,False,Wire fee
+card_payment,operating,-54755.27,2026-09-22,False,Lindeberg
+inventory_purchase,operating,-299880.0,2026-09-22,False,Aurelia Scents SRL
+processor_payout,operating,14701.44,2026-09-23,False,Shopify
+wholesale_payout,operating,1852.0,2026-09-23,False,Faire Wholesale
+processor_payout,operating,15997.83,2026-09-24,False,Shopify
+wholesale_payout,operating,1722.07,2026-09-24,False,Faire Wholesale
+processor_payout,operating,13546.93,2026-09-25,False,Shopify
+wholesale_payout,operating,920.69,2026-09-25,False,Faire Wholesale
+payroll,operating,-4708.65,2026-09-25,False,Nmbrs
+payroll,operating,-14910.72,2026-09-25,False,Nmbrs
+processor_payout,operating,11376.94,2026-09-28,False,Shopify
+wholesale_payout,operating,2081.26,2026-09-28,False,Faire Wholesale
+processor_payout,operating,42280.97,2026-09-29,False,Shopify
+wholesale_payout,operating,7353.41,2026-09-29,False,Faire Wholesale
+processor_payout,operating,13879.94,2026-09-30,False,Shopify
+wholesale_payout,operating,444.86,2026-09-30,False,Faire Wholesale
+processor_payout,operating,15425.93,2026-10-01,False,Shopify
+wholesale_payout,operating,3385.99,2026-10-01,False,Faire Wholesale
+rent,operating,-3966.67,2026-10-01,False,Westerdok Vastgoed
+processor_payout,operating,11650.66,2026-10-02,False,Shopify
+wholesale_payout,operating,3581.28,2026-10-02,False,Faire Wholesale
+processor_payout,operating,14700.05,2026-10-05,False,Shopify
+processor_payout,operating,45962.04,2026-10-06,False,Shopify
+wholesale_payout,operating,3472.92,2026-10-06,False,Faire Wholesale
+bank_fee,operating,-35.0,2026-10-06,False,Wire fee
+inventory_purchase,operating,-76500.0,2026-10-06,False,Veldhoven Glas BV
+processor_payout,operating,14009.79,2026-10-07,False,Shopify
+wholesale_payout,operating,310.31,2026-10-07,False,Faire Wholesale
+processor_payout,operating,15083.77,2026-10-08,False,Shopify
+processor_payout,operating,14735.86,2026-10-09,False,Shopify
+wholesale_payout,operating,392.34,2026-10-09,False,Faire Wholesale
+payroll,operating,-4689.21,2026-10-09,False,Nmbrs
+payroll,operating,-14849.16,2026-10-09,False,Nmbrs
+processor_payout,operating,13253.3,2026-10-12,False,Shopify
+wholesale_payout,operating,3284.81,2026-10-12,False,Faire Wholesale
+fulfillment_3pl,operating,-20461.38,2026-10-12,False,Polderpack Fulfilment
+processor_payout,operating,48249.47,2026-10-13,False,Shopify
+wholesale_payout,operating,3021.14,2026-10-13,False,Faire Wholesale
+processor_payout,operating,10768.03,2026-10-14,False,Shopify
+wholesale_payout,operating,747.41,2026-10-14,False,Faire Wholesale
+processor_payout,operating,15187.83,2026-10-15,False,Shopify
+wholesale_payout,operating,1169.5,2026-10-15,False,Faire Wholesale
+software_opex,operating,-275.0,2026-10-15,False,Intuit
+processor_payout,operating,12609.14,2026-10-16,False,Shopify
+wholesale_payout,operating,1839.04,2026-10-16,False,Faire Wholesale
+freight_duty,operating,-38556.0,2026-10-16,False,Rijnmond Cargo
+own_account_transfer,operating,-119000.0,2026-10-19,False,Savings
+processor_payout,operating,16712.0,2026-10-19,False,Shopify
+wholesale_payout,operating,1182.65,2026-10-19,False,Faire Wholesale
+freight_duty,operating,-21420.0,2026-10-19,False,US Customs CBP
+processor_payout,operating,43083.17,2026-10-20,False,Shopify
+wholesale_payout,operating,14542.35,2026-10-20,False,Faire Wholesale
+sales_tax,operating,-75319.66,2026-10-20,False,BELASTINGDIENST
+processor_payout,operating,15141.07,2026-10-21,False,Shopify
+wholesale_payout,operating,1827.15,2026-10-21,False,Faire Wholesale
+processor_payout,operating,14347.45,2026-10-22,False,Shopify
+wholesale_payout,operating,1169.17,2026-10-22,False,Faire Wholesale
+card_payment,operating,-52350.65,2026-10-22,False,Lindeberg
+processor_payout,operating,13604.3,2026-10-23,False,Shopify
+wholesale_payout,operating,1183.21,2026-10-23,False,Faire Wholesale
+payroll,operating,-4843.82,2026-10-23,False,Nmbrs
+payroll,operating,-15338.75,2026-10-23,False,Nmbrs

@@ -1,0 +1,41 @@
+# The standard cash ledger every brand is mapped into. Built by Avinash Rayudu.
+# One row per bank or card line, written to out/<brand>/<upload>/ledger.csv.
+
+columns:
+  source:       bank | card
+  file:         the brand's file the line came from
+  row:          data row number in that file (0 = first row under the header)
+  date:         booking date (YYYY-MM-DD)
+  account:      operating | savings | card
+  description:  memo text exactly as exported
+  amount:       bank lines, positive = money into the brand; card lines, positive = a charge
+  label:        cash meaning, from the lists below (empty while in review)
+  method:       tie-out | memory | model | review
+  confidence:   1.0 for tie-out and memory; model probability otherwise
+  is_duplicate: true when the line was already ingested from an earlier upload
+
+bank_labels:
+  customer_receipts: [processor_payout, marketplace_payout, wholesale_payout, wholesale_receipt]
+  other_inflows:     [own_account_transfer, financing_draw, vendor_refund, interest_income]
+  outflows:          [payroll, inventory_purchase, freight_duty, fulfillment_3pl, card_payment, ad_spend,
+                      software_opex, rent, sales_tax, financing_repayment, interest_expense, bank_fee]
+
+card_labels: [ad_spend, software_opex, travel_other, shipping_supplies, card_payment_received]
+
+not_operating_spend: [own_account_transfer, card_payment, financing_repayment, card_payment_received]
+
+chart_of_accounts_categories:
+  [bank_account, credit_card_account, loan_account, sales_tax_payable, revenue_dtc, revenue_marketplace,
+   revenue_wholesale, refunds_returns, cogs_product, cogs_freight_duty, fulfillment_3pl, merchant_fees,
+   advertising, payroll, software, rent, travel_meals, shipping_supplies, interest_expense, other_opex]
+
+source_types:
+  bank:         bank statement export (signed amount, debit/credit columns, or DR/CR column)
+  card:         card activity export
+  orders_list:  Shopify order export (line-item rows) or an app export that repeats totals per line
+  sales_daily:  Shopify "Sales over time" report
+  payouts:      Shopify Payments payouts, one row per payout or one row per transaction
+  amazon_flat:  Amazon settlement flat file (summary row plus detail rows)
+  amazon_range: Amazon date range report (one Transfer row per deposit)
+  faire:        Faire orders and payouts
+  coa:          chart of accounts

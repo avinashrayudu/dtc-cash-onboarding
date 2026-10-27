@@ -1,0 +1,8 @@
+brand: Hollis Home
+currency: USD
+own_accounts:
+  operating_last4: '9948'
+  savings_last4: '7905'
+  card_last5: '40745'
+note: 'Synthetic brand. Captured on the kickoff call: name, currency, own account
+  numbers.'

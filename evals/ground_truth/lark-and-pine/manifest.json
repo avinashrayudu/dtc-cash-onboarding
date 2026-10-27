@@ -1,0 +1,176 @@
+{
+  "brand": "Lark & Pine Candle Co",
+  "slug": "lark-and-pine",
+  "split": "train",
+  "currency": "USD",
+  "files": {
+    "upload_1/stmt_1.csv": {
+      "source_type": "bank",
+      "column_map": {
+        "date": "Date",
+        "description": "Description",
+        "amount": "Amount",
+        "balance": "Running Bal."
+      },
+      "meta": {
+        "order": "oldest_first",
+        "date_format": "mdy"
+      },
+      "n_rows": 118
+    },
+    "upload_1/card_activity_1.csv": {
+      "source_type": "card",
+      "column_map": {
+        "date": "Transaction Date",
+        "description": "Description",
+        "amount": "Amount",
+        "txn_type": "Type"
+      },
+      "meta": {
+        "charge_sign": "negative",
+        "date_format": "mdy"
+      },
+      "n_rows": 92
+    },
+    "upload_1/order_lines_1.csv": {
+      "source_type": "orders_list",
+      "column_map": {
+        "order_id": "Order ID",
+        "created_at": "Order Date",
+        "total": "Order Total",
+        "subtotal": "Order Subtotal",
+        "shipping": "Order Shipping",
+        "taxes": "Order Tax",
+        "discount": "Order Discount"
+      },
+      "meta": {
+        "totals": "repeated_per_line"
+      },
+      "n_rows": 9731
+    },
+    "upload_1/shopify_payments_1.csv": {
+      "source_type": "payouts",
+      "column_map": {
+        "payout_date": "Date",
+        "payout_id": "Payout ID",
+        "charges": "Gross",
+        "refunds": "Refunds",
+        "fees": "Fees",
+        "adjustments": "Adjustments",
+        "net": "Net",
+        "status": "Status"
+      },
+      "meta": {},
+      "n_rows": 44
+    },
+    "upload_1/faire_payouts_1.xlsx": {
+      "source_type": "faire",
+      "column_map": {
+        "order_number": "Order #",
+        "retailer": "Store Name",
+        "order_date": "Date Placed",
+        "ship_date": "Date Shipped",
+        "payout_date": "Paid Out On",
+        "wholesale_total": "Order Value",
+        "commission": "Faire Fee",
+        "payout_amount": "Net Payout"
+      },
+      "meta": {},
+      "n_rows": 193
+    },
+    "upload_1/chart_of_accounts_1.xlsx": {
+      "source_type": "coa",
+      "column_map": {
+        "number": "Number",
+        "name": "Name",
+        "type": "Account Type"
+      },
+      "meta": {},
+      "n_rows": 24
+    },
+    "upload_2/stmt_2.csv": {
+      "source_type": "bank",
+      "column_map": {
+        "date": "Date",
+        "description": "Description",
+        "amount": "Amount",
+        "balance": "Running Bal."
+      },
+      "meta": {
+        "order": "oldest_first",
+        "date_format": "mdy"
+      },
+      "n_rows": 120
+    },
+    "upload_2/card_activity_2.csv": {
+      "source_type": "card",
+      "column_map": {
+        "date": "Transaction Date",
+        "description": "Description",
+        "amount": "Amount",
+        "txn_type": "Type"
+      },
+      "meta": {
+        "charge_sign": "negative",
+        "date_format": "mdy"
+      },
+      "n_rows": 79
+    },
+    "upload_2/order_lines_2.csv": {
+      "source_type": "orders_list",
+      "column_map": {
+        "order_id": "Order ID",
+        "created_at": "Order Date",
+        "total": "Order Total",
+        "subtotal": "Order Subtotal",
+        "shipping": "Order Shipping",
+        "taxes": "Order Tax",
+        "discount": "Order Discount"
+      },
+      "meta": {
+        "totals": "repeated_per_line"
+      },
+      "n_rows": 9457
+    },
+    "upload_2/shopify_payments_2.csv": {
+      "source_type": "payouts",
+      "column_map": {
+        "payout_date": "Date",
+        "payout_id": "Payout ID",
+        "charges": "Gross",
+        "refunds": "Refunds",
+        "fees": "Fees",
+        "adjustments": "Adjustments",
+        "net": "Net",
+        "status": "Status"
+      },
+      "meta": {},
+      "n_rows": 39
+    },
+    "upload_2/faire_payouts_2.xlsx": {
+      "source_type": "faire",
+      "column_map": {
+        "order_number": "Order #",
+        "retailer": "Store Name",
+        "order_date": "Date Placed",
+        "ship_date": "Date Shipped",
+        "payout_date": "Paid Out On",
+        "wholesale_total": "Order Value",
+        "commission": "Faire Fee",
+        "payout_amount": "Net Payout"
+      },
+      "meta": {},
+      "n_rows": 166
+    },
+    "upload_2/chart_of_accounts_2.xlsx": {
+      "source_type": "coa",
+      "column_map": {
+        "number": "Number",
+        "name": "Name",
+        "type": "Account Type"
+      },
+      "meta": {},
+      "n_rows": 25
+    }
+  }
+}

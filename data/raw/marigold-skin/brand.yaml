@@ -1,0 +1,8 @@
+brand: Marigold Skin
+currency: USD
+own_accounts:
+  operating_last4: '3887'
+  savings_last4: '8794'
+  card_last5: '76891'
+note: 'Synthetic brand. Captured on the kickoff call: name, currency, own account
+  numbers.'

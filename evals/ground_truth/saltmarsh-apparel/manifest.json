@@ -1,0 +1,174 @@
+{
+  "brand": "Saltmarsh Apparel",
+  "slug": "saltmarsh-apparel",
+  "split": "dev",
+  "currency": "CAD",
+  "files": {
+    "upload_1/stmt_1.csv": {
+      "source_type": "bank",
+      "column_map": {
+        "date": "Date",
+        "description": "Description",
+        "amount": "Amount",
+        "balance": "Running Bal."
+      },
+      "meta": {
+        "order": "oldest_first",
+        "date_format": "dmy"
+      },
+      "n_rows": 118
+    },
+    "upload_1/card_1.csv": {
+      "source_type": "card",
+      "column_map": {
+        "date": "Posted Date",
+        "description": "Payee",
+        "amount": "Amount"
+      },
+      "meta": {
+        "charge_sign": "negative",
+        "date_format": "dmy"
+      },
+      "n_rows": 95
+    },
+    "upload_1/order_lines_1.csv": {
+      "source_type": "orders_list",
+      "column_map": {
+        "order_id": "Order ID",
+        "created_at": "Order Date",
+        "total": "Order Total",
+        "subtotal": "Order Subtotal",
+        "shipping": "Order Shipping",
+        "taxes": "Order Tax",
+        "discount": "Order Discount"
+      },
+      "meta": {
+        "totals": "repeated_per_line"
+      },
+      "n_rows": 8858
+    },
+    "upload_1/payouts_1.csv": {
+      "source_type": "payouts",
+      "column_map": {
+        "payout_date": "Payout Date",
+        "charges": "Charges",
+        "refunds": "Refunds",
+        "adjustments": "Adjustments",
+        "fees": "Fees",
+        "net": "Total",
+        "currency": "Currency",
+        "status": "Status"
+      },
+      "meta": {},
+      "n_rows": 44
+    },
+    "upload_1/faire_orders_1.csv": {
+      "source_type": "faire",
+      "column_map": {
+        "order_number": "Order Number",
+        "retailer": "Retailer",
+        "order_date": "Order Date",
+        "ship_date": "Ship Date",
+        "payout_date": "Payout Date",
+        "wholesale_total": "Wholesale Total",
+        "commission": "Commission",
+        "payout_amount": "Payout"
+      },
+      "meta": {},
+      "n_rows": 120
+    },
+    "upload_1/account_list_1.csv": {
+      "source_type": "coa",
+      "column_map": {
+        "number": "Account #",
+        "name": "Account",
+        "type": "Type"
+      },
+      "meta": {},
+      "n_rows": 24
+    },
+    "upload_2/stmt_2.csv": {
+      "source_type": "bank",
+      "column_map": {
+        "date": "Date",
+        "description": "Description",
+        "amount": "Amount",
+        "balance": "Running Bal."
+      },
+      "meta": {
+        "order": "oldest_first",
+        "date_format": "dmy"
+      },
+      "n_rows": 121
+    },
+    "upload_2/card_2.csv": {
+      "source_type": "card",
+      "column_map": {
+        "date": "Posted Date",
+        "description": "Payee",
+        "amount": "Amount"
+      },
+      "meta": {
+        "charge_sign": "negative",
+        "date_format": "dmy"
+      },
+      "n_rows": 81
+    },
+    "upload_2/order_lines_2.csv": {
+      "source_type": "orders_list",
+      "column_map": {
+        "order_id": "Order ID",
+        "created_at": "Order Date",
+        "total": "Order Total",
+        "subtotal": "Order Subtotal",
+        "shipping": "Order Shipping",
+        "taxes": "Order Tax",
+        "discount": "Order Discount"
+      },
+      "meta": {
+        "totals": "repeated_per_line"
+      },
+      "n_rows": 8622
+    },
+    "upload_2/payouts_2.csv": {
+      "source_type": "payouts",
+      "column_map": {
+        "payout_date": "Payout Date",
+        "charges": "Charges",
+        "refunds": "Refunds",
+        "adjustments": "Adjustments",
+        "fees": "Fees",
+        "net": "Total",
+        "currency": "Currency",
+        "status": "Status"
+      },
+      "meta": {},
+      "n_rows": 39
+    },
+    "upload_2/faire_orders_2.csv": {
+      "source_type": "faire",
+      "column_map": {
+        "order_number": "Order Number",
+        "retailer": "Retailer",
+        "order_date": "Order Date",
+        "ship_date": "Ship Date",
+        "payout_date": "Payout Date",
+        "wholesale_total": "Wholesale Total",
+        "commission": "Commission",
+        "payout_amount": "Payout"
+      },
+      "meta": {},
+      "n_rows": 106
+    },
+    "upload_2/account_list_2.csv": {
+      "source_type": "coa",
+      "column_map": {
+        "number": "Account #",
+        "name": "Account",
+        "type": "Type"
+      },
+      "meta": {},
+      "n_rows": 25
+    }
+  }
+}

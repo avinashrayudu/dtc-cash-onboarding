@@ -1,0 +1,121 @@
+label,account,amount,date,is_duplicate,counterparty
+processor_payout,operating,17189.0,2026-08-25,True,Shopify
+wholesale_payout,operating,8404.08,2026-08-25,True,Faire Wholesale
+processor_payout,operating,4396.91,2026-08-26,True,Shopify
+wholesale_payout,operating,3027.91,2026-08-26,True,Faire Wholesale
+processor_payout,operating,4561.76,2026-08-27,True,Shopify
+wholesale_payout,operating,2762.94,2026-08-27,True,Faire Wholesale
+processor_payout,operating,6728.82,2026-08-28,True,Shopify
+payroll,operating,-3503.45,2026-08-28,True,Justworks
+payroll,operating,-11094.25,2026-08-28,True,Justworks
+interest_income,savings,580.2,2026-08-28,True,Bank
+processor_payout,operating,6382.2,2026-08-31,True,Shopify
+wholesale_payout,operating,276.9,2026-08-31,True,Faire Wholesale
+processor_payout,operating,17065.73,2026-09-01,False,Shopify
+rent,operating,-3033.33,2026-09-01,False,Bushwick Works LLC
+processor_payout,operating,5430.55,2026-09-02,False,Shopify
+processor_payout,operating,6134.93,2026-09-03,False,Shopify
+wholesale_payout,operating,2369.84,2026-09-03,False,Faire Wholesale
+marketplace_payout,operating,22957.44,2026-09-04,False,Amazon.com Services
+processor_payout,operating,5843.06,2026-09-04,False,Shopify
+wholesale_payout,operating,884.76,2026-09-04,False,Faire Wholesale
+processor_payout,operating,6335.7,2026-09-07,False,Shopify
+wholesale_payout,operating,1808.88,2026-09-07,False,Faire Wholesale
+freight_duty,operating,-15444.0,2026-09-07,False,Crestway Forwarding
+processor_payout,operating,20039.83,2026-09-08,False,Shopify
+wholesale_payout,operating,6863.47,2026-09-08,False,Faire Wholesale
+processor_payout,operating,4780.72,2026-09-09,False,Shopify
+wholesale_payout,operating,497.73,2026-09-09,False,Faire Wholesale
+processor_payout,operating,5062.74,2026-09-10,False,Shopify
+wholesale_payout,operating,1145.68,2026-09-10,False,Faire Wholesale
+freight_duty,operating,-8580.0,2026-09-10,False,US Customs CBP
+fulfillment_3pl,operating,-15314.37,2026-09-10,False,Fulcrum Fulfillment
+processor_payout,operating,6048.54,2026-09-11,False,Shopify
+wholesale_receipt,operating,4972.35,2026-09-11,False,Mapleton Gifts
+wholesale_payout,operating,1087.73,2026-09-11,False,Faire Wholesale
+payroll,operating,-3587.41,2026-09-11,False,Justworks
+payroll,operating,-11360.12,2026-09-11,False,Justworks
+processor_payout,operating,6586.87,2026-09-14,False,Shopify
+wholesale_payout,operating,2898.32,2026-09-14,False,Faire Wholesale
+processor_payout,operating,19465.28,2026-09-15,False,Shopify
+wholesale_payout,operating,672.26,2026-09-15,False,Faire Wholesale
+software_opex,operating,-275.0,2026-09-15,False,Intuit
+processor_payout,operating,5206.02,2026-09-16,False,Shopify
+processor_payout,operating,5572.77,2026-09-17,False,Shopify
+wholesale_payout,operating,960.34,2026-09-17,False,Faire Wholesale
+marketplace_payout,operating,23806.24,2026-09-18,False,Amazon.com Services
+processor_payout,operating,3979.67,2026-09-18,False,Shopify
+wholesale_payout,operating,1535.37,2026-09-18,False,Faire Wholesale
+own_account_transfer,operating,-114000.0,2026-09-21,False,Savings
+own_account_transfer,savings,114000.0,2026-09-21,False,Operating
+processor_payout,operating,5146.06,2026-09-21,False,Shopify
+wholesale_payout,operating,2216.12,2026-09-21,False,Faire Wholesale
+sales_tax,operating,-10245.04,2026-09-21,False,TX COMPTROLLER
+own_account_transfer,operating,166000.0,2026-09-22,False,Savings
+own_account_transfer,savings,-166000.0,2026-09-22,False,Operating
+processor_payout,operating,22082.68,2026-09-22,False,Shopify
+wholesale_payout,operating,2789.37,2026-09-22,False,Faire Wholesale
+bank_fee,operating,-35.0,2026-09-22,False,Wire fee
+card_payment,operating,-40187.77,2026-09-22,False,Ashford
+inventory_purchase,operating,-229320.0,2026-09-22,False,Vellum Paper Mills
+processor_payout,operating,4477.57,2026-09-23,False,Shopify
+wholesale_payout,operating,993.6,2026-09-23,False,Faire Wholesale
+processor_payout,operating,5849.21,2026-09-24,False,Shopify
+wholesale_receipt,operating,2171.49,2026-09-24,False,Mapleton Gifts
+processor_payout,operating,4265.01,2026-09-25,False,Shopify
+payroll,operating,-3695.79,2026-09-25,False,Justworks
+payroll,operating,-11703.33,2026-09-25,False,Justworks
+processor_payout,operating,4860.68,2026-09-28,False,Shopify
+wholesale_payout,operating,2535.36,2026-09-28,False,Faire Wholesale
+interest_income,savings,469.64,2026-09-28,False,Bank
+processor_payout,operating,21735.81,2026-09-29,False,Shopify
+wholesale_payout,operating,8077.86,2026-09-29,False,Faire Wholesale
+processor_payout,operating,6407.32,2026-09-30,False,Shopify
+wholesale_receipt,operating,3079.11,2026-09-30,False,Hollow Pine Grocers
+wholesale_payout,operating,1114.05,2026-09-30,False,Faire Wholesale
+wholesale_receipt,operating,8977.25,2026-10-01,False,Hollow Pine Grocers
+processor_payout,operating,7471.67,2026-10-01,False,Shopify
+rent,operating,-3033.33,2026-10-01,False,Bushwick Works LLC
+marketplace_payout,operating,23461.17,2026-10-02,False,Amazon.com Services
+processor_payout,operating,6717.28,2026-10-02,False,Shopify
+wholesale_payout,operating,2401.46,2026-10-02,False,Faire Wholesale
+processor_payout,operating,6112.66,2026-10-05,False,Shopify
+wholesale_payout,operating,1383.6,2026-10-05,False,Faire Wholesale
+processor_payout,operating,19187.53,2026-10-06,False,Shopify
+wholesale_payout,operating,3776.89,2026-10-06,False,Faire Wholesale
+bank_fee,operating,-35.0,2026-10-06,False,Wire fee
+inventory_purchase,operating,-58500.0,2026-10-06,False,Grayson Tea Estates
+processor_payout,operating,5754.69,2026-10-07,False,Shopify
+wholesale_payout,operating,1656.09,2026-10-07,False,Faire Wholesale
+processor_payout,operating,5020.4,2026-10-08,False,Shopify
+processor_payout,operating,6828.48,2026-10-09,False,Shopify
+wholesale_payout,operating,1257.34,2026-10-09,False,Faire Wholesale
+payroll,operating,-3597.13,2026-10-09,False,Justworks
+payroll,operating,-11390.91,2026-10-09,False,Justworks
+processor_payout,operating,4817.96,2026-10-12,False,Shopify
+wholesale_payout,operating,3842.61,2026-10-12,False,Faire Wholesale
+fulfillment_3pl,operating,-16319.66,2026-10-12,False,Fulcrum Fulfillment
+processor_payout,operating,18810.39,2026-10-13,False,Shopify
+wholesale_payout,operating,6508.87,2026-10-13,False,Faire Wholesale
+processor_payout,operating,6762.75,2026-10-14,False,Shopify
+processor_payout,operating,5279.56,2026-10-15,False,Shopify
+wholesale_payout,operating,1671.09,2026-10-15,False,Faire Wholesale
+software_opex,operating,-275.0,2026-10-15,False,Intuit
+marketplace_payout,operating,24404.25,2026-10-16,False,Amazon.com Services
+processor_payout,operating,5680.59,2026-10-16,False,Shopify
+wholesale_payout,operating,1611.76,2026-10-16,False,Faire Wholesale
+freight_duty,operating,-29484.0,2026-10-16,False,Crestway Forwarding
+wholesale_payout,operating,5567.12,2026-10-19,False,Faire Wholesale
+processor_payout,operating,5523.18,2026-10-19,False,Shopify
+freight_duty,operating,-16380.0,2026-10-19,False,US Customs CBP
+processor_payout,operating,20514.81,2026-10-20,False,Shopify
+sales_tax,operating,-10727.73,2026-10-20,False,TX COMPTROLLER
+processor_payout,operating,5220.14,2026-10-21,False,Shopify
+wholesale_payout,operating,2316.84,2026-10-21,False,Faire Wholesale
+processor_payout,operating,5881.99,2026-10-22,False,Shopify
+wholesale_payout,operating,2785.8,2026-10-22,False,Faire Wholesale
+card_payment,operating,-45067.7,2026-10-22,False,Ashford
+processor_payout,operating,6610.69,2026-10-23,False,Shopify
+wholesale_payout,operating,1687.95,2026-10-23,False,Faire Wholesale
+payroll,operating,-3697.77,2026-10-23,False,Justworks
+payroll,operating,-11709.62,2026-10-23,False,Justworks

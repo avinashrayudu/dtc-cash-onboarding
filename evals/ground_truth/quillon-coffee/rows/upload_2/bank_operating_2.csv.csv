@@ -1,0 +1,121 @@
+label,account,amount,date,is_duplicate,counterparty
+payroll,operating,-13334.79,2026-10-23,False,Gusto
+payroll,operating,-4210.99,2026-10-23,False,Gusto
+wholesale_payout,operating,2125.84,2026-10-23,False,Faire Wholesale
+processor_payout,operating,7566.72,2026-10-23,False,Shopify
+card_payment,operating,-49492.43,2026-10-22,False,Meridian
+wholesale_payout,operating,1336.71,2026-10-22,False,Faire Wholesale
+processor_payout,operating,7648.24,2026-10-22,False,Shopify
+processor_payout,operating,7382.89,2026-10-21,False,Shopify
+sales_tax,operating,-9115.89,2026-10-20,False,GA DEPT OF REVENUE
+wholesale_payout,operating,7733.5,2026-10-20,False,Faire Wholesale
+processor_payout,operating,26166.1,2026-10-20,False,Shopify
+freight_duty,operating,-18900.0,2026-10-19,False,US Customs CBP
+wholesale_payout,operating,3242.72,2026-10-19,False,Faire Wholesale
+processor_payout,operating,7603.86,2026-10-19,False,Shopify
+freight_duty,operating,-34020.0,2026-10-16,False,Saltbox Freight
+wholesale_payout,operating,4565.12,2026-10-16,False,Faire Wholesale
+processor_payout,operating,7897.6,2026-10-16,False,Shopify
+marketplace_payout,operating,15217.35,2026-10-16,False,Amazon.com Services
+software_opex,operating,-275.0,2026-10-15,False,Intuit
+wholesale_payout,operating,628.11,2026-10-15,False,Faire Wholesale
+processor_payout,operating,6591.62,2026-10-15,False,Shopify
+wholesale_payout,operating,1219.21,2026-10-14,False,Faire Wholesale
+processor_payout,operating,6932.86,2026-10-14,False,Shopify
+wholesale_payout,operating,6246.95,2026-10-13,False,Faire Wholesale
+processor_payout,operating,28986.42,2026-10-13,False,Shopify
+fulfillment_3pl,operating,-20017.78,2026-10-12,False,Bundle & Ship
+wholesale_payout,operating,3929.14,2026-10-12,False,Faire Wholesale
+processor_payout,operating,7615.28,2026-10-12,False,Shopify
+payroll,operating,-13075.2,2026-10-09,False,Gusto
+payroll,operating,-4129.01,2026-10-09,False,Gusto
+wholesale_payout,operating,1732.99,2026-10-09,False,Faire Wholesale
+processor_payout,operating,6910.07,2026-10-09,False,Shopify
+wholesale_payout,operating,2479.26,2026-10-08,False,Faire Wholesale
+processor_payout,operating,8175.48,2026-10-08,False,Shopify
+wholesale_payout,operating,1663.92,2026-10-07,False,Faire Wholesale
+processor_payout,operating,8226.2,2026-10-07,False,Shopify
+inventory_purchase,operating,-67500.0,2026-10-06,False,Mirabel Coffee Imports
+bank_fee,operating,-35.0,2026-10-06,False,Wire fee
+wholesale_payout,operating,9499.93,2026-10-06,False,Faire Wholesale
+processor_payout,operating,29577.18,2026-10-06,False,Shopify
+wholesale_payout,operating,3484.07,2026-10-05,False,Faire Wholesale
+wholesale_receipt,operating,7354.24,2026-10-05,False,Corner Larder
+processor_payout,operating,8500.26,2026-10-05,False,Shopify
+processor_payout,operating,9249.63,2026-10-02,False,Shopify
+marketplace_payout,operating,16183.44,2026-10-02,False,Amazon.com Services
+rent,operating,-3500.0,2026-10-01,False,Greenpoint Terminal LLC
+wholesale_payout,operating,1084.06,2026-10-01,False,Faire Wholesale
+processor_payout,operating,6412.55,2026-10-01,False,Shopify
+processor_payout,operating,6813.12,2026-09-30,False,Shopify
+wholesale_payout,operating,8659.91,2026-09-29,False,Faire Wholesale
+processor_payout,operating,26612.31,2026-09-29,False,Shopify
+wholesale_payout,operating,3764.94,2026-09-28,False,Faire Wholesale
+processor_payout,operating,5908.49,2026-09-28,False,Shopify
+payroll,operating,-13117.32,2026-09-25,False,Gusto
+payroll,operating,-4142.31,2026-09-25,False,Gusto
+wholesale_payout,operating,355.88,2026-09-25,False,Faire Wholesale
+processor_payout,operating,7501.86,2026-09-25,False,Shopify
+processor_payout,operating,7580.05,2026-09-24,False,Shopify
+wholesale_payout,operating,2096.46,2026-09-23,False,Faire Wholesale
+processor_payout,operating,8592.44,2026-09-23,False,Shopify
+inventory_purchase,operating,-264600.0,2026-09-22,False,Tamsin Ceramics
+card_payment,operating,-48274.42,2026-09-22,False,Meridian
+bank_fee,operating,-35.0,2026-09-22,False,Wire fee
+wholesale_receipt,operating,2332.92,2026-09-22,False,Westgate Market Co
+wholesale_payout,operating,5482.75,2026-09-22,False,Faire Wholesale
+processor_payout,operating,26055.15,2026-09-22,False,Shopify
+own_account_transfer,operating,200000.0,2026-09-22,False,Savings
+sales_tax,operating,-9280.19,2026-09-21,False,GA DEPT OF REVENUE
+wholesale_payout,operating,3756.91,2026-09-21,False,Faire Wholesale
+processor_payout,operating,6716.33,2026-09-21,False,Shopify
+own_account_transfer,operating,-90000.0,2026-09-21,False,Savings
+wholesale_payout,operating,461.62,2026-09-18,False,Faire Wholesale
+processor_payout,operating,8379.12,2026-09-18,False,Shopify
+marketplace_payout,operating,14943.72,2026-09-18,False,Amazon.com Services
+processor_payout,operating,6985.88,2026-09-17,False,Shopify
+processor_payout,operating,7602.99,2026-09-16,False,Shopify
+software_opex,operating,-275.0,2026-09-15,False,Intuit
+wholesale_payout,operating,8277.41,2026-09-15,False,Faire Wholesale
+processor_payout,operating,25249.85,2026-09-15,False,Shopify
+wholesale_payout,operating,3069.14,2026-09-14,False,Faire Wholesale
+processor_payout,operating,8272.34,2026-09-14,False,Shopify
+payroll,operating,-13522.91,2026-09-11,False,Gusto
+payroll,operating,-4270.39,2026-09-11,False,Gusto
+wholesale_payout,operating,2421.81,2026-09-11,False,Faire Wholesale
+processor_payout,operating,9654.98,2026-09-11,False,Shopify
+fulfillment_3pl,operating,-18666.52,2026-09-10,False,Bundle & Ship
+freight_duty,operating,-9900.0,2026-09-10,False,US Customs CBP
+wholesale_payout,operating,3389.16,2026-09-10,False,Faire Wholesale
+processor_payout,operating,8345.88,2026-09-10,False,Shopify
+wholesale_payout,operating,3055.11,2026-09-09,False,Faire Wholesale
+processor_payout,operating,7129.06,2026-09-09,False,Shopify
+wholesale_payout,operating,8858.95,2026-09-08,False,Faire Wholesale
+processor_payout,operating,23936.62,2026-09-08,False,Shopify
+freight_duty,operating,-17820.0,2026-09-07,False,Saltbox Freight
+wholesale_payout,operating,1252.78,2026-09-07,False,Faire Wholesale
+processor_payout,operating,7051.97,2026-09-07,False,Shopify
+own_account_transfer,operating,-74000.0,2026-09-07,False,Savings
+processor_payout,operating,7820.15,2026-09-04,False,Shopify
+marketplace_payout,operating,15232.72,2026-09-04,False,Amazon.com Services
+wholesale_payout,operating,1484.75,2026-09-03,False,Faire Wholesale
+processor_payout,operating,6620.71,2026-09-03,False,Shopify
+wholesale_payout,operating,2582.68,2026-09-02,False,Faire Wholesale
+processor_payout,operating,6771.49,2026-09-02,False,Shopify
+rent,operating,-3500.0,2026-09-01,False,Greenpoint Terminal LLC
+wholesale_payout,operating,4329.72,2026-09-01,False,Faire Wholesale
+processor_payout,operating,24259.2,2026-09-01,False,Shopify
+wholesale_payout,operating,2219.84,2026-08-31,True,Faire Wholesale
+wholesale_receipt,operating,3840.69,2026-08-31,True,Corner Larder
+processor_payout,operating,8864.96,2026-08-31,True,Shopify
+payroll,operating,-13460.66,2026-08-28,True,Gusto
+payroll,operating,-4250.73,2026-08-28,True,Gusto
+wholesale_payout,operating,3739.27,2026-08-28,True,Faire Wholesale
+processor_payout,operating,10285.47,2026-08-28,True,Shopify
+wholesale_payout,operating,3163.68,2026-08-27,True,Faire Wholesale
+processor_payout,operating,7490.05,2026-08-27,True,Shopify
+wholesale_payout,operating,1245.95,2026-08-26,True,Faire Wholesale
+processor_payout,operating,6201.92,2026-08-26,True,Shopify
+wholesale_receipt,operating,5284.63,2026-08-25,True,Corner Larder
+wholesale_payout,operating,5935.68,2026-08-25,True,Faire Wholesale
+processor_payout,operating,25768.35,2026-08-25,True,Shopify

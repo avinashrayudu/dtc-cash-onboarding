@@ -1,0 +1,86 @@
+label,account,amount,date,is_duplicate,counterparty
+payroll,operating,-27509.72,2026-10-23,False,Gusto
+payroll,operating,-8687.28,2026-10-23,False,Gusto
+processor_payout,operating,26973.05,2026-10-23,False,Shopify
+card_payment,operating,-96679.51,2026-10-22,False,Granite
+processor_payout,operating,26139.45,2026-10-22,False,Shopify
+processor_payout,operating,21174.21,2026-10-21,False,Shopify
+sales_tax,operating,-66834.81,2026-10-20,False,NYS DTF
+processor_payout,operating,86056.92,2026-10-20,False,Shopify
+financing_repayment,operating,-42000.0,2026-10-19,False,Ridgeway Capital
+freight_duty,operating,-39690.0,2026-10-19,False,US Customs CBP
+processor_payout,operating,26485.28,2026-10-19,False,Shopify
+freight_duty,operating,-71442.0,2026-10-16,False,Tidelink Freight
+marketplace_payout,operating,20905.9,2026-10-16,False,Amazon.com Services
+processor_payout,operating,24735.04,2026-10-16,False,Shopify
+software_opex,operating,-275.0,2026-10-15,False,Intuit
+processor_payout,operating,18814.03,2026-10-15,False,Shopify
+processor_payout,operating,23716.66,2026-10-14,False,Shopify
+processor_payout,operating,80314.31,2026-10-13,False,Shopify
+financing_repayment,operating,-42000.0,2026-10-12,False,Ridgeway Capital
+fulfillment_3pl,operating,-39329.22,2026-10-12,False,Dockside 3PL
+processor_payout,operating,24874.12,2026-10-12,False,Shopify
+payroll,operating,-27468.69,2026-10-09,False,Gusto
+payroll,operating,-8674.32,2026-10-09,False,Gusto
+processor_payout,operating,24047.32,2026-10-09,False,Shopify
+processor_payout,operating,22579.58,2026-10-08,False,Shopify
+processor_payout,operating,20084.86,2026-10-07,False,Shopify
+inventory_purchase,operating,-141750.0,2026-10-06,False,Corvid Outdoor Gear Ltd
+bank_fee,operating,-35.0,2026-10-06,False,Wire fee
+processor_payout,operating,75166.07,2026-10-06,False,Shopify
+financing_repayment,operating,-42000.0,2026-10-05,False,Ridgeway Capital
+processor_payout,operating,27830.37,2026-10-05,False,Shopify
+marketplace_payout,operating,22370.8,2026-10-02,False,Amazon.com Services
+processor_payout,operating,24089.62,2026-10-02,False,Shopify
+rent,operating,-7350.0,2026-10-01,False,Sunset Park Realty
+interest_expense,operating,-1155.0,2026-10-01,False,Ridgeway Capital
+processor_payout,operating,28830.55,2026-10-01,False,Shopify
+processor_payout,operating,18786.06,2026-09-30,False,Shopify
+processor_payout,operating,85547.29,2026-09-29,False,Shopify
+processor_payout,operating,25340.6,2026-09-28,False,Shopify
+payroll,operating,-26816.86,2026-09-25,False,Gusto
+payroll,operating,-8468.48,2026-09-25,False,Gusto
+vendor_refund,operating,768.41,2026-09-25,False,Corvid Outdoor Gear Ltd
+processor_payout,operating,24753.86,2026-09-25,False,Shopify
+processor_payout,operating,19060.05,2026-09-24,False,Shopify
+processor_payout,operating,22873.88,2026-09-23,False,Shopify
+inventory_purchase,operating,-555660.0,2026-09-22,False,Lindqvist Fibers
+card_payment,operating,-96308.44,2026-09-22,False,Granite
+bank_fee,operating,-35.0,2026-09-22,False,Wire fee
+processor_payout,operating,87300.86,2026-09-22,False,Shopify
+own_account_transfer,operating,404000.0,2026-09-22,False,Savings
+sales_tax,operating,-65896.77,2026-09-21,False,NYS DTF
+processor_payout,operating,28095.15,2026-09-21,False,Shopify
+own_account_transfer,operating,-388000.0,2026-09-21,False,Savings
+marketplace_payout,operating,20664.02,2026-09-18,False,Amazon.com Services
+processor_payout,operating,25167.65,2026-09-18,False,Shopify
+processor_payout,operating,16592.8,2026-09-17,False,Shopify
+processor_payout,operating,27423.43,2026-09-16,False,Shopify
+software_opex,operating,-275.0,2026-09-15,False,Intuit
+processor_payout,operating,81589.35,2026-09-15,False,Shopify
+financing_draw,operating,252000.0,2026-09-15,False,Ridgeway Capital
+processor_payout,operating,21259.47,2026-09-14,False,Shopify
+own_account_transfer,operating,-164000.0,2026-09-14,False,Savings
+payroll,operating,-27272.83,2026-09-11,False,Gusto
+payroll,operating,-8612.47,2026-09-11,False,Gusto
+processor_payout,operating,18410.02,2026-09-11,False,Shopify
+fulfillment_3pl,operating,-37534.9,2026-09-10,False,Dockside 3PL
+freight_duty,operating,-20790.0,2026-09-10,False,US Customs CBP
+processor_payout,operating,24017.45,2026-09-10,False,Shopify
+processor_payout,operating,26059.14,2026-09-09,False,Shopify
+processor_payout,operating,84031.3,2026-09-08,False,Shopify
+freight_duty,operating,-37422.0,2026-09-07,False,Tidelink Freight
+processor_payout,operating,24355.98,2026-09-07,False,Shopify
+marketplace_payout,operating,22613.72,2026-09-04,False,Amazon.com Services
+processor_payout,operating,23778.88,2026-09-04,False,Shopify
+processor_payout,operating,23652.53,2026-09-03,False,Shopify
+processor_payout,operating,19803.8,2026-09-02,False,Shopify
+rent,operating,-7350.0,2026-09-01,False,Sunset Park Realty
+processor_payout,operating,81668.15,2026-09-01,False,Shopify
+processor_payout,operating,18256.9,2026-08-31,True,Shopify
+payroll,operating,-27141.87,2026-08-28,True,Gusto
+payroll,operating,-8571.12,2026-08-28,True,Gusto
+processor_payout,operating,20900.66,2026-08-28,True,Shopify
+processor_payout,operating,26021.58,2026-08-27,True,Shopify
+processor_payout,operating,28672.59,2026-08-26,True,Shopify
+processor_payout,operating,80290.51,2026-08-25,True,Shopify

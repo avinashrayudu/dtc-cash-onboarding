@@ -1,0 +1,78 @@
+label,account,amount,date,is_duplicate,counterparty
+processor_payout,operating,18256.9,2026-08-31,False,Shopify
+payroll,operating,-27141.87,2026-08-28,False,Gusto
+payroll,operating,-8571.12,2026-08-28,False,Gusto
+processor_payout,operating,20900.66,2026-08-28,False,Shopify
+processor_payout,operating,26021.58,2026-08-27,False,Shopify
+processor_payout,operating,28672.59,2026-08-26,False,Shopify
+processor_payout,operating,80290.51,2026-08-25,False,Shopify
+processor_payout,operating,24348.08,2026-08-24,False,Shopify
+card_payment,operating,-91392.72,2026-08-22,False,Granite
+marketplace_payout,operating,21134.79,2026-08-21,False,Amazon.com Services
+processor_payout,operating,23299.73,2026-08-21,False,Shopify
+sales_tax,operating,-62180.6,2026-08-20,False,NYS DTF
+processor_payout,operating,22375.03,2026-08-20,False,Shopify
+processor_payout,operating,21459.39,2026-08-19,False,Shopify
+processor_payout,operating,82365.17,2026-08-18,False,Shopify
+software_opex,operating,-275.0,2026-08-17,False,Intuit
+processor_payout,operating,20607.58,2026-08-17,False,Shopify
+payroll,operating,-27284.4,2026-08-14,False,Gusto
+payroll,operating,-8616.12,2026-08-14,False,Gusto
+processor_payout,operating,22519.21,2026-08-14,False,Shopify
+processor_payout,operating,22480.3,2026-08-13,False,Shopify
+inventory_purchase,operating,-291060.0,2026-08-12,False,Corvid Outdoor Gear Ltd
+bank_fee,operating,-35.0,2026-08-12,False,Wire fee
+processor_payout,operating,23528.88,2026-08-12,False,Shopify
+processor_payout,operating,81246.13,2026-08-11,False,Shopify
+fulfillment_3pl,operating,-36056.8,2026-08-10,False,Dockside 3PL
+processor_payout,operating,19301.87,2026-08-10,False,Shopify
+marketplace_payout,operating,21152.74,2026-08-07,False,Amazon.com Services
+processor_payout,operating,22241.04,2026-08-07,False,Shopify
+processor_payout,operating,24318.49,2026-08-06,False,Shopify
+inventory_purchase,operating,-238140.0,2026-08-05,False,Lindqvist Fibers
+bank_fee,operating,-35.0,2026-08-05,False,Wire fee
+processor_payout,operating,16391.5,2026-08-05,False,Shopify
+processor_payout,operating,72400.57,2026-08-04,False,Shopify
+rent,operating,-7350.0,2026-08-03,False,Sunset Park Realty
+processor_payout,operating,24242.51,2026-08-03,False,Shopify
+own_account_transfer,operating,-217000.0,2026-08-03,False,Savings
+payroll,operating,-27315.9,2026-07-31,False,Gusto
+payroll,operating,-8626.07,2026-07-31,False,Gusto
+vendor_refund,operating,2139.5,2026-07-31,False,Dockside 3PL
+processor_payout,operating,23315.17,2026-07-31,False,Shopify
+processor_payout,operating,19871.42,2026-07-30,False,Shopify
+processor_payout,operating,15746.43,2026-07-29,False,Shopify
+processor_payout,operating,80716.33,2026-07-28,False,Shopify
+processor_payout,operating,23560.01,2026-07-27,False,Shopify
+marketplace_payout,operating,19877.39,2026-07-24,False,Amazon.com Services
+processor_payout,operating,22502.01,2026-07-24,False,Shopify
+processor_payout,operating,20977.56,2026-07-23,False,Shopify
+card_payment,operating,-83521.82,2026-07-22,False,Granite
+processor_payout,operating,22028.5,2026-07-22,False,Shopify
+processor_payout,operating,78545.99,2026-07-21,False,Shopify
+sales_tax,operating,-23349.15,2026-07-20,False,NYS DTF
+processor_payout,operating,23966.68,2026-07-20,False,Shopify
+own_account_transfer,operating,-240000.0,2026-07-20,False,Savings
+payroll,operating,-27812.84,2026-07-17,False,Gusto
+payroll,operating,-8783.0,2026-07-17,False,Gusto
+processor_payout,operating,19376.49,2026-07-17,False,Shopify
+processor_payout,operating,22908.37,2026-07-16,False,Shopify
+software_opex,operating,-275.0,2026-07-15,False,Intuit
+processor_payout,operating,20934.79,2026-07-15,False,Shopify
+processor_payout,operating,72692.81,2026-07-14,False,Shopify
+processor_payout,operating,25143.18,2026-07-13,False,Shopify
+fulfillment_3pl,operating,-37688.63,2026-07-10,False,Dockside 3PL
+processor_payout,operating,19794.62,2026-07-10,False,Shopify
+marketplace_payout,operating,20559.39,2026-07-10,False,Amazon.com Services
+processor_payout,operating,20876.49,2026-07-09,False,Shopify
+inventory_purchase,operating,-124740.0,2026-07-08,False,Corvid Outdoor Gear Ltd
+bank_fee,operating,-35.0,2026-07-08,False,Wire fee
+processor_payout,operating,20203.63,2026-07-08,False,Shopify
+processor_payout,operating,71727.08,2026-07-07,False,Shopify
+processor_payout,operating,26330.46,2026-07-06,False,Shopify
+payroll,operating,-27512.79,2026-07-03,False,Gusto
+payroll,operating,-8688.25,2026-07-03,False,Gusto
+processor_payout,operating,16007.63,2026-07-03,False,Shopify
+processor_payout,operating,22945.77,2026-07-02,False,Shopify
+rent,operating,-7350.0,2026-07-01,False,Sunset Park Realty
+processor_payout,operating,22972.24,2026-07-01,False,Shopify

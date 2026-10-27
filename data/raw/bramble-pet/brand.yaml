@@ -1,0 +1,8 @@
+brand: Bramble Pet Supply
+currency: USD
+own_accounts:
+  operating_last4: '9540'
+  savings_last4: '1238'
+  card_last5: '42519'
+note: 'Synthetic brand. Captured on the kickoff call: name, currency, own account
+  numbers.'

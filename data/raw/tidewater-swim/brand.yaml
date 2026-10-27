@@ -1,0 +1,8 @@
+brand: Tidewater Swim
+currency: USD
+own_accounts:
+  operating_last4: '1509'
+  savings_last4: '8636'
+  card_last5: 02924
+note: 'Synthetic brand. Captured on the kickoff call: name, currency, own account
+  numbers.'

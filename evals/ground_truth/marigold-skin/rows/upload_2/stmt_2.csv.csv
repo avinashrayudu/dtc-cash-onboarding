@@ -1,0 +1,117 @@
+label,account,amount,date,is_duplicate,counterparty
+processor_payout,operating,47605.91,2026-08-25,True,Shopify
+wholesale_payout,operating,6932.01,2026-08-25,True,Faire Wholesale
+processor_payout,operating,11326.45,2026-08-26,True,Shopify
+wholesale_payout,operating,644.11,2026-08-26,True,Faire Wholesale
+processor_payout,operating,12906.36,2026-08-27,True,Shopify
+wholesale_payout,operating,3317.28,2026-08-27,True,Faire Wholesale
+processor_payout,operating,12040.46,2026-08-28,True,Shopify
+wholesale_payout,operating,2446.35,2026-08-28,True,Faire Wholesale
+payroll,operating,-6169.5,2026-08-28,True,Paychex
+payroll,operating,-19536.74,2026-08-28,True,Paychex
+processor_payout,operating,14746.05,2026-08-31,True,Shopify
+wholesale_payout,operating,2774.86,2026-08-31,True,Faire Wholesale
+processor_payout,operating,42840.75,2026-09-01,False,Shopify
+wholesale_payout,operating,12834.1,2026-09-01,False,Faire Wholesale
+rent,operating,-5133.33,2026-09-01,False,Dumbo Commons LLC
+processor_payout,operating,13075.04,2026-09-02,False,Shopify
+wholesale_payout,operating,1263.78,2026-09-02,False,Faire Wholesale
+processor_payout,operating,14188.19,2026-09-03,False,Shopify
+wholesale_payout,operating,962.04,2026-09-03,False,Faire Wholesale
+processor_payout,operating,10941.62,2026-09-04,False,Shopify
+wholesale_payout,operating,3860.42,2026-09-04,False,Faire Wholesale
+own_account_transfer,operating,-119000.0,2026-09-07,False,Savings
+processor_payout,operating,14109.26,2026-09-07,False,Shopify
+wholesale_payout,operating,1880.81,2026-09-07,False,Faire Wholesale
+freight_duty,operating,-26136.0,2026-09-07,False,Northstar Shipping
+processor_payout,operating,39639.97,2026-09-08,False,Shopify
+wholesale_payout,operating,5611.23,2026-09-08,False,Faire Wholesale
+processor_payout,operating,14027.84,2026-09-09,False,Shopify
+wholesale_payout,operating,3290.24,2026-09-09,False,Faire Wholesale
+processor_payout,operating,12043.74,2026-09-10,False,Shopify
+wholesale_payout,operating,2113.72,2026-09-10,False,Faire Wholesale
+freight_duty,operating,-14520.0,2026-09-10,False,US Customs CBP
+fulfillment_3pl,operating,-28896.98,2026-09-10,False,Parcelworks
+processor_payout,operating,11888.84,2026-09-11,False,Shopify
+wholesale_payout,operating,1951.77,2026-09-11,False,Faire Wholesale
+payroll,operating,-6219.72,2026-09-11,False,Paychex
+payroll,operating,-19695.78,2026-09-11,False,Paychex
+processor_payout,operating,14626.05,2026-09-14,False,Shopify
+wholesale_payout,operating,4039.79,2026-09-14,False,Faire Wholesale
+processor_payout,operating,43199.31,2026-09-15,False,Shopify
+wholesale_payout,operating,13971.79,2026-09-15,False,Faire Wholesale
+software_opex,operating,-275.0,2026-09-15,False,Intuit
+processor_payout,operating,10282.91,2026-09-16,False,Shopify
+wholesale_payout,operating,3665.32,2026-09-16,False,Faire Wholesale
+processor_payout,operating,11460.18,2026-09-17,False,Shopify
+wholesale_payout,operating,2124.43,2026-09-17,False,Faire Wholesale
+processor_payout,operating,11763.24,2026-09-18,False,Shopify
+wholesale_payout,operating,10735.91,2026-09-18,False,Faire Wholesale
+own_account_transfer,operating,-133000.0,2026-09-21,False,Savings
+processor_payout,operating,12046.8,2026-09-21,False,Shopify
+wholesale_payout,operating,275.91,2026-09-21,False,Faire Wholesale
+sales_tax,operating,-27641.02,2026-09-21,False,NJ DIV OF TAXATION
+own_account_transfer,operating,309000.0,2026-09-22,False,Savings
+processor_payout,operating,40750.97,2026-09-22,False,Shopify
+wholesale_payout,operating,13934.99,2026-09-22,False,Faire Wholesale
+bank_fee,operating,-35.0,2026-09-22,False,Wire fee
+card_payment,operating,-71246.62,2026-09-22,False,Summit
+inventory_purchase,operating,-388080.0,2026-09-22,False,Altamira Packaging Co
+processor_payout,operating,9920.11,2026-09-23,False,Shopify
+wholesale_payout,operating,5454.14,2026-09-23,False,Faire Wholesale
+processor_payout,operating,11497.96,2026-09-24,False,Shopify
+wholesale_payout,operating,1241.44,2026-09-24,False,Faire Wholesale
+processor_payout,operating,12065.36,2026-09-25,False,Shopify
+wholesale_payout,operating,3091.17,2026-09-25,False,Faire Wholesale
+payroll,operating,-6071.95,2026-09-25,False,Paychex
+payroll,operating,-19227.85,2026-09-25,False,Paychex
+processor_payout,operating,12536.41,2026-09-28,False,Shopify
+processor_payout,operating,43642.59,2026-09-29,False,Shopify
+wholesale_payout,operating,7665.52,2026-09-29,False,Faire Wholesale
+processor_payout,operating,10457.62,2026-09-30,False,Shopify
+processor_payout,operating,12680.07,2026-10-01,False,Shopify
+wholesale_payout,operating,2696.88,2026-10-01,False,Faire Wholesale
+rent,operating,-5133.33,2026-10-01,False,Dumbo Commons LLC
+processor_payout,operating,12679.33,2026-10-02,False,Shopify
+wholesale_payout,operating,7014.73,2026-10-02,False,Faire Wholesale
+processor_payout,operating,14387.12,2026-10-05,False,Shopify
+wholesale_payout,operating,3170.16,2026-10-05,False,Faire Wholesale
+processor_payout,operating,46357.41,2026-10-06,False,Shopify
+wholesale_payout,operating,8445.4,2026-10-06,False,Faire Wholesale
+bank_fee,operating,-35.0,2026-10-06,False,Wire fee
+inventory_purchase,operating,-99000.0,2026-10-06,False,Sorrel Cosmetics Lab
+processor_payout,operating,13318.08,2026-10-07,False,Shopify
+wholesale_payout,operating,1653.25,2026-10-07,False,Faire Wholesale
+processor_payout,operating,10864.65,2026-10-08,False,Shopify
+wholesale_payout,operating,3299.38,2026-10-08,False,Faire Wholesale
+processor_payout,operating,11517.46,2026-10-09,False,Shopify
+wholesale_payout,operating,4220.86,2026-10-09,False,Faire Wholesale
+payroll,operating,-6264.06,2026-10-09,False,Paychex
+payroll,operating,-19836.2,2026-10-09,False,Paychex
+processor_payout,operating,12671.77,2026-10-12,False,Shopify
+fulfillment_3pl,operating,-25431.81,2026-10-12,False,Parcelworks
+processor_payout,operating,42008.51,2026-10-13,False,Shopify
+wholesale_payout,operating,14255.01,2026-10-13,False,Faire Wholesale
+processor_payout,operating,10676.97,2026-10-14,False,Shopify
+wholesale_payout,operating,3798.02,2026-10-14,False,Faire Wholesale
+processor_payout,operating,11175.89,2026-10-15,False,Shopify
+wholesale_payout,operating,323.91,2026-10-15,False,Faire Wholesale
+software_opex,operating,-275.0,2026-10-15,False,Intuit
+processor_payout,operating,12206.24,2026-10-16,False,Shopify
+wholesale_payout,operating,3682.06,2026-10-16,False,Faire Wholesale
+freight_duty,operating,-49896.0,2026-10-16,False,Northstar Shipping
+processor_payout,operating,13343.64,2026-10-19,False,Shopify
+wholesale_payout,operating,3723.73,2026-10-19,False,Faire Wholesale
+freight_duty,operating,-27720.0,2026-10-19,False,US Customs CBP
+processor_payout,operating,43705.37,2026-10-20,False,Shopify
+wholesale_payout,operating,12476.12,2026-10-20,False,Faire Wholesale
+sales_tax,operating,-26485.46,2026-10-20,False,NJ DIV OF TAXATION
+processor_payout,operating,11872.8,2026-10-21,False,Shopify
+wholesale_payout,operating,3580.88,2026-10-21,False,Faire Wholesale
+processor_payout,operating,12982.2,2026-10-22,False,Shopify
+wholesale_payout,operating,2566.24,2026-10-22,False,Faire Wholesale
+card_payment,operating,-71724.17,2026-10-22,False,Summit
+processor_payout,operating,12907.0,2026-10-23,False,Shopify
+wholesale_payout,operating,446.92,2026-10-23,False,Faire Wholesale
+payroll,operating,-6171.49,2026-10-23,False,Paychex
+payroll,operating,-19543.06,2026-10-23,False,Paychex

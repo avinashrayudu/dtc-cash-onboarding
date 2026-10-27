@@ -1,0 +1,8 @@
+brand: Copper Kettle Kitchen
+currency: USD
+own_accounts:
+  operating_last4: '9684'
+  savings_last4: '6593'
+  card_last5: '53302'
+note: 'Synthetic brand. Captured on the kickoff call: name, currency, own account
+  numbers.'

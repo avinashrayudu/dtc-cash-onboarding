@@ -1,0 +1,108 @@
+label,account,amount,date,is_duplicate,counterparty
+processor_payout,operating,16819.47,2026-07-01,False,Shopify
+rent,operating,-5950.0,2026-07-01,False,Red Hook Studios
+processor_payout,operating,13879.43,2026-07-02,False,Shopify
+processor_payout,operating,13717.79,2026-07-03,False,Shopify
+ad_spend,operating,-3500.0,2026-07-03,False,Facebook Ads
+payroll,operating,-7165.14,2026-07-03,False,Rippling
+payroll,operating,-22689.62,2026-07-03,False,Rippling
+own_account_transfer,operating,-161000.0,2026-07-06,False,Savings
+own_account_transfer,savings,161000.0,2026-07-06,False,Operating
+processor_payout,operating,17246.43,2026-07-06,False,Shopify
+ad_spend,operating,-3500.0,2026-07-06,False,Facebook Ads
+processor_payout,operating,50908.57,2026-07-07,False,Shopify
+processor_payout,operating,13641.3,2026-07-08,False,Shopify
+bank_fee,operating,-35.0,2026-07-08,False,Wire fee
+ad_spend,operating,-3500.0,2026-07-08,False,Facebook Ads
+inventory_purchase,operating,-100980.0,2026-07-08,False,Baywater Swim Mfg
+processor_payout,operating,16822.12,2026-07-09,False,Shopify
+marketplace_payout,operating,25493.69,2026-07-10,False,Amazon.com Services
+processor_payout,operating,14268.65,2026-07-10,False,Shopify
+fulfillment_3pl,operating,-32024.22,2026-07-10,False,Boxline Logistics
+ad_spend,operating,-3500.0,2026-07-11,False,Facebook Ads
+processor_payout,operating,15599.37,2026-07-13,False,Shopify
+ad_spend,operating,-3500.0,2026-07-13,False,Facebook Ads
+processor_payout,operating,49347.94,2026-07-14,False,Shopify
+processor_payout,operating,17180.61,2026-07-15,False,Shopify
+software_opex,operating,-275.0,2026-07-15,False,Intuit
+ad_spend,operating,-3500.0,2026-07-15,False,Facebook Ads
+processor_payout,operating,17413.47,2026-07-16,False,Shopify
+processor_payout,operating,16079.35,2026-07-17,False,Shopify
+payroll,operating,-7131.87,2026-07-17,False,Rippling
+payroll,operating,-22584.26,2026-07-17,False,Rippling
+ad_spend,operating,-3500.0,2026-07-18,False,Facebook Ads
+processor_payout,operating,17525.09,2026-07-20,False,Shopify
+ad_spend,operating,-3500.0,2026-07-20,False,Facebook Ads
+sales_tax,operating,-12065.7,2026-07-20,False,CA CDTFA
+processor_payout,operating,48618.41,2026-07-21,False,Shopify
+processor_payout,operating,12908.34,2026-07-22,False,Shopify
+ad_spend,operating,-3500.0,2026-07-22,False,Facebook Ads
+card_payment,operating,-33149.87,2026-07-22,False,Keystone
+processor_payout,operating,14924.12,2026-07-23,False,Shopify
+vendor_refund,operating,365.08,2026-07-23,False,Boxline Logistics
+marketplace_payout,operating,26397.33,2026-07-24,False,Amazon.com Services
+processor_payout,operating,14377.27,2026-07-24,False,Shopify
+ad_spend,operating,-3500.0,2026-07-25,False,Facebook Ads
+own_account_transfer,operating,-151000.0,2026-07-27,False,Savings
+own_account_transfer,savings,151000.0,2026-07-27,False,Operating
+processor_payout,operating,17320.2,2026-07-27,False,Shopify
+ad_spend,operating,-3500.0,2026-07-27,False,Facebook Ads
+processor_payout,operating,53901.96,2026-07-28,False,Shopify
+vendor_refund,operating,2051.05,2026-07-28,False,Baywater Swim Mfg
+interest_income,savings,1220.23,2026-07-28,False,Bank
+processor_payout,operating,14233.69,2026-07-29,False,Shopify
+processor_payout,operating,14519.75,2026-07-30,False,Shopify
+ad_spend,operating,-3500.0,2026-07-30,False,Facebook Ads
+processor_payout,operating,15169.36,2026-07-31,False,Shopify
+payroll,operating,-6892.94,2026-07-31,False,Rippling
+payroll,operating,-21827.65,2026-07-31,False,Rippling
+ad_spend,operating,-3500.0,2026-08-01,False,Facebook Ads
+processor_payout,operating,16971.34,2026-08-03,False,Shopify
+rent,operating,-5950.0,2026-08-03,False,Red Hook Studios
+processor_payout,operating,51506.65,2026-08-04,False,Shopify
+ad_spend,operating,-3500.0,2026-08-04,False,Facebook Ads
+processor_payout,operating,17033.98,2026-08-05,False,Shopify
+bank_fee,operating,-35.0,2026-08-05,False,Wire fee
+inventory_purchase,operating,-192780.0,2026-08-05,False,Baywater Swim Mfg
+processor_payout,operating,12242.55,2026-08-06,False,Shopify
+ad_spend,operating,-3500.0,2026-08-06,False,Facebook Ads
+marketplace_payout,operating,24367.9,2026-08-07,False,Amazon.com Services
+processor_payout,operating,15009.57,2026-08-07,False,Shopify
+ad_spend,operating,-3500.0,2026-08-09,False,Facebook Ads
+processor_payout,operating,15867.58,2026-08-10,False,Shopify
+fulfillment_3pl,operating,-31007.26,2026-08-10,False,Boxline Logistics
+processor_payout,operating,54810.26,2026-08-11,False,Shopify
+ad_spend,operating,-3500.0,2026-08-11,False,Facebook Ads
+processor_payout,operating,12034.22,2026-08-12,False,Shopify
+bank_fee,operating,-35.0,2026-08-12,False,Wire fee
+inventory_purchase,operating,-235620.0,2026-08-12,False,Baywater Swim Mfg
+processor_payout,operating,14427.84,2026-08-13,False,Shopify
+processor_payout,operating,16476.96,2026-08-14,False,Shopify
+ad_spend,operating,-3500.0,2026-08-14,False,Facebook Ads
+payroll,operating,-6946.73,2026-08-14,False,Rippling
+payroll,operating,-21997.97,2026-08-14,False,Rippling
+ad_spend,operating,-3500.0,2026-08-16,False,Facebook Ads
+processor_payout,operating,14440.94,2026-08-17,False,Shopify
+software_opex,operating,-275.0,2026-08-17,False,Intuit
+processor_payout,operating,58435.45,2026-08-18,False,Shopify
+ad_spend,operating,-3500.0,2026-08-18,False,Facebook Ads
+processor_payout,operating,16538.53,2026-08-19,False,Shopify
+processor_payout,operating,14817.99,2026-08-20,False,Shopify
+sales_tax,operating,-35686.47,2026-08-20,False,CA CDTFA
+marketplace_payout,operating,26622.22,2026-08-21,False,Amazon.com Services
+processor_payout,operating,16876.88,2026-08-21,False,Shopify
+ad_spend,operating,-3500.0,2026-08-21,False,Facebook Ads
+card_payment,operating,-40365.85,2026-08-22,False,Keystone
+ad_spend,operating,-3500.0,2026-08-23,False,Facebook Ads
+processor_payout,operating,18546.53,2026-08-24,False,Shopify
+processor_payout,operating,56774.03,2026-08-25,False,Shopify
+processor_payout,operating,17002.62,2026-08-26,False,Shopify
+ad_spend,operating,-3500.0,2026-08-26,False,Facebook Ads
+processor_payout,operating,16364.57,2026-08-27,False,Shopify
+processor_payout,operating,15695.55,2026-08-28,False,Shopify
+ad_spend,operating,-3500.0,2026-08-28,False,Facebook Ads
+payroll,operating,-7021.94,2026-08-28,False,Rippling
+payroll,operating,-22236.15,2026-08-28,False,Rippling
+interest_income,savings,1222.85,2026-08-28,False,Bank
+ad_spend,operating,-3500.0,2026-08-30,False,Facebook Ads
+processor_payout,operating,17289.63,2026-08-31,False,Shopify

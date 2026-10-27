@@ -1,0 +1,8 @@
+brand: Fernwood Goods
+currency: USD
+own_accounts:
+  operating_last4: 0896
+  savings_last4: '1103'
+  card_last5: '82800'
+note: 'Synthetic brand. Captured on the kickoff call: name, currency, own account
+  numbers.'

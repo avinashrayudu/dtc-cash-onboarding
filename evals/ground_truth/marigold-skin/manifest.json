@@ -1,0 +1,172 @@
+{
+  "brand": "Marigold Skin",
+  "slug": "marigold-skin",
+  "split": "train",
+  "currency": "USD",
+  "files": {
+    "upload_1/stmt_1.csv": {
+      "source_type": "bank",
+      "column_map": {
+        "date": "Date",
+        "description": "Description",
+        "amount": "Amount",
+        "balance": "Running Bal."
+      },
+      "meta": {
+        "order": "oldest_first",
+        "date_format": "mdy"
+      },
+      "n_rows": 117
+    },
+    "upload_1/activity_1.csv": {
+      "source_type": "card",
+      "column_map": {
+        "date": "Date",
+        "description": "Description",
+        "amount": "Amount"
+      },
+      "meta": {
+        "charge_sign": "positive",
+        "date_format": "mdy"
+      },
+      "n_rows": 103
+    },
+    "upload_1/sales_over_time_1.csv": {
+      "source_type": "sales_daily",
+      "column_map": {
+        "day": "Day",
+        "orders": "Orders",
+        "gross_sales": "Gross sales",
+        "discounts": "Discounts",
+        "returns": "Returns",
+        "net_sales": "Net sales",
+        "shipping": "Shipping",
+        "taxes": "Taxes",
+        "total_sales": "Total sales"
+      },
+      "meta": {},
+      "n_rows": 62
+    },
+    "upload_1/payouts_1.csv": {
+      "source_type": "payouts",
+      "column_map": {
+        "payout_date": "Payout Date",
+        "charges": "Charges",
+        "refunds": "Refunds",
+        "adjustments": "Adjustments",
+        "fees": "Fees",
+        "net": "Total",
+        "currency": "Currency",
+        "status": "Status"
+      },
+      "meta": {},
+      "n_rows": 44
+    },
+    "upload_1/faire_orders_1.csv": {
+      "source_type": "faire",
+      "column_map": {
+        "order_number": "Order Number",
+        "retailer": "Retailer",
+        "order_date": "Order Date",
+        "ship_date": "Ship Date",
+        "payout_date": "Payout Date",
+        "wholesale_total": "Wholesale Total",
+        "commission": "Commission",
+        "payout_amount": "Payout"
+      },
+      "meta": {},
+      "n_rows": 200
+    },
+    "upload_1/accounts_1.csv": {
+      "source_type": "coa",
+      "column_map": {
+        "name": "Full name",
+        "type": "Type"
+      },
+      "meta": {},
+      "n_rows": 23
+    },
+    "upload_2/stmt_2.csv": {
+      "source_type": "bank",
+      "column_map": {
+        "date": "Date",
+        "description": "Description",
+        "amount": "Amount",
+        "balance": "Running Bal."
+      },
+      "meta": {
+        "order": "oldest_first",
+        "date_format": "mdy"
+      },
+      "n_rows": 116
+    },
+    "upload_2/activity_2.csv": {
+      "source_type": "card",
+      "column_map": {
+        "date": "Date",
+        "description": "Description",
+        "amount": "Amount"
+      },
+      "meta": {
+        "charge_sign": "positive",
+        "date_format": "mdy"
+      },
+      "n_rows": 103
+    },
+    "upload_2/sales_over_time_2.csv": {
+      "source_type": "sales_daily",
+      "column_map": {
+        "day": "Day",
+        "orders": "Orders",
+        "gross_sales": "Gross sales",
+        "discounts": "Discounts",
+        "returns": "Returns",
+        "net_sales": "Net sales",
+        "shipping": "Shipping",
+        "taxes": "Taxes",
+        "total_sales": "Total sales"
+      },
+      "meta": {},
+      "n_rows": 55
+    },
+    "upload_2/payouts_2.csv": {
+      "source_type": "payouts",
+      "column_map": {
+        "payout_date": "Payout Date",
+        "charges": "Charges",
+        "refunds": "Refunds",
+        "adjustments": "Adjustments",
+        "fees": "Fees",
+        "net": "Total",
+        "currency": "Currency",
+        "status": "Status"
+      },
+      "meta": {},
+      "n_rows": 39
+    },
+    "upload_2/faire_orders_2.csv": {
+      "source_type": "faire",
+      "column_map": {
+        "order_number": "Order Number",
+        "retailer": "Retailer",
+        "order_date": "Order Date",
+        "ship_date": "Ship Date",
+        "payout_date": "Payout Date",
+        "wholesale_total": "Wholesale Total",
+        "commission": "Commission",
+        "payout_amount": "Payout"
+      },
+      "meta": {},
+      "n_rows": 170
+    },
+    "upload_2/accounts_2.csv": {
+      "source_type": "coa",
+      "column_map": {
+        "name": "Full name",
+        "type": "Type"
+      },
+      "meta": {},
+      "n_rows": 24
+    }
+  }
+}

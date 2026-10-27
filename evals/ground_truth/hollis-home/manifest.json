@@ -1,0 +1,296 @@
+{
+  "brand": "Hollis Home",
+  "slug": "hollis-home",
+  "split": "dev",
+  "currency": "USD",
+  "files": {
+    "upload_1/transactions_1.csv": {
+      "source_type": "bank",
+      "column_map": {
+        "date": "Date (UTC)",
+        "description": "Description",
+        "amount": "Amount",
+        "account": "Source Account"
+      },
+      "meta": {
+        "order": "oldest_first",
+        "date_format": "iso"
+      },
+      "n_rows": 108
+    },
+    "upload_1/activity_1.csv": {
+      "source_type": "card",
+      "column_map": {
+        "date": "Date",
+        "description": "Description",
+        "amount": "Amount"
+      },
+      "meta": {
+        "charge_sign": "positive",
+        "date_format": "mdy"
+      },
+      "n_rows": 80
+    },
+    "upload_1/sales_over_time_1.csv": {
+      "source_type": "sales_daily",
+      "column_map": {
+        "day": "Day",
+        "orders": "Orders",
+        "gross_sales": "Gross sales",
+        "discounts": "Discounts",
+        "returns": "Returns",
+        "net_sales": "Net sales",
+        "shipping": "Shipping",
+        "taxes": "Taxes",
+        "total_sales": "Total sales"
+      },
+      "meta": {},
+      "n_rows": 62
+    },
+    "upload_1/payouts_1.csv": {
+      "source_type": "payouts",
+      "column_map": {
+        "payout_date": "Payout Date",
+        "charges": "Charges",
+        "refunds": "Refunds",
+        "adjustments": "Adjustments",
+        "fees": "Fees",
+        "net": "Total",
+        "currency": "Currency",
+        "status": "Status"
+      },
+      "meta": {},
+      "n_rows": 44
+    },
+    "upload_1/settlement_14001010000.txt": {
+      "source_type": "amazon_flat",
+      "column_map": {
+        "settlement_id": "settlement-id",
+        "settlement_start": "settlement-start-date",
+        "settlement_end": "settlement-end-date",
+        "deposit_date": "deposit-date",
+        "total_amount": "total-amount",
+        "transaction_type": "transaction-type",
+        "amount_type": "amount-type",
+        "amount_description": "amount-description",
+        "amount": "amount",
+        "posted_date": "posted-date",
+        "order_id": "order-id",
+        "currency": "currency"
+      },
+      "meta": {},
+      "n_rows": 2960
+    },
+    "upload_1/settlement_14001010097.txt": {
+      "source_type": "amazon_flat",
+      "column_map": {
+        "settlement_id": "settlement-id",
+        "settlement_start": "settlement-start-date",
+        "settlement_end": "settlement-end-date",
+        "deposit_date": "deposit-date",
+        "total_amount": "total-amount",
+        "transaction_type": "transaction-type",
+        "amount_type": "amount-type",
+        "amount_description": "amount-description",
+        "amount": "amount",
+        "posted_date": "posted-date",
+        "order_id": "order-id",
+        "currency": "currency"
+      },
+      "meta": {},
+      "n_rows": 3134
+    },
+    "upload_1/settlement_14001010194.txt": {
+      "source_type": "amazon_flat",
+      "column_map": {
+        "settlement_id": "settlement-id",
+        "settlement_start": "settlement-start-date",
+        "settlement_end": "settlement-end-date",
+        "deposit_date": "deposit-date",
+        "total_amount": "total-amount",
+        "transaction_type": "transaction-type",
+        "amount_type": "amount-type",
+        "amount_description": "amount-description",
+        "amount": "amount",
+        "posted_date": "posted-date",
+        "order_id": "order-id",
+        "currency": "currency"
+      },
+      "meta": {},
+      "n_rows": 3009
+    },
+    "upload_1/settlement_14001010291.txt": {
+      "source_type": "amazon_flat",
+      "column_map": {
+        "settlement_id": "settlement-id",
+        "settlement_start": "settlement-start-date",
+        "settlement_end": "settlement-end-date",
+        "deposit_date": "deposit-date",
+        "total_amount": "total-amount",
+        "transaction_type": "transaction-type",
+        "amount_type": "amount-type",
+        "amount_description": "amount-description",
+        "amount": "amount",
+        "posted_date": "posted-date",
+        "order_id": "order-id",
+        "currency": "currency"
+      },
+      "meta": {},
+      "n_rows": 2982
+    },
+    "upload_1/chart_of_accounts_1.xlsx": {
+      "source_type": "coa",
+      "column_map": {
+        "number": "Number",
+        "name": "Name",
+        "type": "Account Type"
+      },
+      "meta": {},
+      "n_rows": 24
+    },
+    "upload_2/transactions_2.csv": {
+      "source_type": "bank",
+      "column_map": {
+        "date": "Date (UTC)",
+        "description": "Description",
+        "amount": "Amount",
+        "account": "Source Account"
+      },
+      "meta": {
+        "order": "oldest_first",
+        "date_format": "iso"
+      },
+      "n_rows": 112
+    },
+    "upload_2/activity_2.csv": {
+      "source_type": "card",
+      "column_map": {
+        "date": "Date",
+        "description": "Description",
+        "amount": "Amount"
+      },
+      "meta": {
+        "charge_sign": "positive",
+        "date_format": "mdy"
+      },
+      "n_rows": 84
+    },
+    "upload_2/sales_over_time_2.csv": {
+      "source_type": "sales_daily",
+      "column_map": {
+        "day": "Day",
+        "orders": "Orders",
+        "gross_sales": "Gross sales",
+        "discounts": "Discounts",
+        "returns": "Returns",
+        "net_sales": "Net sales",
+        "shipping": "Shipping",
+        "taxes": "Taxes",
+        "total_sales": "Total sales"
+      },
+      "meta": {},
+      "n_rows": 55
+    },
+    "upload_2/payouts_2.csv": {
+      "source_type": "payouts",
+      "column_map": {
+        "payout_date": "Payout Date",
+        "charges": "Charges",
+        "refunds": "Refunds",
+        "adjustments": "Adjustments",
+        "fees": "Fees",
+        "net": "Total",
+        "currency": "Currency",
+        "status": "Status"
+      },
+      "meta": {},
+      "n_rows": 39
+    },
+    "upload_2/settlement_14001010388.txt": {
+      "source_type": "amazon_flat",
+      "column_map": {
+        "settlement_id": "settlement-id",
+        "settlement_start": "settlement-start-date",
+        "settlement_end": "settlement-end-date",
+        "deposit_date": "deposit-date",
+        "total_amount": "total-amount",
+        "transaction_type": "transaction-type",
+        "amount_type": "amount-type",
+        "amount_description": "amount-description",
+        "amount": "amount",
+        "posted_date": "posted-date",
+        "order_id": "order-id",
+        "currency": "currency"
+      },
+      "meta": {},
+      "n_rows": 3021
+    },
+    "upload_2/settlement_14001010485.txt": {
+      "source_type": "amazon_flat",
+      "column_map": {
+        "settlement_id": "settlement-id",
+        "settlement_start": "settlement-start-date",
+        "settlement_end": "settlement-end-date",
+        "deposit_date": "deposit-date",
+        "total_amount": "total-amount",
+        "transaction_type": "transaction-type",
+        "amount_type": "amount-type",
+        "amount_description": "amount-description",
+        "amount": "amount",
+        "posted_date": "posted-date",
+        "order_id": "order-id",
+        "currency": "currency"
+      },
+      "meta": {},
+      "n_rows": 3130
+    },
+    "upload_2/settlement_14001010582.txt": {
+      "source_type": "amazon_flat",
+      "column_map": {
+        "settlement_id": "settlement-id",
+        "settlement_start": "settlement-start-date",
+        "settlement_end": "settlement-end-date",
+        "deposit_date": "deposit-date",
+        "total_amount": "total-amount",
+        "transaction_type": "transaction-type",
+        "amount_type": "amount-type",
+        "amount_description": "amount-description",
+        "amount": "amount",
+        "posted_date": "posted-date",
+        "order_id": "order-id",
+        "currency": "currency"
+      },
+      "meta": {},
+      "n_rows": 3036
+    },
+    "upload_2/settlement_14001010679.txt": {
+      "source_type": "amazon_flat",
+      "column_map": {
+        "settlement_id": "settlement-id",
+        "settlement_start": "settlement-start-date",
+        "settlement_end": "settlement-end-date",
+        "deposit_date": "deposit-date",
+        "total_amount": "total-amount",
+        "transaction_type": "transaction-type",
+        "amount_type": "amount-type",
+        "amount_description": "amount-description",
+        "amount": "amount",
+        "posted_date": "posted-date",
+        "order_id": "order-id",
+        "currency": "currency"
+      },
+      "meta": {},
+      "n_rows": 2899
+    },
+    "upload_2/chart_of_accounts_2.xlsx": {
+      "source_type": "coa",
+      "column_map": {
+        "number": "Number",
+        "name": "Name",
+        "type": "Account Type"
+      },
+      "meta": {},
+      "n_rows": 25
+    }
+  }
+}

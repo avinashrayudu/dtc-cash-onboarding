@@ -1,0 +1,20 @@
+{
+  "frozen_at": "2026-10-27T07:46:49+00:00",
+  "combined": "41b5e14c5835c7537e381e9e5b3bd0a45163e6723f8834bd6f321ca96e0b1ea8",
+  "files": {
+    "onboard/classify_lines.py": "3da1c230b38cfbce220c8c23c2422a441f410314b704d3b460c6bb1f05ed80c1",
+    "onboard/detect_source.py": "f5bbbc1f4edc234846657690f5b03db7014ab8a6a67916d994eb495265779203",
+    "onboard/llm_fallback.py": "f5bb4a6c91775970a80a36163c7b23fb5bb273849eb5a9db7d9cca550d1b85a9",
+    "onboard/map_columns.py": "2d993a202a20cc48680afb8287e6feb71175c53b7ad52011695eb80a4239eb98",
+    "onboard/memory.py": "2f277a476c381a67afc89163ccc8e029f2880d9e31c3f3c103ee4d912ccba4a3",
+    "onboard/parse.py": "3ab0ba9f66f7da4a6c1b2bbf2b736edfcb80d3fb8b8a096ce5efa24999bf1ceb",
+    "onboard/pipeline.py": "19db971667f636a8d6f1abeb3c4b930468619a795aabeea5fef23d3081f7a4b6",
+    "onboard/readers.py": "228eaa3600c5c4988f9caf76ff2d25490c3ab9814613fb5a730e3a01e4249d1e",
+    "onboard/run.py": "03361cc668149aa65d1220add0ecd5ddffa0092183da3dd65806f4134f69e3db",
+    "onboard/schemas.py": "552ade17d69f6d11d0fe37fc7551fd7a8905838b5db1da422f76a9aaace458b1",
+    "onboard/tieout.py": "0bdeb16e48be69d3251955da88a2231724c75de8f5c3c4d2abbe6db25f66d49f",
+    "onboard/transform.py": "51dfe0159dea1b4dd3866904d627512ba14d54b95c30d45896191d369cdf3aa8",
+    "models/coa_model.joblib": "1d2cfaed53af253e5a9fe1bbbc56f19b8a7b947e6a022972c34148c1fbac6231",
+    "models/line_model.joblib": "9d70e4a45e0e3a69d7858c5add177643cc5222c233612c720859a19998ddd82b"
+  }
+}

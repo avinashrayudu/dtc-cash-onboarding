@@ -1,0 +1,126 @@
+label,account,amount,date,is_duplicate,counterparty
+processor_payout,operating,24255.74,2026-08-25,True,Shopify
+wholesale_payout,operating,6908.6,2026-08-25,True,Faire Wholesale
+processor_payout,operating,8214.94,2026-08-26,True,Shopify
+processor_payout,operating,7736.34,2026-08-27,True,Shopify
+wholesale_payout,operating,1282.74,2026-08-27,True,Faire Wholesale
+processor_payout,operating,7067.57,2026-08-28,True,Shopify
+wholesale_payout,operating,2186.5,2026-08-28,True,Faire Wholesale
+payroll,operating,-3899.11,2026-08-28,True,Paycor
+payroll,operating,-12347.18,2026-08-28,True,Paycor
+interest_income,savings,707.39,2026-08-28,True,Bank
+processor_payout,operating,8745.42,2026-08-31,True,Shopify
+wholesale_payout,operating,2447.16,2026-08-31,True,Faire Wholesale
+processor_payout,operating,28756.49,2026-09-01,False,Shopify
+wholesale_payout,operating,4675.53,2026-09-01,False,Faire Wholesale
+rent,operating,-3383.33,2026-09-01,False,Riverside Arts Bldg LLC
+processor_payout,operating,8618.45,2026-09-02,False,Shopify
+wholesale_payout,operating,464.85,2026-09-02,False,Faire Wholesale
+processor_payout,operating,7825.92,2026-09-03,False,Shopify
+wholesale_payout,operating,1727.12,2026-09-03,False,Faire Wholesale
+marketplace_payout,operating,10140.88,2026-09-04,False,Amazon.com Services
+processor_payout,operating,7381.45,2026-09-04,False,Shopify
+wholesale_payout,operating,2313.89,2026-09-04,False,Faire Wholesale
+processor_payout,operating,6830.38,2026-09-07,False,Shopify
+wholesale_payout,operating,511.58,2026-09-07,False,Faire Wholesale
+freight_duty,operating,-17226.0,2026-09-07,False,Granite Bay Logistics
+processor_payout,operating,21062.74,2026-09-08,False,Shopify
+wholesale_payout,operating,4501.8,2026-09-08,False,Faire Wholesale
+processor_payout,operating,8994.79,2026-09-09,False,Shopify
+wholesale_payout,operating,3581.63,2026-09-09,False,Faire Wholesale
+processor_payout,operating,8305.24,2026-09-10,False,Shopify
+wholesale_payout,operating,2215.48,2026-09-10,False,Faire Wholesale
+freight_duty,operating,-9570.0,2026-09-10,False,US Customs CBP
+fulfillment_3pl,operating,-18314.49,2026-09-10,False,Hearthstone 3PL
+processor_payout,operating,7303.36,2026-09-11,False,Shopify
+wholesale_payout,operating,1726.47,2026-09-11,False,Faire Wholesale
+payroll,operating,-3896.29,2026-09-11,False,Paycor
+payroll,operating,-12338.24,2026-09-11,False,Paycor
+processor_payout,operating,6176.53,2026-09-14,False,Shopify
+wholesale_payout,operating,2389.3,2026-09-14,False,Faire Wholesale
+processor_payout,operating,29002.74,2026-09-15,False,Shopify
+wholesale_payout,operating,2684.22,2026-09-15,False,Faire Wholesale
+software_opex,operating,-275.0,2026-09-15,False,Intuit
+processor_payout,operating,6710.45,2026-09-16,False,Shopify
+wholesale_payout,operating,3877.65,2026-09-16,False,Faire Wholesale
+processor_payout,operating,9349.16,2026-09-17,False,Shopify
+wholesale_payout,operating,1724.26,2026-09-17,False,Faire Wholesale
+marketplace_payout,operating,10357.69,2026-09-18,False,Amazon.com Services
+processor_payout,operating,9569.22,2026-09-18,False,Shopify
+wholesale_payout,operating,1313.07,2026-09-18,False,Faire Wholesale
+own_account_transfer,operating,-136000.0,2026-09-21,False,Savings
+own_account_transfer,savings,136000.0,2026-09-21,False,Operating
+processor_payout,operating,9251.42,2026-09-21,False,Shopify
+sales_tax,operating,-15942.47,2026-09-21,False,WA DEPT OF REVENUE
+own_account_transfer,operating,188000.0,2026-09-22,False,Savings
+own_account_transfer,savings,-188000.0,2026-09-22,False,Operating
+processor_payout,operating,28024.85,2026-09-22,False,Shopify
+wholesale_payout,operating,1418.26,2026-09-22,False,Faire Wholesale
+bank_fee,operating,-35.0,2026-09-22,False,Wire fee
+card_payment,operating,-46210.64,2026-09-22,False,Cascade
+inventory_purchase,operating,-255780.0,2026-09-22,False,Kilnworks Pottery Ltd
+processor_payout,operating,6374.63,2026-09-23,False,Shopify
+wholesale_payout,operating,2001.35,2026-09-23,False,Faire Wholesale
+processor_payout,operating,6709.43,2026-09-24,False,Shopify
+wholesale_payout,operating,1574.14,2026-09-24,False,Faire Wholesale
+processor_payout,operating,7156.14,2026-09-25,False,Shopify
+wholesale_payout,operating,603.76,2026-09-25,False,Faire Wholesale
+payroll,operating,-3900.32,2026-09-25,False,Paycor
+payroll,operating,-12351.01,2026-09-25,False,Paycor
+processor_payout,operating,8338.01,2026-09-28,False,Shopify
+wholesale_payout,operating,2305.04,2026-09-28,False,Faire Wholesale
+vendor_refund,operating,2177.61,2026-09-28,False,Kilnworks Pottery Ltd
+interest_income,savings,597.11,2026-09-28,False,Bank
+processor_payout,operating,25356.85,2026-09-29,False,Shopify
+wholesale_payout,operating,3122.48,2026-09-29,False,Faire Wholesale
+processor_payout,operating,7808.35,2026-09-30,False,Shopify
+wholesale_payout,operating,2656.4,2026-09-30,False,Faire Wholesale
+processor_payout,operating,8310.52,2026-10-01,False,Shopify
+wholesale_payout,operating,1555.67,2026-10-01,False,Faire Wholesale
+rent,operating,-3383.33,2026-10-01,False,Riverside Arts Bldg LLC
+marketplace_payout,operating,11122.26,2026-10-02,False,Amazon.com Services
+processor_payout,operating,7868.01,2026-10-02,False,Shopify
+wholesale_payout,operating,2370.95,2026-10-02,False,Faire Wholesale
+processor_payout,operating,8100.55,2026-10-05,False,Shopify
+wholesale_payout,operating,4204.5,2026-10-05,False,Faire Wholesale
+vendor_refund,operating,1357.4,2026-10-05,False,Hearthstone 3PL
+processor_payout,operating,22849.56,2026-10-06,False,Shopify
+wholesale_payout,operating,2529.26,2026-10-06,False,Faire Wholesale
+bank_fee,operating,-35.0,2026-10-06,False,Wire fee
+inventory_purchase,operating,-65250.0,2026-10-06,False,Kilnworks Pottery Ltd
+processor_payout,operating,7776.75,2026-10-07,False,Shopify
+wholesale_payout,operating,1278.72,2026-10-07,False,Faire Wholesale
+processor_payout,operating,9537.97,2026-10-08,False,Shopify
+wholesale_payout,operating,3523.59,2026-10-08,False,Faire Wholesale
+processor_payout,operating,7776.86,2026-10-09,False,Shopify
+wholesale_payout,operating,1925.78,2026-10-09,False,Faire Wholesale
+payroll,operating,-3917.62,2026-10-09,False,Paycor
+payroll,operating,-12405.79,2026-10-09,False,Paycor
+processor_payout,operating,8904.76,2026-10-12,False,Shopify
+wholesale_payout,operating,3968.5,2026-10-12,False,Faire Wholesale
+fulfillment_3pl,operating,-19566.12,2026-10-12,False,Hearthstone 3PL
+processor_payout,operating,25433.76,2026-10-13,False,Shopify
+wholesale_payout,operating,12495.37,2026-10-13,False,Faire Wholesale
+processor_payout,operating,8483.41,2026-10-14,False,Shopify
+wholesale_payout,operating,4397.44,2026-10-14,False,Faire Wholesale
+processor_payout,operating,7664.51,2026-10-15,False,Shopify
+wholesale_payout,operating,1959.29,2026-10-15,False,Faire Wholesale
+software_opex,operating,-275.0,2026-10-15,False,Intuit
+marketplace_payout,operating,11332.64,2026-10-16,False,Amazon.com Services
+processor_payout,operating,9057.27,2026-10-16,False,Shopify
+wholesale_payout,operating,1262.79,2026-10-16,False,Faire Wholesale
+freight_duty,operating,-32886.0,2026-10-16,False,Granite Bay Logistics
+processor_payout,operating,7273.98,2026-10-19,False,Shopify
+freight_duty,operating,-18270.0,2026-10-19,False,US Customs CBP
+processor_payout,operating,28291.91,2026-10-20,False,Shopify
+wholesale_payout,operating,4863.04,2026-10-20,False,Faire Wholesale
+sales_tax,operating,-15441.15,2026-10-20,False,WA DEPT OF REVENUE
+processor_payout,operating,7306.08,2026-10-21,False,Shopify
+wholesale_payout,operating,4001.02,2026-10-21,False,Faire Wholesale
+processor_payout,operating,9069.98,2026-10-22,False,Shopify
+wholesale_payout,operating,2502.75,2026-10-22,False,Faire Wholesale
+card_payment,operating,-46408.17,2026-10-22,False,Cascade
+processor_payout,operating,8961.56,2026-10-23,False,Shopify
+wholesale_payout,operating,850.2,2026-10-23,False,Faire Wholesale
+payroll,operating,-3950.39,2026-10-23,False,Paycor
+payroll,operating,-12509.58,2026-10-23,False,Paycor

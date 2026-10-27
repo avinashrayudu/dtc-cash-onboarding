@@ -1,0 +1,121 @@
+label,account,amount,date,is_duplicate,counterparty
+wholesale_payout,operating,6352.37,2026-08-31,False,Faire Wholesale
+processor_payout,operating,24874.41,2026-08-31,False,Shopify
+payroll,operating,-36898.31,2026-08-28,False,Gusto
+payroll,operating,-11652.1,2026-08-28,False,Gusto
+wholesale_payout,operating,2915.09,2026-08-28,False,Faire Wholesale
+processor_payout,operating,28368.54,2026-08-28,False,Shopify
+wholesale_payout,operating,1361.11,2026-08-27,False,Faire Wholesale
+processor_payout,operating,25870.57,2026-08-27,False,Shopify
+wholesale_payout,operating,3700.19,2026-08-26,False,Faire Wholesale
+processor_payout,operating,30193.34,2026-08-26,False,Shopify
+wholesale_payout,operating,13925.73,2026-08-25,False,Faire Wholesale
+processor_payout,operating,95802.6,2026-08-25,False,Shopify
+wholesale_payout,operating,1674.37,2026-08-24,False,Faire Wholesale
+processor_payout,operating,32509.06,2026-08-24,False,Shopify
+card_payment,operating,-125598.21,2026-08-22,False,Summit
+wholesale_payout,operating,1917.0,2026-08-21,False,Faire Wholesale
+processor_payout,operating,25500.42,2026-08-21,False,Shopify
+marketplace_payout,operating,27240.6,2026-08-21,False,Amazon.com Services
+sales_tax,operating,-79210.98,2026-08-20,False,NYS DTF
+wholesale_payout,operating,376.21,2026-08-20,False,Faire Wholesale
+processor_payout,operating,21369.02,2026-08-20,False,Shopify
+wholesale_payout,operating,1218.97,2026-08-19,False,Faire Wholesale
+processor_payout,operating,31302.78,2026-08-19,False,Shopify
+vendor_refund,operating,1083.93,2026-08-18,False,ShipNest 3PL
+wholesale_payout,operating,10346.32,2026-08-18,False,Faire Wholesale
+processor_payout,operating,93701.32,2026-08-18,False,Shopify
+software_opex,operating,-275.0,2026-08-17,False,Intuit
+wholesale_payout,operating,361.97,2026-08-17,False,Faire Wholesale
+processor_payout,operating,27190.32,2026-08-17,False,Shopify
+payroll,operating,-37608.38,2026-08-14,False,Gusto
+payroll,operating,-11876.33,2026-08-14,False,Gusto
+wholesale_payout,operating,585.66,2026-08-14,False,Faire Wholesale
+processor_payout,operating,28063.36,2026-08-14,False,Shopify
+wholesale_payout,operating,1494.05,2026-08-13,False,Faire Wholesale
+processor_payout,operating,27192.32,2026-08-13,False,Shopify
+inventory_purchase,operating,-388080.0,2026-08-12,False,Kestrel Knitworks Ltd
+bank_fee,operating,-35.0,2026-08-12,False,Wire fee
+wholesale_payout,operating,6545.37,2026-08-12,False,Faire Wholesale
+processor_payout,operating,24048.97,2026-08-12,False,Shopify
+wholesale_payout,operating,7234.44,2026-08-11,False,Faire Wholesale
+processor_payout,operating,104610.26,2026-08-11,False,Shopify
+fulfillment_3pl,operating,-56097.81,2026-08-10,False,ShipNest 3PL
+wholesale_payout,operating,2380.95,2026-08-10,False,Faire Wholesale
+processor_payout,operating,29533.7,2026-08-10,False,Shopify
+wholesale_payout,operating,2051.19,2026-08-07,False,Faire Wholesale
+marketplace_payout,operating,22460.88,2026-08-07,False,Amazon.com Services
+processor_payout,operating,24080.47,2026-08-07,False,Shopify
+wholesale_payout,operating,6100.28,2026-08-06,False,Faire Wholesale
+processor_payout,operating,27815.8,2026-08-06,False,Shopify
+inventory_purchase,operating,-317520.0,2026-08-05,False,Halden Textile Co
+bank_fee,operating,-35.0,2026-08-05,False,Wire fee
+wholesale_payout,operating,5596.92,2026-08-05,False,Faire Wholesale
+processor_payout,operating,24899.31,2026-08-05,False,Shopify
+wholesale_payout,operating,5465.86,2026-08-04,False,Faire Wholesale
+processor_payout,operating,97821.91,2026-08-04,False,Shopify
+rent,operating,-9800.0,2026-08-03,False,Navy Street Holdings
+wholesale_payout,operating,2886.63,2026-08-03,False,Faire Wholesale
+processor_payout,operating,28870.38,2026-08-03,False,Shopify
+own_account_transfer,operating,-205000.0,2026-08-03,False,Savings
+payroll,operating,-37007.07,2026-07-31,False,Gusto
+payroll,operating,-11686.44,2026-07-31,False,Gusto
+wholesale_payout,operating,7639.56,2026-07-31,False,Faire Wholesale
+processor_payout,operating,24717.68,2026-07-31,False,Shopify
+wholesale_payout,operating,4971.14,2026-07-30,False,Faire Wholesale
+processor_payout,operating,22778.2,2026-07-30,False,Shopify
+wholesale_payout,operating,4249.88,2026-07-29,False,Faire Wholesale
+processor_payout,operating,26922.8,2026-07-29,False,Shopify
+wholesale_payout,operating,16607.01,2026-07-28,False,Faire Wholesale
+processor_payout,operating,91027.32,2026-07-28,False,Shopify
+wholesale_payout,operating,5355.26,2026-07-27,False,Faire Wholesale
+processor_payout,operating,28573.98,2026-07-27,False,Shopify
+own_account_transfer,operating,-289000.0,2026-07-27,False,Savings
+wholesale_payout,operating,7365.91,2026-07-24,False,Faire Wholesale
+marketplace_payout,operating,25001.81,2026-07-24,False,Amazon.com Services
+processor_payout,operating,30782.77,2026-07-24,False,Shopify
+wholesale_payout,operating,3053.36,2026-07-23,False,Faire Wholesale
+processor_payout,operating,27143.88,2026-07-23,False,Shopify
+card_payment,operating,-111078.18,2026-07-22,False,Summit
+processor_payout,operating,28804.92,2026-07-22,False,Shopify
+wholesale_payout,operating,12918.73,2026-07-21,False,Faire Wholesale
+processor_payout,operating,104713.24,2026-07-21,False,Shopify
+sales_tax,operating,-27673.67,2026-07-20,False,NYS DTF
+wholesale_payout,operating,5752.3,2026-07-20,False,Faire Wholesale
+processor_payout,operating,28486.42,2026-07-20,False,Shopify
+payroll,operating,-37698.87,2026-07-17,False,Gusto
+payroll,operating,-11904.91,2026-07-17,False,Gusto
+wholesale_payout,operating,1474.3,2026-07-17,False,Faire Wholesale
+processor_payout,operating,27398.71,2026-07-17,False,Shopify
+wholesale_payout,operating,4752.47,2026-07-16,False,Faire Wholesale
+processor_payout,operating,29191.96,2026-07-16,False,Shopify
+software_opex,operating,-275.0,2026-07-15,False,Intuit
+wholesale_payout,operating,3021.36,2026-07-15,False,Faire Wholesale
+processor_payout,operating,24162.16,2026-07-15,False,Shopify
+wholesale_payout,operating,9024.6,2026-07-14,False,Faire Wholesale
+processor_payout,operating,93535.18,2026-07-14,False,Shopify
+wholesale_payout,operating,2612.03,2026-07-13,False,Faire Wholesale
+processor_payout,operating,27149.51,2026-07-13,False,Shopify
+own_account_transfer,operating,-212000.0,2026-07-13,False,Savings
+fulfillment_3pl,operating,-47618.68,2026-07-10,False,ShipNest 3PL
+wholesale_payout,operating,2633.74,2026-07-10,False,Faire Wholesale
+marketplace_payout,operating,25122.91,2026-07-10,False,Amazon.com Services
+processor_payout,operating,28382.88,2026-07-10,False,Shopify
+wholesale_payout,operating,3684.77,2026-07-09,False,Faire Wholesale
+processor_payout,operating,26108.72,2026-07-09,False,Shopify
+inventory_purchase,operating,-166320.0,2026-07-08,False,Kestrel Knitworks Ltd
+bank_fee,operating,-35.0,2026-07-08,False,Wire fee
+wholesale_payout,operating,8271.97,2026-07-08,False,Faire Wholesale
+processor_payout,operating,24409.48,2026-07-08,False,Shopify
+wholesale_payout,operating,12162.75,2026-07-07,False,Faire Wholesale
+processor_payout,operating,95539.99,2026-07-07,False,Shopify
+wholesale_payout,operating,3404.0,2026-07-06,False,Faire Wholesale
+processor_payout,operating,31795.95,2026-07-06,False,Shopify
+payroll,operating,-37682.98,2026-07-03,False,Gusto
+payroll,operating,-11899.89,2026-07-03,False,Gusto
+wholesale_payout,operating,3813.84,2026-07-03,False,Faire Wholesale
+processor_payout,operating,26322.34,2026-07-03,False,Shopify
+wholesale_payout,operating,11022.52,2026-07-02,False,Faire Wholesale
+processor_payout,operating,27458.9,2026-07-02,False,Shopify
+rent,operating,-9800.0,2026-07-01,False,Navy Street Holdings
+processor_payout,operating,28364.46,2026-07-01,False,Shopify

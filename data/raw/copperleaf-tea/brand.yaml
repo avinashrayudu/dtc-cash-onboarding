@@ -1,0 +1,8 @@
+brand: Copperleaf Tea
+currency: USD
+own_accounts:
+  operating_last4: '2119'
+  savings_last4: '7907'
+  card_last5: 08344
+note: 'Synthetic brand. Captured on the kickoff call: name, currency, own account
+  numbers.'

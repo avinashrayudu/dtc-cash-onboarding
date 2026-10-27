@@ -1,0 +1,121 @@
+label,account,amount,date,is_duplicate,counterparty
+processor_payout,operating,35658.82,2026-08-25,True,Shopify
+wholesale_payout,operating,13576.09,2026-08-25,True,Faire Wholesale
+processor_payout,operating,10001.37,2026-08-26,True,Shopify
+wholesale_payout,operating,3240.91,2026-08-26,True,Faire Wholesale
+processor_payout,operating,8944.18,2026-08-27,True,Shopify
+wholesale_payout,operating,5262.81,2026-08-27,True,Faire Wholesale
+processor_payout,operating,7609.31,2026-08-28,True,Shopify
+wholesale_payout,operating,2672.93,2026-08-28,True,Faire Wholesale
+payroll,operating,-4368.34,2026-08-28,True,ADP
+payroll,operating,-13833.08,2026-08-28,True,ADP
+processor_payout,operating,9620.32,2026-08-31,True,Shopify
+wholesale_payout,operating,5613.34,2026-08-31,True,Faire Wholesale
+vendor_refund,operating,1553.53,2026-08-31,True,Packriver Fulfillment
+processor_payout,operating,30067.25,2026-09-01,False,Shopify
+wholesale_payout,operating,6129.82,2026-09-01,False,Faire Wholesale
+rent,operating,-3733.33,2026-09-01,False,Gowanus Lofts LLC
+processor_payout,operating,10081.8,2026-09-02,False,Shopify
+processor_payout,operating,10984.79,2026-09-03,False,Shopify
+wholesale_payout,operating,3720.58,2026-09-03,False,Faire Wholesale
+processor_payout,operating,9264.38,2026-09-04,False,Shopify
+wholesale_payout,operating,1348.75,2026-09-04,False,Faire Wholesale
+own_account_transfer,operating,-77000.0,2026-09-07,False,Savings
+processor_payout,operating,12037.03,2026-09-07,False,Shopify
+wholesale_payout,operating,2618.37,2026-09-07,False,Faire Wholesale
+freight_duty,operating,-19008.0,2026-09-07,False,Bluewake Logistics
+processor_payout,operating,35528.34,2026-09-08,False,Shopify
+wholesale_payout,operating,5939.4,2026-09-08,False,Faire Wholesale
+processor_payout,operating,7756.67,2026-09-09,False,Shopify
+processor_payout,operating,10249.75,2026-09-10,False,Shopify
+wholesale_payout,operating,5132.23,2026-09-10,False,Faire Wholesale
+freight_duty,operating,-10560.0,2026-09-10,False,US Customs CBP
+fulfillment_3pl,operating,-18954.84,2026-09-10,False,Packriver Fulfillment
+processor_payout,operating,9220.69,2026-09-11,False,Shopify
+wholesale_payout,operating,6771.2,2026-09-11,False,Faire Wholesale
+payroll,operating,-4390.58,2026-09-11,False,ADP
+payroll,operating,-13903.5,2026-09-11,False,ADP
+processor_payout,operating,8309.88,2026-09-14,False,Shopify
+wholesale_payout,operating,929.75,2026-09-14,False,Faire Wholesale
+financing_draw,operating,128000.0,2026-09-15,False,Kettle Lending
+processor_payout,operating,29873.52,2026-09-15,False,Shopify
+wholesale_payout,operating,8482.02,2026-09-15,False,Faire Wholesale
+software_opex,operating,-275.0,2026-09-15,False,Intuit
+processor_payout,operating,7214.59,2026-09-16,False,Shopify
+wholesale_payout,operating,5765.07,2026-09-16,False,Faire Wholesale
+processor_payout,operating,8905.49,2026-09-17,False,Shopify
+wholesale_payout,operating,2109.11,2026-09-17,False,Faire Wholesale
+processor_payout,operating,9349.7,2026-09-18,False,Shopify
+own_account_transfer,operating,-205000.0,2026-09-21,False,Savings
+processor_payout,operating,9940.16,2026-09-21,False,Shopify
+wholesale_payout,operating,1418.45,2026-09-21,False,Faire Wholesale
+sales_tax,operating,-20264.54,2026-09-21,False,NJ DIV OF TAXATION
+own_account_transfer,operating,194000.0,2026-09-22,False,Savings
+processor_payout,operating,30285.45,2026-09-22,False,Shopify
+wholesale_payout,operating,10108.7,2026-09-22,False,Faire Wholesale
+bank_fee,operating,-35.0,2026-09-22,False,Wire fee
+card_payment,operating,-49859.97,2026-09-22,False,Meridian
+inventory_purchase,operating,-282240.0,2026-09-22,False,Ostrava Glassworks
+processor_payout,operating,10114.79,2026-09-23,False,Shopify
+wholesale_payout,operating,2981.58,2026-09-23,False,Faire Wholesale
+processor_payout,operating,10353.65,2026-09-24,False,Shopify
+wholesale_payout,operating,2613.58,2026-09-24,False,Faire Wholesale
+processor_payout,operating,11222.04,2026-09-25,False,Shopify
+payroll,operating,-4520.48,2026-09-25,False,ADP
+payroll,operating,-14314.84,2026-09-25,False,ADP
+processor_payout,operating,8265.36,2026-09-28,False,Shopify
+wholesale_payout,operating,2410.44,2026-09-28,False,Faire Wholesale
+processor_payout,operating,30757.97,2026-09-29,False,Shopify
+wholesale_payout,operating,14183.21,2026-09-29,False,Faire Wholesale
+processor_payout,operating,7951.39,2026-09-30,False,Shopify
+wholesale_payout,operating,2991.57,2026-09-30,False,Faire Wholesale
+processor_payout,operating,12466.06,2026-10-01,False,Shopify
+wholesale_payout,operating,3990.06,2026-10-01,False,Faire Wholesale
+interest_expense,operating,-586.67,2026-10-01,False,Kettle Lending
+rent,operating,-3733.33,2026-10-01,False,Gowanus Lofts LLC
+processor_payout,operating,10919.71,2026-10-02,False,Shopify
+wholesale_payout,operating,1909.14,2026-10-02,False,Faire Wholesale
+processor_payout,operating,11187.67,2026-10-05,False,Shopify
+wholesale_payout,operating,7274.74,2026-10-05,False,Faire Wholesale
+financing_repayment,operating,-21333.33,2026-10-05,False,Kettle Lending
+processor_payout,operating,34907.75,2026-10-06,False,Shopify
+wholesale_payout,operating,11190.79,2026-10-06,False,Faire Wholesale
+bank_fee,operating,-35.0,2026-10-06,False,Wire fee
+inventory_purchase,operating,-72000.0,2026-10-06,False,Pinecrest Wax Supply
+processor_payout,operating,9877.09,2026-10-07,False,Shopify
+wholesale_payout,operating,3290.28,2026-10-07,False,Faire Wholesale
+processor_payout,operating,10169.11,2026-10-08,False,Shopify
+wholesale_payout,operating,3187.15,2026-10-08,False,Faire Wholesale
+processor_payout,operating,10323.02,2026-10-09,False,Shopify
+wholesale_payout,operating,3029.02,2026-10-09,False,Faire Wholesale
+payroll,operating,-4561.95,2026-10-09,False,ADP
+payroll,operating,-14446.19,2026-10-09,False,ADP
+processor_payout,operating,9900.92,2026-10-12,False,Shopify
+wholesale_payout,operating,3217.03,2026-10-12,False,Faire Wholesale
+fulfillment_3pl,operating,-20866.44,2026-10-12,False,Packriver Fulfillment
+financing_repayment,operating,-21333.33,2026-10-12,False,Kettle Lending
+processor_payout,operating,35806.85,2026-10-13,False,Shopify
+wholesale_payout,operating,14058.23,2026-10-13,False,Faire Wholesale
+processor_payout,operating,10835.17,2026-10-14,False,Shopify
+wholesale_payout,operating,5665.04,2026-10-14,False,Faire Wholesale
+processor_payout,operating,9551.68,2026-10-15,False,Shopify
+wholesale_payout,operating,5460.26,2026-10-15,False,Faire Wholesale
+software_opex,operating,-275.0,2026-10-15,False,Intuit
+processor_payout,operating,10784.4,2026-10-16,False,Shopify
+wholesale_payout,operating,771.21,2026-10-16,False,Faire Wholesale
+freight_duty,operating,-36288.0,2026-10-16,False,Bluewake Logistics
+processor_payout,operating,11673.45,2026-10-19,False,Shopify
+wholesale_payout,operating,5071.83,2026-10-19,False,Faire Wholesale
+freight_duty,operating,-20160.0,2026-10-19,False,US Customs CBP
+financing_repayment,operating,-21333.33,2026-10-19,False,Kettle Lending
+processor_payout,operating,34603.71,2026-10-20,False,Shopify
+wholesale_payout,operating,8998.28,2026-10-20,False,Faire Wholesale
+sales_tax,operating,-19648.27,2026-10-20,False,NJ DIV OF TAXATION
+processor_payout,operating,9682.26,2026-10-21,False,Shopify
+wholesale_payout,operating,5332.32,2026-10-21,False,Faire Wholesale
+processor_payout,operating,12129.13,2026-10-22,False,Shopify
+card_payment,operating,-46922.78,2026-10-22,False,Meridian
+processor_payout,operating,11208.24,2026-10-23,False,Shopify
+wholesale_payout,operating,1492.05,2026-10-23,False,Faire Wholesale
+payroll,operating,-4303.57,2026-10-23,False,ADP
+payroll,operating,-13627.98,2026-10-23,False,ADP

@@ -1,0 +1,8 @@
+brand: Quillon Coffee Roasters
+currency: USD
+own_accounts:
+  operating_last4: '9649'
+  savings_last4: '3758'
+  card_last5: '18452'
+note: 'Synthetic brand. Captured on the kickoff call: name, currency, own account
+  numbers.'

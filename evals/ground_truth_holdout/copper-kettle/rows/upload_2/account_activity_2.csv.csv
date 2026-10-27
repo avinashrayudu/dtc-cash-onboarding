@@ -1,0 +1,97 @@
+label,account,amount,date,is_duplicate,counterparty
+processor_payout,operating,40917.97,2026-08-25,True,Shopify
+processor_payout,operating,4429.21,2026-08-25,True,paypal
+processor_payout,operating,12525.37,2026-08-26,True,Shopify
+wholesale_receipt,operating,8448.89,2026-08-26,True,Pantry & Pine
+processor_payout,operating,12528.7,2026-08-27,True,Shopify
+processor_payout,operating,14107.67,2026-08-28,True,Shopify
+payroll,operating,-6311.9,2026-08-28,True,OnPay
+payroll,operating,-19987.68,2026-08-28,True,OnPay
+processor_payout,operating,14232.67,2026-08-31,True,Shopify
+processor_payout,operating,43420.13,2026-09-01,False,Shopify
+rent,operating,-5366.67,2026-09-01,False,Fulton Mill LLC
+processor_payout,operating,4872.72,2026-09-01,False,paypal
+processor_payout,operating,13722.71,2026-09-02,False,Shopify
+processor_payout,operating,14143.19,2026-09-03,False,Shopify
+marketplace_payout,operating,34439.98,2026-09-04,False,Amazon.com Services
+processor_payout,operating,12559.03,2026-09-04,False,Shopify
+processor_payout,operating,13882.3,2026-09-07,False,Shopify
+freight_duty,operating,-27324.0,2026-09-07,False,Quayside Freight Partners
+processor_payout,operating,47767.48,2026-09-08,False,Shopify
+processor_payout,operating,4414.45,2026-09-08,False,paypal
+processor_payout,operating,13036.19,2026-09-09,False,Shopify
+processor_payout,operating,13362.03,2026-09-10,False,Shopify
+freight_duty,operating,-15180.0,2026-09-10,False,US Customs CBP
+fulfillment_3pl,operating,-27190.06,2026-09-10,False,Stackhouse Fulfillment
+processor_payout,operating,12647.65,2026-09-11,False,Shopify
+wholesale_receipt,operating,7371.25,2026-09-11,False,Pantry & Pine
+payroll,operating,-6348.0,2026-09-11,False,OnPay
+payroll,operating,-20101.99,2026-09-11,False,OnPay
+processor_payout,operating,14216.67,2026-09-14,False,Shopify
+financing_draw,operating,184000.0,2026-09-15,False,Fennec Capital
+processor_payout,operating,47774.16,2026-09-15,False,Shopify
+software_opex,operating,-275.0,2026-09-15,False,Intuit
+processor_payout,operating,5003.65,2026-09-15,False,paypal
+processor_payout,operating,16696.97,2026-09-16,False,Shopify
+processor_payout,operating,11865.65,2026-09-17,False,Shopify
+marketplace_payout,operating,30057.36,2026-09-18,False,Amazon.com Services
+processor_payout,operating,14142.33,2026-09-18,False,Shopify
+own_account_transfer,operating,-363000.0,2026-09-21,False,Savings
+processor_payout,operating,15523.93,2026-09-21,False,Shopify
+sales_tax,operating,-31073.73,2026-09-21,False,OH DEPT OF TAXATION
+own_account_transfer,operating,267000.0,2026-09-22,False,Savings
+processor_payout,operating,53287.52,2026-09-22,False,Shopify
+bank_fee,operating,-35.0,2026-09-22,False,Wire fee
+card_payment,operating,-74883.39,2026-09-22,False,Beacon
+inventory_purchase,operating,-405720.0,2026-09-22,False,Sable Iron Works
+processor_payout,operating,5897.79,2026-09-22,False,paypal
+processor_payout,operating,13798.09,2026-09-23,False,Shopify
+processor_payout,operating,14268.19,2026-09-24,False,Shopify
+processor_payout,operating,16497.02,2026-09-25,False,Shopify
+payroll,operating,-6408.66,2026-09-25,False,OnPay
+payroll,operating,-20294.1,2026-09-25,False,OnPay
+processor_payout,operating,13520.08,2026-09-28,False,Shopify
+processor_payout,operating,43845.49,2026-09-29,False,Shopify
+processor_payout,operating,5808.35,2026-09-29,False,paypal
+processor_payout,operating,14027.71,2026-09-30,False,Shopify
+processor_payout,operating,16076.81,2026-10-01,False,Shopify
+interest_expense,operating,-843.33,2026-10-01,False,Fennec Capital
+rent,operating,-5366.67,2026-10-01,False,Fulton Mill LLC
+marketplace_payout,operating,30198.55,2026-10-02,False,Amazon.com Services
+processor_payout,operating,14156.31,2026-10-02,False,Shopify
+processor_payout,operating,14737.51,2026-10-05,False,Shopify
+financing_repayment,operating,-30666.67,2026-10-05,False,Fennec Capital
+processor_payout,operating,49640.24,2026-10-06,False,Shopify
+bank_fee,operating,-35.0,2026-10-06,False,Wire fee
+inventory_purchase,operating,-103500.0,2026-10-06,False,Brightwater Cookware Co
+processor_payout,operating,4872.26,2026-10-06,False,paypal
+processor_payout,operating,12207.05,2026-10-07,False,Shopify
+processor_payout,operating,14348.0,2026-10-08,False,Shopify
+processor_payout,operating,15588.93,2026-10-09,False,Shopify
+payroll,operating,-6210.18,2026-10-09,False,OnPay
+payroll,operating,-19665.58,2026-10-09,False,OnPay
+processor_payout,operating,15848.45,2026-10-12,False,Shopify
+vendor_refund,operating,899.58,2026-10-12,False,Stackhouse Fulfillment
+fulfillment_3pl,operating,-28486.95,2026-10-12,False,Stackhouse Fulfillment
+financing_repayment,operating,-30666.67,2026-10-12,False,Fennec Capital
+processor_payout,operating,52985.87,2026-10-13,False,Shopify
+processor_payout,operating,5753.12,2026-10-13,False,paypal
+processor_payout,operating,13810.72,2026-10-14,False,Shopify
+processor_payout,operating,17308.24,2026-10-15,False,Shopify
+software_opex,operating,-275.0,2026-10-15,False,Intuit
+marketplace_payout,operating,31625.21,2026-10-16,False,Amazon.com Services
+processor_payout,operating,13529.43,2026-10-16,False,Shopify
+freight_duty,operating,-52164.0,2026-10-16,False,Quayside Freight Partners
+processor_payout,operating,13801.8,2026-10-19,False,Shopify
+freight_duty,operating,-28980.0,2026-10-19,False,US Customs CBP
+financing_repayment,operating,-30666.67,2026-10-19,False,Fennec Capital
+processor_payout,operating,51355.61,2026-10-20,False,Shopify
+wholesale_receipt,operating,1304.94,2026-10-20,False,Pantry & Pine
+sales_tax,operating,-31505.51,2026-10-20,False,OH DEPT OF TAXATION
+processor_payout,operating,4551.14,2026-10-20,False,paypal
+processor_payout,operating,11130.71,2026-10-21,False,Shopify
+processor_payout,operating,14424.6,2026-10-22,False,Shopify
+card_payment,operating,-70667.71,2026-10-22,False,Beacon
+processor_payout,operating,15246.06,2026-10-23,False,Shopify
+payroll,operating,-6472.11,2026-10-23,False,OnPay
+payroll,operating,-20495.01,2026-10-23,False,OnPay

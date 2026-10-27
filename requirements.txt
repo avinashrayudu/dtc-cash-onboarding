@@ -1,0 +1,8 @@
+# Built by Avinash Rayudu. Tested with Python 3.13.
+pandas>=2.2
+numpy>=1.26
+scikit-learn==1.9.1      # the saved models in models/ were trained with this version; otherwise run `make train`
+openpyxl>=3.1
+PyYAML>=6.0
+joblib>=1.3
+pytest>=8

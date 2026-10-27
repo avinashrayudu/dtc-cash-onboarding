@@ -1,0 +1,113 @@
+label,account,amount,date,is_duplicate,counterparty
+processor_payout,operating,64117.54,2026-08-25,True,Shopify
+processor_payout,operating,16681.2,2026-08-26,True,Shopify
+ad_spend,operating,-3500.0,2026-08-26,True,Facebook Ads
+processor_payout,operating,14504.4,2026-08-27,True,Shopify
+processor_payout,operating,15811.11,2026-08-28,True,Shopify
+payroll,operating,-7609.16,2026-08-28,True,Rippling
+payroll,operating,-24095.67,2026-08-28,True,Rippling
+interest_income,savings,1401.78,2026-08-28,True,Bank
+ad_spend,operating,-3500.0,2026-08-29,True,Facebook Ads
+processor_payout,operating,15253.64,2026-08-31,True,Shopify
+ad_spend,operating,-3500.0,2026-08-31,True,Facebook Ads
+processor_payout,operating,57355.75,2026-09-01,False,Shopify
+rent,operating,-6416.67,2026-09-01,False,Atlantic Yard Properties
+processor_payout,operating,15689.08,2026-09-02,False,Shopify
+ad_spend,operating,-3500.0,2026-09-02,False,Facebook Ads
+processor_payout,operating,18243.07,2026-09-03,False,Shopify
+marketplace_payout,operating,49287.96,2026-09-04,False,Amazon.com Services
+processor_payout,operating,19143.57,2026-09-04,False,Shopify
+ad_spend,operating,-3500.0,2026-09-04,False,Facebook Ads
+own_account_transfer,operating,-150000.0,2026-09-07,False,Savings
+own_account_transfer,savings,150000.0,2026-09-07,False,Operating
+processor_payout,operating,13320.42,2026-09-07,False,Shopify
+ad_spend,operating,-3500.0,2026-09-07,False,Facebook Ads
+freight_duty,operating,-32670.0,2026-09-07,False,Orchard Line Freight
+processor_payout,operating,57883.83,2026-09-08,False,Shopify
+processor_payout,operating,17661.35,2026-09-09,False,Shopify
+ad_spend,operating,-3500.0,2026-09-09,False,Facebook Ads
+processor_payout,operating,18755.09,2026-09-10,False,Shopify
+freight_duty,operating,-18150.0,2026-09-10,False,US Customs CBP
+fulfillment_3pl,operating,-32757.33,2026-09-10,False,Corbel Warehousing
+processor_payout,operating,16216.11,2026-09-11,False,Shopify
+ad_spend,operating,-3500.0,2026-09-11,False,Facebook Ads
+payroll,operating,-7532.8,2026-09-11,False,Rippling
+payroll,operating,-23853.86,2026-09-11,False,Rippling
+processor_payout,operating,17967.57,2026-09-14,False,Shopify
+ad_spend,operating,-3500.0,2026-09-14,False,Facebook Ads
+processor_payout,operating,61652.69,2026-09-15,False,Shopify
+software_opex,operating,-275.0,2026-09-15,False,Intuit
+processor_payout,operating,18315.33,2026-09-16,False,Shopify
+ad_spend,operating,-3500.0,2026-09-16,False,Facebook Ads
+processor_payout,operating,13658.18,2026-09-17,False,Shopify
+marketplace_payout,operating,47231.66,2026-09-18,False,Amazon.com Services
+processor_payout,operating,13455.23,2026-09-18,False,Shopify
+ad_spend,operating,-3500.0,2026-09-18,False,Facebook Ads
+ad_spend,operating,-3500.0,2026-09-20,False,Facebook Ads
+own_account_transfer,operating,-155000.0,2026-09-21,False,Savings
+own_account_transfer,savings,155000.0,2026-09-21,False,Operating
+processor_payout,operating,19763.55,2026-09-21,False,Shopify
+sales_tax,operating,-38080.99,2026-09-21,False,MA DOR
+own_account_transfer,operating,343000.0,2026-09-22,False,Savings
+own_account_transfer,savings,-343000.0,2026-09-22,False,Operating
+processor_payout,operating,59997.76,2026-09-22,False,Shopify
+bank_fee,operating,-35.0,2026-09-22,False,Wire fee
+card_payment,operating,-43170.02,2026-09-22,False,Granite
+inventory_purchase,operating,-485100.0,2026-09-22,False,Tamsin Ceramics
+processor_payout,operating,15619.28,2026-09-23,False,Shopify
+ad_spend,operating,-3500.0,2026-09-23,False,Facebook Ads
+processor_payout,operating,17762.89,2026-09-24,False,Shopify
+processor_payout,operating,17252.57,2026-09-25,False,Shopify
+ad_spend,operating,-3500.0,2026-09-25,False,Facebook Ads
+payroll,operating,-7740.87,2026-09-25,False,Rippling
+payroll,operating,-24512.74,2026-09-25,False,Rippling
+ad_spend,operating,-3500.0,2026-09-27,False,Facebook Ads
+processor_payout,operating,20051.17,2026-09-28,False,Shopify
+interest_income,savings,1323.09,2026-09-28,False,Bank
+processor_payout,operating,61763.98,2026-09-29,False,Shopify
+ad_spend,operating,-3500.0,2026-09-29,False,Facebook Ads
+processor_payout,operating,17340.11,2026-09-30,False,Shopify
+processor_payout,operating,17390.85,2026-10-01,False,Shopify
+rent,operating,-6416.67,2026-10-01,False,Atlantic Yard Properties
+marketplace_payout,operating,49256.7,2026-10-02,False,Amazon.com Services
+processor_payout,operating,17380.51,2026-10-02,False,Shopify
+ad_spend,operating,-3500.0,2026-10-02,False,Facebook Ads
+ad_spend,operating,-3500.0,2026-10-04,False,Facebook Ads
+processor_payout,operating,18086.19,2026-10-05,False,Shopify
+processor_payout,operating,63561.57,2026-10-06,False,Shopify
+bank_fee,operating,-35.0,2026-10-06,False,Wire fee
+ad_spend,operating,-3500.0,2026-10-06,False,Facebook Ads
+inventory_purchase,operating,-123750.0,2026-10-06,False,Ironleaf Home Goods
+processor_payout,operating,17056.43,2026-10-07,False,Shopify
+processor_payout,operating,17511.79,2026-10-08,False,Shopify
+processor_payout,operating,20823.97,2026-10-09,False,Shopify
+vendor_refund,operating,504.79,2026-10-09,False,Ironleaf Home Goods
+ad_spend,operating,-3500.0,2026-10-09,False,Facebook Ads
+payroll,operating,-7480.06,2026-10-09,False,Rippling
+payroll,operating,-23686.85,2026-10-09,False,Rippling
+ad_spend,operating,-3500.0,2026-10-11,False,Facebook Ads
+processor_payout,operating,18194.24,2026-10-12,False,Shopify
+fulfillment_3pl,operating,-31401.26,2026-10-12,False,Corbel Warehousing
+processor_payout,operating,61845.18,2026-10-13,False,Shopify
+ad_spend,operating,-3500.0,2026-10-13,False,Facebook Ads
+processor_payout,operating,16597.61,2026-10-14,False,Shopify
+processor_payout,operating,19207.34,2026-10-15,False,Shopify
+software_opex,operating,-275.0,2026-10-15,False,Intuit
+ad_spend,operating,-3500.0,2026-10-15,False,Facebook Ads
+marketplace_payout,operating,47771.9,2026-10-16,False,Amazon.com Services
+processor_payout,operating,20250.12,2026-10-16,False,Shopify
+freight_duty,operating,-62370.0,2026-10-16,False,Orchard Line Freight
+ad_spend,operating,-3500.0,2026-10-17,False,Facebook Ads
+processor_payout,operating,17576.44,2026-10-19,False,Shopify
+ad_spend,operating,-3500.0,2026-10-19,False,Facebook Ads
+freight_duty,operating,-34650.0,2026-10-19,False,US Customs CBP
+processor_payout,operating,58122.51,2026-10-20,False,Shopify
+sales_tax,operating,-38435.78,2026-10-20,False,MA DOR
+processor_payout,operating,16020.47,2026-10-21,False,Shopify
+processor_payout,operating,16405.23,2026-10-22,False,Shopify
+ad_spend,operating,-3500.0,2026-10-22,False,Facebook Ads
+card_payment,operating,-46018.49,2026-10-22,False,Granite
+processor_payout,operating,18038.18,2026-10-23,False,Shopify
+payroll,operating,-7410.42,2026-10-23,False,Rippling
+payroll,operating,-23466.32,2026-10-23,False,Rippling
+ad_spend,operating,-3500.0,2026-10-24,False,Facebook Ads

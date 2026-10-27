@@ -1,0 +1,8 @@
+brand: Lark & Pine Candle Co
+currency: USD
+own_accounts:
+  operating_last4: '7265'
+  savings_last4: '3680'
+  card_last5: '71677'
+note: 'Synthetic brand. Captured on the kickoff call: name, currency, own account
+  numbers.'

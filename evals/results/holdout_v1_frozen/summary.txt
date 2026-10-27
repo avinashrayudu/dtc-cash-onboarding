@@ -1,0 +1,78 @@
+
+============================================================================================
+dtc-cash-onboarding evaluation (synthetic data)
+model trained on 7 brands; line threshold 0.49, account threshold 0.5; model files match freeze: True
+============================================================================================
+brand                 split   upload   1st pass                items   cover    prec      final  rcpt err   naive
+-----------------------------------------------------------------------------------------------------------------
+bramble-pet           train   upload_1 accepted                    0  100.0%  100.0%   accepted     0.00%   28.1%
+bramble-pet           train   upload_2 accepted                    0  100.0%  100.0%   accepted     0.00%   89.6%
+copperleaf-tea        train   upload_1 accepted                    0  100.0%  100.0%   accepted     0.00%   27.0%
+copperleaf-tea        train   upload_2 accepted                    0  100.0%  100.0%   accepted     0.00%   64.0%
+fernwood-goods        train   upload_1 accepted                    0  100.0%  100.0%   accepted     0.00%    0.1%
+fernwood-goods        train   upload_2 accepted                    0  100.0%  100.0%   accepted     0.00%   41.3%
+lark-and-pine         train   upload_1 accepted                    0  100.0%  100.0%   accepted     0.00%    0.3%
+lark-and-pine         train   upload_2 accepted                    0  100.0%  100.0%   accepted     0.00%   57.3%
+marigold-skin         train   upload_1 accepted                    0  100.0%  100.0%   accepted     0.00%    0.1%
+marigold-skin         train   upload_2 accepted                    0  100.0%  100.0%   accepted     0.00%   47.2%
+north-arc-outdoor     train   upload_1 accepted                    0  100.0%  100.0%   accepted     0.00%    0.1%
+north-arc-outdoor     train   upload_2 accepted                    0  100.0%  100.0%   accepted     0.00%   56.2%
+tidewater-swim        train   upload_1 accepted                    0  100.0%  100.0%   accepted     0.00%   29.1%
+tidewater-swim        train   upload_2 accepted                    0  100.0%  100.0%   accepted     0.00%   62.3%
+hollis-home           dev     upload_1 ties out, items open        8   96.8%  100.0%   accepted     0.00%   30.7%
+hollis-home           dev     upload_2 accepted                    0  100.0%  100.0%   accepted     0.00%   63.9%
+quillon-coffee        dev     upload_1 blocked (deposits_with     10   95.6%  100.0%   accepted     0.00%    7.5%
+quillon-coffee        dev     upload_2 accepted                    0  100.0%  100.0%   accepted     0.00%   45.0%
+saltmarsh-apparel     dev     upload_1 ties out, items open        3   99.1%  100.0%   accepted     0.00%    5.6%
+saltmarsh-apparel     dev     upload_2 ties out, items open        4   97.8%  100.0%   accepted     0.00%   59.8%
+copper-kettle         holdout upload_1 blocked (deposits_with     60   69.7%  100.0%    blocked   -86.49%    0.1%
+                                       final blocked by: shopify_payouts_to_bank, orders_to_payouts, deposits_without_source
+copper-kettle         holdout upload_2 blocked (shopify_payou     54   69.0%  100.0%    blocked   -86.59%   55.6%
+                                       final blocked by: shopify_payouts_to_bank, orders_to_payouts, deposits_without_source
+lumen-and-oak         holdout upload_1 ties out, items open        7    0.0%     n/a   accepted  -100.00% -100.0%
+lumen-and-oak         holdout upload_2 accepted                    0    0.0%     n/a   accepted  -100.00% -100.0%
+northwind-ceramics    holdout upload_1 ties out, items open       75   70.9%   72.0%   accepted  -100.00% -100.0%
+northwind-ceramics    holdout upload_2 ties out, items open        4   98.1%   96.2%   accepted  -100.00% -100.0%
+
+TRAIN (in-sample, not a real test): 7 brands
+  upload_1: lines 1367, auto-labeled 100.0% at precision 100.0% (0 wrong), 0 lines to review; files auto 53/53 (memory 0), wrong-but-accepted files 0; review items/brand 0.0; blocked 0; accepted after review 7/7; duplicates caught 0/0 (false flags 0)
+           by method: model 833 @ 100.0%, tie-out 534 @ 100.0%
+  upload_2: lines 1239, auto-labeled 100.0% at precision 100.0% (0 wrong), 0 lines to review; files auto 53/53 (memory 53), wrong-but-accepted files 0; review items/brand 0.0; blocked 0; accepted after review 7/7; duplicates caught 119/119 (false flags 0)
+           by method: model 771 @ 100.0%, tie-out 468 @ 100.0%
+
+DEV (never trained on): 3 brands
+  upload_1: lines 630, auto-labeled 97.1% at precision 100.0% (0 wrong), 18 lines to review; files auto 22/22 (memory 0), wrong-but-accepted files 0; review items/brand 7.0; blocked 1; accepted after review 3/3; duplicates caught 0/0 (false flags 0)
+           by method: model 373 @ 100.0%, tie-out 239 @ 100.0%
+  upload_2: lines 557, auto-labeled 99.3% at precision 100.0% (0 wrong), 4 lines to review; files auto 22/22 (memory 22), wrong-but-accepted files 0; review items/brand 1.3; blocked 0; accepted after review 3/3; duplicates caught 58/58 (false flags 0)
+           by method: memory 12 @ 100.0%, model 330 @ 100.0%, tie-out 211 @ 100.0%
+
+HOLDOUT (written after freeze): 3 brands
+  upload_1: lines 618, auto-labeled 46.9% at precision 84.5% (45 wrong), 122 lines to review; files auto 19/22 (memory 0), wrong-but-accepted files 1; review items/brand 47.3; blocked 1; accepted after review 2/3; duplicates caught 0/0 (false flags 0)
+           by method: model 282 @ 84.0%, tie-out 8 @ 100.0%
+  upload_2: lines 578, auto-labeled 56.6% at precision 97.5% (8 wrong), 57 lines to review; files auto 22/22 (memory 14), wrong-but-accepted files 1; review items/brand 19.3; blocked 1; accepted after review 2/3; duplicates caught 36/52 (false flags 0)
+           by method: memory 94 @ 100.0%, model 225 @ 96.4%, tie-out 8 @ 100.0%
+
+Fault injection (upload 1 after its first review): runs where the fault made a tie-out fail that passes on the clean files
+  order subtotal mapped as the order total           dev      blocked 2/2
+  order subtotal mapped as the order total           holdout  blocked 1/2
+  order subtotal mapped as the order total           train    blocked 5/5
+  bank dates read day-first instead of month-first   dev      blocked 1/1
+  bank dates read day-first instead of month-first   holdout  blocked 0/1
+  bank dates read day-first instead of month-first   train    blocked 6/6
+  Shopify payouts export missing                     dev      blocked 3/3
+  Shopify payouts export missing                     holdout  blocked 0/3
+  Shopify payouts export missing                     train    blocked 7/7
+  Amazon settlement export missing                   dev      blocked 2/2
+  Amazon settlement export missing                   holdout  blocked 0/2
+  Amazon settlement export missing                   train    blocked 5/5
+  bank amounts exported with outflows positive       dev      repaired 3/3, blocked 0/3
+  bank amounts exported with outflows positive       holdout  repaired 0/3, blocked 1/3
+  bank amounts exported with outflows positive       train    repaired 7/7, blocked 0/7
+  Faire export missing                               dev      blocked 2/2
+  Faire export missing                               holdout  blocked 0/2
+  Faire export missing                               train    blocked 4/4
+  order totals summed across line-item rows          dev      blocked 1/1
+  order totals summed across line-item rows          holdout  blocked 0/1
+  order totals summed across line-item rows          train    blocked 2/2
+
+wrote evals/results/results.json, evals/results/results.md and reports/ in 107.9s

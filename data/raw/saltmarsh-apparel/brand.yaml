@@ -1,0 +1,8 @@
+brand: Saltmarsh Apparel
+currency: CAD
+own_accounts:
+  operating_last4: '8165'
+  savings_last4: '2709'
+  card_last5: '89415'
+note: 'Synthetic brand. Captured on the kickoff call: name, currency, own account
+  numbers.'

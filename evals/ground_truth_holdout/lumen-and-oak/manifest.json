@@ -1,0 +1,174 @@
+{
+  "brand": "Lumen & Oak",
+  "slug": "lumen-and-oak",
+  "split": "holdout",
+  "currency": "EUR",
+  "files": {
+    "upload_1/rekening_1.csv": {
+      "source_type": "bank",
+      "column_map": {
+        "date": "Booking date",
+        "description": "Description",
+        "amount": "Amount",
+        "balance": "Balance after booking"
+      },
+      "meta": {
+        "date_format": "dd-mm-yyyy"
+      },
+      "n_rows": 108
+    },
+    "upload_1/creditcard_1.csv": {
+      "source_type": "card",
+      "column_map": {
+        "date": "Transaction date",
+        "description": "Merchant",
+        "amount": "Amount (EUR)"
+      },
+      "meta": {
+        "charge_sign": "positive",
+        "date_format": "dd-mm-yyyy"
+      },
+      "n_rows": 98
+    },
+    "upload_1/orders_export_1.csv": {
+      "source_type": "orders_list",
+      "column_map": {
+        "order_id": "Name",
+        "created_at": "Created at",
+        "total": "Total",
+        "subtotal": "Subtotal",
+        "shipping": "Shipping",
+        "taxes": "Taxes",
+        "discount": "Discount Amount",
+        "currency": "Currency"
+      },
+      "meta": {
+        "totals": "first_row_only"
+      },
+      "n_rows": 13687
+    },
+    "upload_1/payouts_1.csv": {
+      "source_type": "payouts",
+      "column_map": {
+        "payout_date": "Payout Date",
+        "charges": "Charges",
+        "refunds": "Refunds",
+        "adjustments": "Adjustments",
+        "fees": "Fees",
+        "net": "Total",
+        "currency": "Currency",
+        "status": "Status"
+      },
+      "meta": {},
+      "n_rows": 44
+    },
+    "upload_1/faire_orders_1.csv": {
+      "source_type": "faire",
+      "column_map": {
+        "order_number": "Order Number",
+        "retailer": "Retailer",
+        "order_date": "Order Date",
+        "ship_date": "Ship Date",
+        "payout_date": "Payout Date",
+        "wholesale_total": "Wholesale Total",
+        "commission": "Commission",
+        "payout_amount": "Payout"
+      },
+      "meta": {},
+      "n_rows": 86
+    },
+    "upload_1/account_list_1.csv": {
+      "source_type": "coa",
+      "column_map": {
+        "number": "Account #",
+        "name": "Account",
+        "type": "Type"
+      },
+      "meta": {},
+      "n_rows": 23
+    },
+    "upload_2/rekening_2.csv": {
+      "source_type": "bank",
+      "column_map": {
+        "date": "Booking date",
+        "description": "Description",
+        "amount": "Amount",
+        "balance": "Balance after booking"
+      },
+      "meta": {
+        "date_format": "dd-mm-yyyy"
+      },
+      "n_rows": 116
+    },
+    "upload_2/creditcard_2.csv": {
+      "source_type": "card",
+      "column_map": {
+        "date": "Transaction date",
+        "description": "Merchant",
+        "amount": "Amount (EUR)"
+      },
+      "meta": {
+        "charge_sign": "positive",
+        "date_format": "dd-mm-yyyy"
+      },
+      "n_rows": 94
+    },
+    "upload_2/orders_export_2.csv": {
+      "source_type": "orders_list",
+      "column_map": {
+        "order_id": "Name",
+        "created_at": "Created at",
+        "total": "Total",
+        "subtotal": "Subtotal",
+        "shipping": "Shipping",
+        "taxes": "Taxes",
+        "discount": "Discount Amount",
+        "currency": "Currency"
+      },
+      "meta": {
+        "totals": "first_row_only"
+      },
+      "n_rows": 12786
+    },
+    "upload_2/payouts_2.csv": {
+      "source_type": "payouts",
+      "column_map": {
+        "payout_date": "Payout Date",
+        "charges": "Charges",
+        "refunds": "Refunds",
+        "adjustments": "Adjustments",
+        "fees": "Fees",
+        "net": "Total",
+        "currency": "Currency",
+        "status": "Status"
+      },
+      "meta": {},
+      "n_rows": 39
+    },
+    "upload_2/faire_orders_2.csv": {
+      "source_type": "faire",
+      "column_map": {
+        "order_number": "Order Number",
+        "retailer": "Retailer",
+        "order_date": "Order Date",
+        "ship_date": "Ship Date",
+        "payout_date": "Payout Date",
+        "wholesale_total": "Wholesale Total",
+        "commission": "Commission",
+        "payout_amount": "Payout"
+      },
+      "meta": {},
+      "n_rows": 91
+    },
+    "upload_2/account_list_2.csv": {
+      "source_type": "coa",
+      "column_map": {
+        "number": "Account #",
+        "name": "Account",
+        "type": "Type"
+      },
+      "meta": {},
+      "n_rows": 24
+    }
+  }
+}

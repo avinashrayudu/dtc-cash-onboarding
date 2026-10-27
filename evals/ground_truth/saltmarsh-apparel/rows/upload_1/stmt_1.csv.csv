@@ -1,0 +1,119 @@
+label,account,amount,date,is_duplicate,counterparty
+processor_payout,operating,11845.82,2026-07-01,False,Shopify
+wholesale_payout,operating,2886.23,2026-07-01,False,Faire Wholesale
+rent,operating,-4666.67,2026-07-01,False,Harbor Point Realty
+processor_payout,operating,12842.66,2026-07-02,False,Shopify
+wholesale_payout,operating,577.14,2026-07-02,False,Faire Wholesale
+processor_payout,operating,14898.12,2026-07-03,False,Shopify
+wholesale_payout,operating,1204.4,2026-07-03,False,Faire Wholesale
+payroll,operating,-5511.73,2026-07-03,False,Wagepoint
+payroll,operating,-17453.8,2026-07-03,False,Wagepoint
+processor_payout,operating,14424.84,2026-07-06,False,Shopify
+wholesale_payout,operating,335.15,2026-07-06,False,Faire Wholesale
+processor_payout,operating,45785.84,2026-07-07,False,Shopify
+wholesale_payout,operating,6624.55,2026-07-07,False,Faire Wholesale
+processor_payout,operating,12364.12,2026-07-08,False,Shopify
+wholesale_payout,operating,807.39,2026-07-08,False,Faire Wholesale
+bank_fee,operating,-35.0,2026-07-08,False,Wire fee
+inventory_purchase,operating,-79200.0,2026-07-08,False,Duskwood Leather
+processor_payout,operating,10688.2,2026-07-09,False,Shopify
+wholesale_payout,operating,607.34,2026-07-09,False,Faire Wholesale
+processor_payout,operating,11934.49,2026-07-10,False,Shopify
+wholesale_payout,operating,3481.83,2026-07-10,False,Faire Wholesale
+fulfillment_3pl,operating,-23855.57,2026-07-10,False,Relay Fulfillment
+processor_payout,operating,13656.66,2026-07-13,False,Shopify
+wholesale_payout,operating,2288.41,2026-07-13,False,Faire Wholesale
+processor_payout,operating,45567.82,2026-07-14,False,Shopify
+wholesale_payout,operating,8179.62,2026-07-14,False,Faire Wholesale
+processor_payout,operating,13079.14,2026-07-15,False,Shopify
+wholesale_payout,operating,3640.73,2026-07-15,False,Faire Wholesale
+software_opex,operating,-275.0,2026-07-15,False,Intuit
+processor_payout,operating,12144.83,2026-07-16,False,Shopify
+wholesale_payout,operating,5000.02,2026-07-16,False,Faire Wholesale
+processor_payout,operating,13819.07,2026-07-17,False,Shopify
+wholesale_payout,operating,1707.92,2026-07-17,False,Faire Wholesale
+payroll,operating,-5480.22,2026-07-17,False,Wagepoint
+payroll,operating,-17354.03,2026-07-17,False,Wagepoint
+own_account_transfer,operating,-167000.0,2026-07-20,False,Savings
+processor_payout,operating,14334.97,2026-07-20,False,Shopify
+wholesale_payout,operating,1273.81,2026-07-20,False,Faire Wholesale
+sales_tax,operating,-18653.3,2026-07-20,False,RECEIVER GENERAL
+processor_payout,operating,42852.3,2026-07-21,False,Shopify
+wholesale_payout,operating,4728.37,2026-07-21,False,Faire Wholesale
+processor_payout,operating,8938.56,2026-07-22,False,Shopify
+wholesale_payout,operating,1527.29,2026-07-22,False,Faire Wholesale
+card_payment,operating,-58200.6,2026-07-22,False,Ashford
+processor_payout,operating,12887.84,2026-07-23,False,Shopify
+wholesale_payout,operating,2445.05,2026-07-23,False,Faire Wholesale
+processor_payout,operating,13512.92,2026-07-24,False,Shopify
+wholesale_payout,operating,3619.12,2026-07-24,False,Faire Wholesale
+processor_payout,operating,13354.79,2026-07-27,False,Shopify
+wholesale_payout,operating,937.75,2026-07-27,False,Faire Wholesale
+processor_payout,operating,46692.5,2026-07-28,False,Shopify
+wholesale_payout,operating,3488.15,2026-07-28,False,Faire Wholesale
+processor_payout,operating,11979.87,2026-07-29,False,Shopify
+wholesale_payout,operating,4221.27,2026-07-29,False,Faire Wholesale
+processor_payout,operating,11318.1,2026-07-30,False,Shopify
+wholesale_payout,operating,4370.36,2026-07-30,False,Faire Wholesale
+processor_payout,operating,13867.53,2026-07-31,False,Shopify
+wholesale_payout,operating,3282.7,2026-07-31,False,Faire Wholesale
+payroll,operating,-5690.2,2026-07-31,False,Wagepoint
+payroll,operating,-18018.96,2026-07-31,False,Wagepoint
+own_account_transfer,operating,-129000.0,2026-08-03,False,Savings
+processor_payout,operating,12904.43,2026-08-03,False,Shopify
+vendor_refund,operating,720.15,2026-08-03,False,Relay Fulfillment
+wholesale_payout,operating,332.54,2026-08-03,False,Faire Wholesale
+rent,operating,-4666.67,2026-08-03,False,Harbor Point Realty
+processor_payout,operating,41837.81,2026-08-04,False,Shopify
+wholesale_payout,operating,3130.67,2026-08-04,False,Faire Wholesale
+processor_payout,operating,11037.82,2026-08-05,False,Shopify
+wholesale_payout,operating,401.53,2026-08-05,False,Faire Wholesale
+bank_fee,operating,-35.0,2026-08-05,False,Wire fee
+inventory_purchase,operating,-151200.0,2026-08-05,False,Ironleaf Home Goods
+processor_payout,operating,12054.62,2026-08-06,False,Shopify
+wholesale_payout,operating,1283.24,2026-08-06,False,Faire Wholesale
+processor_payout,operating,12657.66,2026-08-07,False,Shopify
+wholesale_payout,operating,1759.65,2026-08-07,False,Faire Wholesale
+processor_payout,operating,12273.59,2026-08-10,False,Shopify
+wholesale_payout,operating,1592.64,2026-08-10,False,Faire Wholesale
+fulfillment_3pl,operating,-26612.19,2026-08-10,False,Relay Fulfillment
+processor_payout,operating,46126.45,2026-08-11,False,Shopify
+wholesale_payout,operating,6220.45,2026-08-11,False,Faire Wholesale
+own_account_transfer,operating,51000.0,2026-08-12,False,Savings
+processor_payout,operating,11982.02,2026-08-12,False,Shopify
+wholesale_payout,operating,1512.13,2026-08-12,False,Faire Wholesale
+vendor_refund,operating,1167.23,2026-08-12,False,Duskwood Leather
+bank_fee,operating,-35.0,2026-08-12,False,Wire fee
+inventory_purchase,operating,-184800.0,2026-08-12,False,Duskwood Leather
+processor_payout,operating,12419.79,2026-08-13,False,Shopify
+wholesale_payout,operating,3020.51,2026-08-13,False,Faire Wholesale
+processor_payout,operating,12639.75,2026-08-14,False,Shopify
+wholesale_payout,operating,2137.14,2026-08-14,False,Faire Wholesale
+payroll,operating,-5424.84,2026-08-14,False,Wagepoint
+payroll,operating,-17178.66,2026-08-14,False,Wagepoint
+processor_payout,operating,14963.54,2026-08-17,False,Shopify
+wholesale_payout,operating,1627.29,2026-08-17,False,Faire Wholesale
+software_opex,operating,-275.0,2026-08-17,False,Intuit
+processor_payout,operating,41088.3,2026-08-18,False,Shopify
+wholesale_payout,operating,4891.79,2026-08-18,False,Faire Wholesale
+processor_payout,operating,12404.2,2026-08-19,False,Shopify
+processor_payout,operating,16637.04,2026-08-20,False,Shopify
+wholesale_payout,operating,446.93,2026-08-20,False,Faire Wholesale
+sales_tax,operating,-52006.8,2026-08-20,False,RECEIVER GENERAL
+processor_payout,operating,13859.22,2026-08-21,False,Shopify
+wholesale_payout,operating,4638.52,2026-08-21,False,Faire Wholesale
+card_payment,operating,-61362.6,2026-08-22,False,Ashford
+processor_payout,operating,10692.54,2026-08-24,False,Shopify
+wholesale_payout,operating,2148.17,2026-08-24,False,Faire Wholesale
+processor_payout,operating,46376.35,2026-08-25,False,Shopify
+wholesale_payout,operating,7412.75,2026-08-25,False,Faire Wholesale
+processor_payout,operating,12162.77,2026-08-26,False,Shopify
+wholesale_payout,operating,4064.49,2026-08-26,False,Faire Wholesale
+processor_payout,operating,14307.72,2026-08-27,False,Shopify
+wholesale_payout,operating,3578.9,2026-08-27,False,Faire Wholesale
+processor_payout,operating,15053.86,2026-08-28,False,Shopify
+wholesale_payout,operating,2199.06,2026-08-28,False,Faire Wholesale
+payroll,operating,-5403.41,2026-08-28,False,Wagepoint
+payroll,operating,-17110.79,2026-08-28,False,Wagepoint
+processor_payout,operating,13049.59,2026-08-31,False,Shopify
+wholesale_payout,operating,1057.8,2026-08-31,False,Faire Wholesale

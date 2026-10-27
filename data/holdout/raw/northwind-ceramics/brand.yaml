@@ -1,0 +1,8 @@
+brand: Northwind Ceramics
+currency: USD
+own_accounts:
+  operating_last4: '4296'
+  savings_last4: '2737'
+  card_last5: 00814
+note: 'Synthetic brand. Captured on the kickoff call: name, currency, own account
+  numbers.'
