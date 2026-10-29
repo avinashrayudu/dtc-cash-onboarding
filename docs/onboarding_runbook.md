@@ -55,7 +55,8 @@ Common blocks and their fixes:
 ## Working the review queue
 
 Every item shows the model's guess and its confidence. Answer it once and the brand's memory keeps the answer for
-the next upload. Two rules:
+the next upload, for lines whose words recur in the upload. A counterparty seen only once is not remembered yet;
+holdout v2 caught this (product ask 5). Two rules:
 
 1. **Never confirm a payout deposit without an export when the export exists.** Ask for the file instead.
    Confirmation is for sources the pipeline cannot import yet.
