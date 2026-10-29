@@ -1,0 +1,3964 @@
+{
+ "ran_at": "2026-10-29T02:23:58+00:00",
+ "freeze": {
+  "file": "evals/FREEZE_v2.json",
+  "matches": true
+ },
+ "aggregate": {
+  "brands": 3,
+  "upload_1": {
+   "lines": 621,
+   "auto_labeled": 485,
+   "coverage": 0.781,
+   "precision": 1.0,
+   "label_errors": 0,
+   "lines_to_review": 15,
+   "by_method": {
+    "model": {
+     "n": 338,
+     "precision": 1.0
+    },
+    "tie-out": {
+     "n": 147,
+     "precision": 1.0
+    }
+   },
+   "accounts": 72,
+   "accounts_auto": 66,
+   "account_errors": 6,
+   "files": 22,
+   "files_auto": 21,
+   "files_from_memory": 0,
+   "files_wrong_but_accepted": 1,
+   "fields_correct": "145/150",
+   "review_items_total": 22,
+   "review_items_per_brand": 7.3,
+   "brands_blocked_first_pass": 1,
+   "brands_accepted_after_review": 1,
+   "duplicates": {
+    "truth": 0,
+    "caught": 0,
+    "false_flags": 0
+   },
+   "receipts_abs_error_pct_max": 100.0,
+   "naive_overstatement_pct_range": [
+    -86.3,
+    42.0
+   ]
+  },
+  "upload_2": {
+   "lines": 559,
+   "auto_labeled": 446,
+   "coverage": 0.7979,
+   "precision": 1.0,
+   "label_errors": 0,
+   "lines_to_review": 10,
+   "by_method": {
+    "memory": {
+     "n": 14,
+     "precision": 1.0
+    },
+    "model": {
+     "n": 303,
+     "precision": 1.0
+    },
+    "tie-out": {
+     "n": 129,
+     "precision": 1.0
+    }
+   },
+   "accounts": 75,
+   "accounts_auto": 73,
+   "account_errors": 6,
+   "files": 22,
+   "files_auto": 22,
+   "files_from_memory": 16,
+   "files_wrong_but_accepted": 1,
+   "fields_correct": "150/150",
+   "review_items_total": 12,
+   "review_items_per_brand": 4.0,
+   "brands_blocked_first_pass": 1,
+   "brands_accepted_after_review": 2,
+   "duplicates": {
+    "truth": 52,
+    "caught": 41,
+    "false_flags": 0
+   },
+   "receipts_abs_error_pct_max": 100.0,
+   "naive_overstatement_pct_range": [
+    -84.4,
+    78.2
+   ]
+  }
+ },
+ "brands": [
+  {
+   "slug": "fieldnote-paper",
+   "brand": "Fieldnote Paper Co",
+   "split": "holdout_v2",
+   "uploads": {
+    "upload_1": {
+     "first_pass": {
+      "status": "ties out, items open",
+      "failed_checks": [],
+      "review_items": 13,
+      "review_by_kind": {
+       "line": 12,
+       "account": 1
+      },
+      "seconds": 2.89,
+      "checks": [
+       {
+        "name": "bank_rows_present",
+        "status": "pass",
+        "value": 119,
+        "threshold": ">0",
+        "detail": "119 bank rows read",
+        "unmatched": []
+       },
+       {
+        "name": "rows_read",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "detail": "3 files read with at most a footer row skipped",
+        "unmatched": []
+       },
+       {
+        "name": "shopify_payouts_to_bank",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 0.98,
+        "detail": "44/44 records found in the bank within 3 days",
+        "unmatched": []
+       },
+       {
+        "name": "faire_to_bank",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 0.98,
+        "detail": "41/41 records found in the bank within 3 days",
+        "unmatched": []
+       },
+       {
+        "name": "card_payments_to_bank",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 0.98,
+        "detail": "2/2 card payments found as bank debits",
+        "unmatched": []
+       },
+       {
+        "name": "bank_balance_continuity",
+        "status": "n/a",
+        "value": null,
+        "threshold": null,
+        "detail": "no running balance column",
+        "unmatched": []
+       },
+       {
+        "name": "orders_to_payouts",
+        "status": "pass",
+        "value": 0.0,
+        "threshold": 0.005,
+        "detail": "orders 501,031.44 vs payout charges 501,031.44 over 42 payout days; payout lag 2 business days",
+        "unmatched": []
+       },
+       {
+        "name": "card_statement_balance",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 1.0,
+        "detail": "1/1 statements equal the sum of their charges; statements close on day 28",
+        "unmatched": []
+       },
+       {
+        "name": "own_account_transfers",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "detail": "6 transfer lines paired across accounts; 0 transfer lines without a pair",
+        "unmatched": []
+       },
+       {
+        "name": "deposits_without_source",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "detail": "every payout deposit is backed by an export",
+        "unmatched": []
+       }
+      ],
+      "files": [
+       {
+        "file": "account_list_1.csv",
+        "truth": "coa",
+        "got": "coa",
+        "method": "detected",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 3,
+        "fields_ok": 3,
+        "wrong_auto": false
+       },
+       {
+        "file": "activity_1.csv",
+        "truth": "card",
+        "got": "card",
+        "method": "detected",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 3,
+        "fields_ok": 3,
+        "wrong_auto": false
+       },
+       {
+        "file": "faire_orders_1.csv",
+        "truth": "faire",
+        "got": "faire",
+        "method": "detected",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 8,
+        "fields_ok": 8,
+        "wrong_auto": false
+       },
+       {
+        "file": "orders_export_1.csv",
+        "truth": "orders_list",
+        "got": "orders_list",
+        "method": "detected",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 8,
+        "fields_ok": 8,
+        "wrong_auto": false
+       },
+       {
+        "file": "payouts_1.csv",
+        "truth": "payouts",
+        "got": "payouts",
+        "method": "detected",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 8,
+        "fields_ok": 8,
+        "wrong_auto": false
+       },
+       {
+        "file": "transactions_1.csv",
+        "truth": "bank",
+        "got": "bank",
+        "method": "detected",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 4,
+        "fields_ok": 4,
+        "wrong_auto": false
+       }
+      ],
+      "lines": {
+       "lines": 228,
+       "auto_labeled": 216,
+       "coverage": 0.9474,
+       "precision": 1.0,
+       "errors": 0,
+       "to_review": 12,
+       "in_unmapped_files": 0,
+       "by_method": {
+        "model": {
+         "n": 121,
+         "precision": 1.0
+        },
+        "tie-out": {
+         "n": 95,
+         "precision": 1.0
+        }
+       },
+       "duplicates": {
+        "truth": 0,
+        "caught": 0,
+        "false_flags": 0,
+        "missed": 0
+       }
+      },
+      "accounts": {
+       "accounts": 23,
+       "auto_labeled": 22,
+       "coverage": 0.9565,
+       "precision": 0.9091,
+       "errors": 2,
+       "to_review": 1
+      }
+     },
+     "reviewer_answers": {
+      "file": 0,
+      "line": 12,
+      "account": 1,
+      "unresolved": 0
+     },
+     "final": {
+      "status": "accepted",
+      "failed_checks": [],
+      "review_items": 0,
+      "checks": [
+       {
+        "name": "bank_rows_present",
+        "status": "pass",
+        "value": 119,
+        "threshold": ">0",
+        "detail": "119 bank rows read",
+        "unmatched": []
+       },
+       {
+        "name": "rows_read",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "detail": "3 files read with at most a footer row skipped",
+        "unmatched": []
+       },
+       {
+        "name": "shopify_payouts_to_bank",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 0.98,
+        "detail": "44/44 records found in the bank within 3 days",
+        "unmatched": []
+       },
+       {
+        "name": "faire_to_bank",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 0.98,
+        "detail": "41/41 records found in the bank within 3 days",
+        "unmatched": []
+       },
+       {
+        "name": "card_payments_to_bank",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 0.98,
+        "detail": "2/2 card payments found as bank debits",
+        "unmatched": []
+       },
+       {
+        "name": "bank_balance_continuity",
+        "status": "n/a",
+        "value": null,
+        "threshold": null,
+        "detail": "no running balance column",
+        "unmatched": []
+       },
+       {
+        "name": "orders_to_payouts",
+        "status": "pass",
+        "value": 0.0,
+        "threshold": 0.005,
+        "detail": "orders 501,031.44 vs payout charges 501,031.44 over 42 payout days; payout lag 2 business days",
+        "unmatched": []
+       },
+       {
+        "name": "card_statement_balance",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 1.0,
+        "detail": "1/1 statements equal the sum of their charges; statements close on day 28",
+        "unmatched": []
+       },
+       {
+        "name": "own_account_transfers",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "detail": "6 transfer lines paired across accounts; 0 transfer lines without a pair",
+        "unmatched": []
+       },
+       {
+        "name": "deposits_without_source",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "detail": "every payout deposit is backed by an export",
+        "unmatched": []
+       }
+      ],
+      "lines": {
+       "lines": 228,
+       "auto_labeled": 228,
+       "coverage": 1.0,
+       "precision": 1.0,
+       "errors": 0,
+       "to_review": 0,
+       "in_unmapped_files": 0,
+       "by_method": {
+        "memory": {
+         "n": 14,
+         "precision": 1.0
+        },
+        "model": {
+         "n": 119,
+         "precision": 1.0
+        },
+        "tie-out": {
+         "n": 95,
+         "precision": 1.0
+        }
+       },
+       "duplicates": {
+        "truth": 0,
+        "caught": 0,
+        "false_flags": 0,
+        "missed": 0
+       }
+      },
+      "summary": {
+       "customer_receipts": {
+        "dtc": 476156.81,
+        "marketplace": 0.0,
+        "wholesale": 106043.33
+       },
+       "customer_receipts_total": 582200.14,
+       "pending_review_inflows": 0.0,
+       "pending_review_outflows": -0.0,
+       "naive_receipts_all_deposits": 826584.99,
+       "naive_receipts_breakdown": {
+        "savings-account side of own transfers": 244384.85
+       },
+       "bank_spend": 376052.04,
+       "naive_bank_withdrawals": 689286.87,
+       "window": [
+        "2026-07-01",
+        "2026-08-31"
+       ],
+       "card_spend": 82443.12,
+       "naive_card_charges": 82443.12,
+       "operating_spend": 458495.16,
+       "naive_spend": 771729.99
+      }
+     },
+     "receipts": {
+      "truth_total": 582200.14,
+      "truth_by_channel": {
+       "dtc": 476156.81,
+       "marketplace": 0.0,
+       "wholesale": 106043.33
+      },
+      "pipeline_total": 582200.14,
+      "pipeline_by_channel": {
+       "dtc": 476156.81,
+       "marketplace": 0.0,
+       "wholesale": 106043.33
+      },
+      "pipeline_error_pct": 0.0,
+      "naive_all_deposits": 826584.99,
+      "naive_overstatement_pct": 42.0,
+      "operating_spend": 458495.16,
+      "naive_spend": 771729.99
+     },
+     "files_detail": [
+      {
+       "file": "account_list_1.csv",
+       "method": "detected",
+       "source_type": "coa",
+       "confidence": 1.0,
+       "detection": "top=coa (1.62) next=amazon_range (0.12)",
+       "field_scores": {
+        "number": 1.0,
+        "name": 1.0,
+        "type": 1.0
+       },
+       "signature": "1cf3c4ca232e87fb",
+       "fields": {
+        "number": "Account #",
+        "name": "Account",
+        "type": "Type"
+       },
+       "rows": 23,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "accounts": 23
+       }
+      },
+      {
+       "file": "activity_1.csv",
+       "method": "detected",
+       "source_type": "card",
+       "confidence": 1.0,
+       "detection": "top=card (1.45) next=bank (0.75)",
+       "field_scores": {
+        "date": 1.0,
+        "description": 1.0,
+        "amount": 1.0
+       },
+       "signature": "a13ec06d9e229611",
+       "fields": {
+        "date": "Date",
+        "description": "Description",
+        "amount": "Amount"
+       },
+       "rows": 109,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "dropped_rows": 0,
+        "rows_in_file": 109,
+        "charge_sign": "positive",
+        "date_order": "mdy",
+        "date_ambiguous": false
+       }
+      },
+      {
+       "file": "faire_orders_1.csv",
+       "method": "detected",
+       "source_type": "faire",
+       "confidence": 1.0,
+       "detection": "top=faire (1.15) next=orders_list (0.95)",
+       "field_scores": {
+        "order_number": 1.0,
+        "order_date": 1.0,
+        "ship_date": 1.0,
+        "payout_date": 1.0,
+        "wholesale_total": 1.0,
+        "commission": 1.0,
+        "payout_amount": 1.0,
+        "retailer": 0.93
+       },
+       "signature": "a1ce71dff391ae3c",
+       "fields": {
+        "order_number": "Order Number",
+        "order_date": "Order Date",
+        "ship_date": "Ship Date",
+        "payout_date": "Payout Date",
+        "wholesale_total": "Wholesale Total",
+        "commission": "Commission",
+        "payout_amount": "Payout",
+        "retailer": "Retailer"
+       },
+       "rows": 104,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "payout_days": 41,
+        "order_rows": 104,
+        "net_equals_gross_minus_fee": "104/104"
+       }
+      },
+      {
+       "file": "orders_export_1.csv",
+       "method": "detected",
+       "source_type": "orders_list",
+       "confidence": 1.0,
+       "detection": "top=orders_list (1.17) next=payouts (0.68)",
+       "field_scores": {
+        "created_at": 1.0,
+        "total": 1.0,
+        "subtotal": 1.0,
+        "shipping": 1.0,
+        "taxes": 1.0,
+        "discount": 1.0,
+        "currency": 1.0,
+        "order_id": 0.933
+       },
+       "signature": "e2a8834f80230245",
+       "fields": {
+        "created_at": "Created at",
+        "total": "Total",
+        "subtotal": "Subtotal",
+        "shipping": "Shipping",
+        "taxes": "Taxes",
+        "discount": "Discount Amount",
+        "currency": "Currency",
+        "order_id": "Name"
+       },
+       "rows": 12681,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "orders": 8659,
+        "line_rows": 12681,
+        "repeated_totals_skipped": 0
+       }
+      },
+      {
+       "file": "payouts_1.csv",
+       "method": "detected",
+       "source_type": "payouts",
+       "confidence": 1.0,
+       "detection": "top=payouts (1.30) next=orders_list (0.31)",
+       "field_scores": {
+        "payout_date": 1.0,
+        "net": 1.0,
+        "charges": 1.0,
+        "refunds": 1.0,
+        "fees": 1.0,
+        "adjustments": 1.0,
+        "status": 1.0,
+        "currency": 1.0
+       },
+       "signature": "4173906576763ef2",
+       "fields": {
+        "payout_date": "Payout Date",
+        "net": "Total",
+        "charges": "Charges",
+        "refunds": "Refunds",
+        "fees": "Fees",
+        "adjustments": "Adjustments",
+        "status": "Status",
+        "currency": "Currency"
+       },
+       "rows": 44,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "payouts": 44,
+        "grain": "payout",
+        "rows_in_file": 44,
+        "dropped_rows": 0
+       }
+      },
+      {
+       "file": "transactions_1.csv",
+       "method": "detected",
+       "source_type": "bank",
+       "confidence": 1.0,
+       "detection": "top=bank (1.39) next=card (0.65)",
+       "field_scores": {
+        "date": 1.0,
+        "description": 1.0,
+        "amount": 1.0,
+        "account": 1.0
+       },
+       "signature": "ca238b327c4c8f92",
+       "fields": {
+        "date": "Date (UTC)",
+        "description": "Description",
+        "amount": "Amount",
+        "account": "Source Account"
+       },
+       "rows": 119,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "dropped_rows": 0,
+        "date_order": "mdy",
+        "date_ambiguous": false,
+        "sign_source": "convention",
+        "balance_consistency": null,
+        "row_order": null,
+        "rows_in_file": 119,
+        "direction_column_used": false
+       }
+      }
+     ]
+    },
+    "upload_2": {
+     "first_pass": {
+      "status": "ties out, items open",
+      "failed_checks": [],
+      "review_items": 4,
+      "review_by_kind": {
+       "line": 3,
+       "account": 1
+      },
+      "seconds": 0.54,
+      "checks": [
+       {
+        "name": "bank_rows_present",
+        "status": "pass",
+        "value": 119,
+        "threshold": ">0",
+        "detail": "119 bank rows read",
+        "unmatched": []
+       },
+       {
+        "name": "rows_read",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "detail": "3 files read with at most a footer row skipped",
+        "unmatched": []
+       },
+       {
+        "name": "shopify_payouts_to_bank",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 0.98,
+        "detail": "39/39 records found in the bank within 3 days",
+        "unmatched": []
+       },
+       {
+        "name": "faire_to_bank",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 0.98,
+        "detail": "31/31 records found in the bank within 3 days",
+        "unmatched": []
+       },
+       {
+        "name": "card_payments_to_bank",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 0.98,
+        "detail": "2/2 card payments found as bank debits",
+        "unmatched": []
+       },
+       {
+        "name": "bank_balance_continuity",
+        "status": "n/a",
+        "value": null,
+        "threshold": null,
+        "detail": "no running balance column",
+        "unmatched": []
+       },
+       {
+        "name": "orders_to_payouts",
+        "status": "pass",
+        "value": 0.0,
+        "threshold": 0.005,
+        "detail": "orders 469,127.94 vs payout charges 469,127.94 over 37 payout days; payout lag 2 business days",
+        "unmatched": []
+       },
+       {
+        "name": "card_statement_balance",
+        "status": "n/a",
+        "value": null,
+        "threshold": null,
+        "detail": "no statement fully inside the file",
+        "unmatched": []
+       },
+       {
+        "name": "own_account_transfers",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "detail": "8 transfer lines paired across accounts; 0 transfer lines without a pair",
+        "unmatched": []
+       },
+       {
+        "name": "deposits_without_source",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "detail": "every payout deposit is backed by an export",
+        "unmatched": []
+       }
+      ],
+      "files": [
+       {
+        "file": "account_list_2.csv",
+        "truth": "coa",
+        "got": "coa",
+        "method": "memory",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 3,
+        "fields_ok": 3,
+        "wrong_auto": false
+       },
+       {
+        "file": "activity_2.csv",
+        "truth": "card",
+        "got": "card",
+        "method": "memory",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 3,
+        "fields_ok": 3,
+        "wrong_auto": false
+       },
+       {
+        "file": "faire_orders_2.csv",
+        "truth": "faire",
+        "got": "faire",
+        "method": "memory",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 8,
+        "fields_ok": 8,
+        "wrong_auto": false
+       },
+       {
+        "file": "orders_export_2.csv",
+        "truth": "orders_list",
+        "got": "orders_list",
+        "method": "memory",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 8,
+        "fields_ok": 8,
+        "wrong_auto": false
+       },
+       {
+        "file": "payouts_2.csv",
+        "truth": "payouts",
+        "got": "payouts",
+        "method": "memory",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 8,
+        "fields_ok": 8,
+        "wrong_auto": false
+       },
+       {
+        "file": "transactions_2.csv",
+        "truth": "bank",
+        "got": "bank",
+        "method": "memory",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 4,
+        "fields_ok": 4,
+        "wrong_auto": false
+       }
+      ],
+      "lines": {
+       "lines": 208,
+       "auto_labeled": 205,
+       "coverage": 0.9856,
+       "precision": 1.0,
+       "errors": 0,
+       "to_review": 3,
+       "in_unmapped_files": 0,
+       "by_method": {
+        "memory": {
+         "n": 12,
+         "precision": 1.0
+        },
+        "model": {
+         "n": 111,
+         "precision": 1.0
+        },
+        "tie-out": {
+         "n": 82,
+         "precision": 1.0
+        }
+       },
+       "duplicates": {
+        "truth": 19,
+        "caught": 19,
+        "false_flags": 0,
+        "missed": 0
+       }
+      },
+      "accounts": {
+       "accounts": 24,
+       "auto_labeled": 23,
+       "coverage": 0.9583,
+       "precision": 0.913,
+       "errors": 2,
+       "to_review": 1
+      }
+     },
+     "reviewer_answers": {
+      "file": 0,
+      "line": 3,
+      "account": 1,
+      "unresolved": 0
+     },
+     "final": {
+      "status": "accepted",
+      "failed_checks": [],
+      "review_items": 0,
+      "checks": [
+       {
+        "name": "bank_rows_present",
+        "status": "pass",
+        "value": 119,
+        "threshold": ">0",
+        "detail": "119 bank rows read",
+        "unmatched": []
+       },
+       {
+        "name": "rows_read",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "detail": "3 files read with at most a footer row skipped",
+        "unmatched": []
+       },
+       {
+        "name": "shopify_payouts_to_bank",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 0.98,
+        "detail": "39/39 records found in the bank within 3 days",
+        "unmatched": []
+       },
+       {
+        "name": "faire_to_bank",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 0.98,
+        "detail": "31/31 records found in the bank within 3 days",
+        "unmatched": []
+       },
+       {
+        "name": "card_payments_to_bank",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 0.98,
+        "detail": "2/2 card payments found as bank debits",
+        "unmatched": []
+       },
+       {
+        "name": "bank_balance_continuity",
+        "status": "n/a",
+        "value": null,
+        "threshold": null,
+        "detail": "no running balance column",
+        "unmatched": []
+       },
+       {
+        "name": "orders_to_payouts",
+        "status": "pass",
+        "value": 0.0,
+        "threshold": 0.005,
+        "detail": "orders 469,127.94 vs payout charges 469,127.94 over 37 payout days; payout lag 2 business days",
+        "unmatched": []
+       },
+       {
+        "name": "card_statement_balance",
+        "status": "n/a",
+        "value": null,
+        "threshold": null,
+        "detail": "no statement fully inside the file",
+        "unmatched": []
+       },
+       {
+        "name": "own_account_transfers",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "detail": "8 transfer lines paired across accounts; 0 transfer lines without a pair",
+        "unmatched": []
+       },
+       {
+        "name": "deposits_without_source",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "detail": "every payout deposit is backed by an export",
+        "unmatched": []
+       }
+      ],
+      "lines": {
+       "lines": 208,
+       "auto_labeled": 208,
+       "coverage": 1.0,
+       "precision": 1.0,
+       "errors": 0,
+       "to_review": 0,
+       "in_unmapped_files": 0,
+       "by_method": {
+        "memory": {
+         "n": 16,
+         "precision": 1.0
+        },
+        "model": {
+         "n": 110,
+         "precision": 1.0
+        },
+        "tie-out": {
+         "n": 82,
+         "precision": 1.0
+        }
+       },
+       "duplicates": {
+        "truth": 19,
+        "caught": 19,
+        "false_flags": 0,
+        "missed": 0
+       }
+      },
+      "summary": {
+       "customer_receipts": {
+        "dtc": 462376.65,
+        "marketplace": 0.0,
+        "wholesale": 117596.59
+       },
+       "customer_receipts_total": 579973.24,
+       "pending_review_inflows": 0.0,
+       "pending_review_outflows": -0.0,
+       "naive_receipts_all_deposits": 1033411.36,
+       "naive_receipts_breakdown": {
+        "duplicate rows from overlapping exports": 66940.71,
+        "savings-account side of own transfers": 213725.93,
+        "transfers in from own accounts": 170000.0,
+        "vendor refunds": 2771.48
+       },
+       "bank_spend": 454453.67,
+       "naive_bank_withdrawals": 932656.69,
+       "window": [
+        "2026-09-01",
+        "2026-10-23"
+       ],
+       "card_spend": 72746.27,
+       "naive_card_charges": 79146.27,
+       "operating_spend": 527199.94,
+       "naive_spend": 1011802.96
+      }
+     },
+     "receipts": {
+      "truth_total": 579973.24,
+      "truth_by_channel": {
+       "dtc": 462376.65,
+       "marketplace": 0.0,
+       "wholesale": 117596.59
+      },
+      "pipeline_total": 579973.24,
+      "pipeline_by_channel": {
+       "dtc": 462376.65,
+       "marketplace": 0.0,
+       "wholesale": 117596.59
+      },
+      "pipeline_error_pct": 0.0,
+      "naive_all_deposits": 1033411.36,
+      "naive_overstatement_pct": 78.2,
+      "operating_spend": 527199.94,
+      "naive_spend": 1011802.96
+     },
+     "files_detail": [
+      {
+       "file": "account_list_2.csv",
+       "method": "memory",
+       "source_type": "coa",
+       "confidence": 1.0,
+       "signature": "1cf3c4ca232e87fb",
+       "fields": {
+        "number": "Account #",
+        "name": "Account",
+        "type": "Type"
+       },
+       "rows": 24,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "accounts": 24
+       }
+      },
+      {
+       "file": "activity_2.csv",
+       "method": "memory",
+       "source_type": "card",
+       "confidence": 1.0,
+       "signature": "a13ec06d9e229611",
+       "fields": {
+        "date": "Date",
+        "description": "Description",
+        "amount": "Amount"
+       },
+       "rows": 108,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "dropped_rows": 0,
+        "rows_in_file": 108,
+        "charge_sign": "positive",
+        "date_order": "mdy",
+        "date_ambiguous": false
+       }
+      },
+      {
+       "file": "faire_orders_2.csv",
+       "method": "memory",
+       "source_type": "faire",
+       "confidence": 1.0,
+       "signature": "a1ce71dff391ae3c",
+       "fields": {
+        "order_number": "Order Number",
+        "order_date": "Order Date",
+        "ship_date": "Ship Date",
+        "payout_date": "Payout Date",
+        "wholesale_total": "Wholesale Total",
+        "commission": "Commission",
+        "payout_amount": "Payout",
+        "retailer": "Retailer"
+       },
+       "rows": 112,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "payout_days": 31,
+        "order_rows": 112,
+        "net_equals_gross_minus_fee": "112/112"
+       }
+      },
+      {
+       "file": "orders_export_2.csv",
+       "method": "memory",
+       "source_type": "orders_list",
+       "confidence": 1.0,
+       "signature": "e2a8834f80230245",
+       "fields": {
+        "created_at": "Created at",
+        "total": "Total",
+        "subtotal": "Subtotal",
+        "shipping": "Shipping",
+        "taxes": "Taxes",
+        "discount": "Discount Amount",
+        "currency": "Currency",
+        "order_id": "Name"
+       },
+       "rows": 12072,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "orders": 8273,
+        "line_rows": 12072,
+        "repeated_totals_skipped": 0
+       }
+      },
+      {
+       "file": "payouts_2.csv",
+       "method": "memory",
+       "source_type": "payouts",
+       "confidence": 1.0,
+       "signature": "4173906576763ef2",
+       "fields": {
+        "payout_date": "Payout Date",
+        "net": "Total",
+        "charges": "Charges",
+        "refunds": "Refunds",
+        "fees": "Fees",
+        "adjustments": "Adjustments",
+        "status": "Status",
+        "currency": "Currency"
+       },
+       "rows": 39,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "payouts": 39,
+        "grain": "payout",
+        "rows_in_file": 39,
+        "dropped_rows": 0
+       }
+      },
+      {
+       "file": "transactions_2.csv",
+       "method": "memory",
+       "source_type": "bank",
+       "confidence": 1.0,
+       "signature": "ca238b327c4c8f92",
+       "fields": {
+        "date": "Date (UTC)",
+        "description": "Description",
+        "amount": "Amount",
+        "account": "Source Account"
+       },
+       "rows": 119,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "dropped_rows": 0,
+        "date_order": "mdy",
+        "date_ambiguous": false,
+        "sign_source": "convention",
+        "balance_consistency": null,
+        "row_order": null,
+        "rows_in_file": 119,
+        "direction_column_used": false
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "slug": "harbor-and-hive",
+   "brand": "Harbor & Hive",
+   "split": "holdout_v2",
+   "uploads": {
+    "upload_1": {
+     "first_pass": {
+      "status": "blocked",
+      "failed_checks": [
+       "shopify_payouts_to_bank",
+       "amazon_to_bank",
+       "faire_to_bank"
+      ],
+      "review_items": 6,
+      "review_by_kind": {
+       "account": 3,
+       "line": 2,
+       "file": 1
+      },
+      "seconds": 1.59,
+      "checks": [
+       {
+        "name": "bank_rows_present",
+        "status": "pass",
+        "value": 108,
+        "threshold": ">0",
+        "detail": "108 bank rows read",
+        "unmatched": []
+       },
+       {
+        "name": "rows_read",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "detail": "2 files read with at most a footer row skipped",
+        "unmatched": []
+       },
+       {
+        "name": "shopify_payouts_to_bank",
+        "status": "fail",
+        "value": 0.0,
+        "threshold": 0.98,
+        "detail": "0/44 records found in the bank within 3 days",
+        "unmatched": [
+         "2026-07-01 13,363.14",
+         "2026-07-02 13,234.36",
+         "2026-07-03 12,045.69",
+         "2026-07-06 17,452.45",
+         "2026-07-07 47,663.67",
+         "2026-07-08 12,232.17",
+         "2026-07-09 13,103.59",
+         "2026-07-10 13,853.78",
+         "2026-07-13 13,006.80",
+         "2026-07-14 46,397.67",
+         "2026-07-15 12,592.54",
+         "2026-07-16 15,272.21",
+         "2026-07-17 15,398.00",
+         "2026-07-20 12,820.83",
+         "2026-07-21 47,054.71",
+         "2026-07-22 12,761.71",
+         "2026-07-23 14,084.23",
+         "2026-07-24 13,394.51",
+         "2026-07-27 15,471.06",
+         "2026-07-28 45,940.64",
+         "2026-07-29 13,765.55",
+         "2026-07-30 15,062.04",
+         "2026-07-31 14,964.15",
+         "2026-08-03 17,089.39",
+         "2026-08-04 48,256.40"
+        ]
+       },
+       {
+        "name": "amazon_to_bank",
+        "status": "fail",
+        "value": 0.0,
+        "threshold": 0.98,
+        "detail": "0/4 records found in the bank within 5 days",
+        "unmatched": [
+         "2026-07-10 31,651.10",
+         "2026-07-24 30,974.70",
+         "2026-08-07 30,325.15",
+         "2026-08-21 31,852.22"
+        ]
+       },
+       {
+        "name": "faire_to_bank",
+        "status": "fail",
+        "value": 0.0,
+        "threshold": 0.98,
+        "detail": "0/43 records found in the bank within 3 days",
+        "unmatched": [
+         "2026-07-01 1,835.51",
+         "2026-07-02 2,394.77",
+         "2026-07-03 2,548.86",
+         "2026-07-06 6,553.81",
+         "2026-07-07 16,242.84",
+         "2026-07-08 3,573.92",
+         "2026-07-09 7,032.05",
+         "2026-07-10 321.38",
+         "2026-07-13 5,629.83",
+         "2026-07-14 5,532.02",
+         "2026-07-15 2,192.46",
+         "2026-07-16 3,807.66",
+         "2026-07-17 1,186.51",
+         "2026-07-20 1,173.94",
+         "2026-07-21 4,801.99",
+         "2026-07-22 6,841.70",
+         "2026-07-23 527.70",
+         "2026-07-24 3,072.78",
+         "2026-07-27 2,255.27",
+         "2026-07-28 11,864.85",
+         "2026-07-29 2,354.23",
+         "2026-07-30 2,379.26",
+         "2026-07-31 5,212.83",
+         "2026-08-03 920.90",
+         "2026-08-04 8,001.16"
+        ]
+       },
+       {
+        "name": "bank_balance_continuity",
+        "status": "n/a",
+        "value": null,
+        "threshold": null,
+        "detail": "no running balance column",
+        "unmatched": []
+       },
+       {
+        "name": "orders_to_payouts",
+        "status": "pass",
+        "value": 0.0,
+        "threshold": 0.005,
+        "detail": "orders 936,890.00 vs payout charges 936,890.00 over 42 payout days; payout lag 2 business days",
+        "unmatched": []
+       },
+       {
+        "name": "own_account_transfers",
+        "status": "n/a",
+        "value": null,
+        "threshold": null,
+        "detail": "only one account in the export",
+        "unmatched": []
+       },
+       {
+        "name": "deposits_without_source",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "detail": "every payout deposit is backed by an export",
+        "unmatched": []
+       }
+      ],
+      "files": [
+       {
+        "file": "amazon_date_range_1.csv",
+        "truth": "amazon_range",
+        "got": "amazon_range",
+        "method": "detected",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 10,
+        "fields_ok": 10,
+        "wrong_auto": false
+       },
+       {
+        "file": "card_transactions_1.csv",
+        "truth": "card",
+        "got": "bank",
+        "method": "detected",
+        "auto": true,
+        "type_ok": false,
+        "fields_total": 4,
+        "fields_ok": 4,
+        "wrong_auto": true
+       },
+       {
+        "file": "chart_of_accounts_1.xlsx",
+        "truth": "coa",
+        "got": "coa",
+        "method": "detected",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 3,
+        "fields_ok": 3,
+        "wrong_auto": false
+       },
+       {
+        "file": "checking_history_1.csv",
+        "truth": "bank",
+        "got": "bank",
+        "method": "detected",
+        "auto": false,
+        "type_ok": true,
+        "fields_total": 5,
+        "fields_ok": 0,
+        "wrong_auto": false
+       },
+       {
+        "file": "faire_payouts_1.xlsx",
+        "truth": "faire",
+        "got": "faire",
+        "method": "detected",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 8,
+        "fields_ok": 8,
+        "wrong_auto": false
+       },
+       {
+        "file": "orders_export_1.csv",
+        "truth": "orders_list",
+        "got": "orders_list",
+        "method": "detected",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 8,
+        "fields_ok": 8,
+        "wrong_auto": false
+       },
+       {
+        "file": "shopify_payments_1.csv",
+        "truth": "payouts",
+        "got": "payouts",
+        "method": "detected",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 8,
+        "fields_ok": 8,
+        "wrong_auto": false
+       }
+      ],
+      "lines": {
+       "lines": 229,
+       "auto_labeled": 106,
+       "coverage": 0.4629,
+       "precision": 1.0,
+       "errors": 0,
+       "to_review": 2,
+       "in_unmapped_files": 121,
+       "by_method": {
+        "model": {
+         "n": 106,
+         "precision": 1.0
+        }
+       },
+       "duplicates": {
+        "truth": 0,
+        "caught": 0,
+        "false_flags": 0,
+        "missed": 0
+       }
+      },
+      "accounts": {
+       "accounts": 24,
+       "auto_labeled": 21,
+       "coverage": 0.875,
+       "precision": 0.9048,
+       "errors": 2,
+       "to_review": 3
+      }
+     },
+     "reviewer_answers": {
+      "file": 1,
+      "line": 2,
+      "account": 3,
+      "unresolved": 0
+     },
+     "final": {
+      "status": "blocked",
+      "failed_checks": [
+       "rows_read",
+       "shopify_payouts_to_bank",
+       "amazon_to_bank",
+       "faire_to_bank"
+      ],
+      "review_items": 0,
+      "checks": [
+       {
+        "name": "bank_rows_present",
+        "status": "pass",
+        "value": 108,
+        "threshold": ">0",
+        "detail": "108 bank rows read",
+        "unmatched": []
+       },
+       {
+        "name": "rows_read",
+        "status": "fail",
+        "value": 1,
+        "threshold": 0,
+        "detail": "checking_history_1.csv: 121 of 121 rows unreadable",
+        "unmatched": [
+         "checking_history_1.csv: 121 of 121 rows unreadable"
+        ]
+       },
+       {
+        "name": "shopify_payouts_to_bank",
+        "status": "fail",
+        "value": 0.0,
+        "threshold": 0.98,
+        "detail": "0/44 records found in the bank within 3 days",
+        "unmatched": [
+         "2026-07-01 13,363.14",
+         "2026-07-02 13,234.36",
+         "2026-07-03 12,045.69",
+         "2026-07-06 17,452.45",
+         "2026-07-07 47,663.67",
+         "2026-07-08 12,232.17",
+         "2026-07-09 13,103.59",
+         "2026-07-10 13,853.78",
+         "2026-07-13 13,006.80",
+         "2026-07-14 46,397.67",
+         "2026-07-15 12,592.54",
+         "2026-07-16 15,272.21",
+         "2026-07-17 15,398.00",
+         "2026-07-20 12,820.83",
+         "2026-07-21 47,054.71",
+         "2026-07-22 12,761.71",
+         "2026-07-23 14,084.23",
+         "2026-07-24 13,394.51",
+         "2026-07-27 15,471.06",
+         "2026-07-28 45,940.64",
+         "2026-07-29 13,765.55",
+         "2026-07-30 15,062.04",
+         "2026-07-31 14,964.15",
+         "2026-08-03 17,089.39",
+         "2026-08-04 48,256.40"
+        ]
+       },
+       {
+        "name": "amazon_to_bank",
+        "status": "fail",
+        "value": 0.0,
+        "threshold": 0.98,
+        "detail": "0/4 records found in the bank within 5 days",
+        "unmatched": [
+         "2026-07-10 31,651.10",
+         "2026-07-24 30,974.70",
+         "2026-08-07 30,325.15",
+         "2026-08-21 31,852.22"
+        ]
+       },
+       {
+        "name": "faire_to_bank",
+        "status": "fail",
+        "value": 0.0,
+        "threshold": 0.98,
+        "detail": "0/43 records found in the bank within 3 days",
+        "unmatched": [
+         "2026-07-01 1,835.51",
+         "2026-07-02 2,394.77",
+         "2026-07-03 2,548.86",
+         "2026-07-06 6,553.81",
+         "2026-07-07 16,242.84",
+         "2026-07-08 3,573.92",
+         "2026-07-09 7,032.05",
+         "2026-07-10 321.38",
+         "2026-07-13 5,629.83",
+         "2026-07-14 5,532.02",
+         "2026-07-15 2,192.46",
+         "2026-07-16 3,807.66",
+         "2026-07-17 1,186.51",
+         "2026-07-20 1,173.94",
+         "2026-07-21 4,801.99",
+         "2026-07-22 6,841.70",
+         "2026-07-23 527.70",
+         "2026-07-24 3,072.78",
+         "2026-07-27 2,255.27",
+         "2026-07-28 11,864.85",
+         "2026-07-29 2,354.23",
+         "2026-07-30 2,379.26",
+         "2026-07-31 5,212.83",
+         "2026-08-03 920.90",
+         "2026-08-04 8,001.16"
+        ]
+       },
+       {
+        "name": "bank_balance_continuity",
+        "status": "n/a",
+        "value": null,
+        "threshold": null,
+        "detail": "no running balance column",
+        "unmatched": []
+       },
+       {
+        "name": "bank_balance_continuity",
+        "status": "n/a",
+        "value": null,
+        "threshold": null,
+        "detail": "no running balance column",
+        "unmatched": []
+       },
+       {
+        "name": "orders_to_payouts",
+        "status": "pass",
+        "value": 0.0,
+        "threshold": 0.005,
+        "detail": "orders 936,890.00 vs payout charges 936,890.00 over 42 payout days; payout lag 2 business days",
+        "unmatched": []
+       },
+       {
+        "name": "own_account_transfers",
+        "status": "n/a",
+        "value": null,
+        "threshold": null,
+        "detail": "only one account in the export",
+        "unmatched": []
+       },
+       {
+        "name": "deposits_without_source",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "detail": "every payout deposit is backed by an export",
+        "unmatched": []
+       }
+      ],
+      "lines": {
+       "lines": 229,
+       "auto_labeled": 108,
+       "coverage": 0.4716,
+       "precision": 1.0,
+       "errors": 0,
+       "to_review": 0,
+       "in_unmapped_files": 121,
+       "by_method": {
+        "memory": {
+         "n": 3,
+         "precision": 1.0
+        },
+        "model": {
+         "n": 105,
+         "precision": 1.0
+        }
+       },
+       "duplicates": {
+        "truth": 0,
+        "caught": 0,
+        "false_flags": 0,
+        "missed": 0
+       }
+      },
+      "summary": {
+       "customer_receipts": {
+        "dtc": 0.0,
+        "marketplace": 0.0,
+        "wholesale": 0.0
+       },
+       "customer_receipts_total": 0.0,
+       "pending_review_inflows": 0.0,
+       "pending_review_outflows": 0.0,
+       "naive_receipts_all_deposits": 162902.05,
+       "naive_receipts_breakdown": {},
+       "bank_spend": 180224.23,
+       "naive_bank_withdrawals": 180224.23,
+       "window": [
+        "2026-06-30",
+        "2026-08-31"
+       ],
+       "operating_spend": 180224.23,
+       "naive_spend": 180224.23
+      }
+     },
+     "receipts": {
+      "truth_total": 1191833.35,
+      "truth_by_channel": {
+       "dtc": 892724.01,
+       "marketplace": 124803.17,
+       "wholesale": 174306.17
+      },
+      "pipeline_total": 0.0,
+      "pipeline_by_channel": {
+       "dtc": 0.0,
+       "marketplace": 0.0,
+       "wholesale": 0.0
+      },
+      "pipeline_error_pct": -100.0,
+      "naive_all_deposits": 162902.05,
+      "naive_overstatement_pct": -86.3,
+      "operating_spend": 180224.23,
+      "naive_spend": 180224.23
+     },
+     "files_detail": [
+      {
+       "file": "amazon_date_range_1.csv",
+       "method": "detected",
+       "source_type": "amazon_range",
+       "confidence": 1.0,
+       "detection": "top=amazon_range (1.15) next=orders_list (0.96)",
+       "field_scores": {
+        "date_time": 1.0,
+        "type": 1.0,
+        "total": 1.0,
+        "product_sales": 1.0,
+        "selling_fees": 1.0,
+        "fba_fees": 1.0,
+        "order_id": 0.994,
+        "other": 0.843,
+        "description": 0.825,
+        "settlement_id": 0.79
+       },
+       "signature": "4f3c01415779f049",
+       "fields": {
+        "date_time": "date/time",
+        "type": "type",
+        "total": "total",
+        "product_sales": "product sales",
+        "selling_fees": "selling fees",
+        "fba_fees": "fba fees",
+        "order_id": "order id",
+        "other": "other",
+        "description": "description",
+        "settlement_id": "settlement id"
+       },
+       "rows": 2845,
+       "header_line": 7,
+       "status": "ok",
+       "info": {
+        "transfers": 4,
+        "rows": 2845
+       }
+      },
+      {
+       "file": "card_transactions_1.csv",
+       "method": "detected",
+       "source_type": "bank",
+       "confidence": 1.0,
+       "detection": "top=bank (1.38) next=card (0.43)",
+       "field_scores": {
+        "date": 1.0,
+        "description": 1.0,
+        "debit": 1.0,
+        "credit": 1.0
+       },
+       "signature": "c6dabe9c7aa16695",
+       "fields": {
+        "date": "Transaction Date",
+        "description": "Description",
+        "debit": "Debit",
+        "credit": "Credit"
+       },
+       "rows": 108,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "dropped_rows": 0,
+        "date_order": "mdy",
+        "date_ambiguous": false,
+        "sign_source": "convention",
+        "balance_consistency": null,
+        "row_order": null,
+        "rows_in_file": 108,
+        "direction_column_used": false
+       }
+      },
+      {
+       "file": "chart_of_accounts_1.xlsx",
+       "method": "detected",
+       "source_type": "coa",
+       "confidence": 1.0,
+       "detection": "top=coa (1.55) next=orders_list (0.17)",
+       "field_scores": {
+        "number": 1.0,
+        "name": 1.0,
+        "type": 1.0
+       },
+       "signature": "cc41ce7b295f572f",
+       "fields": {
+        "number": "Number",
+        "name": "Name",
+        "type": "Account Type"
+       },
+       "rows": 24,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "accounts": 24
+       }
+      },
+      {
+       "file": "checking_history_1.csv",
+       "method": "memory",
+       "source_type": "bank",
+       "confidence": 1.0,
+       "signature": "6cf121297054eca7",
+       "fields": {
+        "date": "Posted Date",
+        "description": "Transaction Description",
+        "debit": "Withdrawals",
+        "credit": "Deposits",
+        "balance": "Balance"
+       },
+       "rows": 121,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "dropped_rows": 121,
+        "date_order": "mdy",
+        "date_ambiguous": false,
+        "sign_source": "convention",
+        "balance_consistency": null,
+        "row_order": null,
+        "rows_in_file": 121,
+        "direction_column_used": false
+       }
+      },
+      {
+       "file": "faire_payouts_1.xlsx",
+       "method": "detected",
+       "source_type": "faire",
+       "confidence": 1.0,
+       "detection": "top=faire (1.15) next=orders_list (0.71)",
+       "field_scores": {
+        "order_number": 1.0,
+        "order_date": 1.0,
+        "ship_date": 1.0,
+        "payout_date": 1.0,
+        "wholesale_total": 1.0,
+        "commission": 1.0,
+        "payout_amount": 1.0,
+        "retailer": 0.93
+       },
+       "signature": "b5c836ff8c2269fc",
+       "fields": {
+        "order_number": "Order #",
+        "order_date": "Date Placed",
+        "ship_date": "Date Shipped",
+        "payout_date": "Paid Out On",
+        "wholesale_total": "Order Value",
+        "commission": "Faire Fee",
+        "payout_amount": "Net Payout",
+        "retailer": "Store Name"
+       },
+       "rows": 168,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "payout_days": 43,
+        "order_rows": 168,
+        "net_equals_gross_minus_fee": "168/168"
+       }
+      },
+      {
+       "file": "orders_export_1.csv",
+       "method": "detected",
+       "source_type": "orders_list",
+       "confidence": 1.0,
+       "detection": "top=orders_list (1.17) next=payouts (0.68)",
+       "field_scores": {
+        "created_at": 1.0,
+        "total": 1.0,
+        "subtotal": 1.0,
+        "shipping": 1.0,
+        "taxes": 1.0,
+        "discount": 1.0,
+        "currency": 1.0,
+        "order_id": 0.933
+       },
+       "signature": "e2a8834f80230245",
+       "fields": {
+        "created_at": "Created at",
+        "total": "Total",
+        "subtotal": "Subtotal",
+        "shipping": "Shipping",
+        "taxes": "Taxes",
+        "discount": "Discount Amount",
+        "currency": "Currency",
+        "order_id": "Name"
+       },
+       "rows": 12990,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "orders": 8868,
+        "line_rows": 12990,
+        "repeated_totals_skipped": 0
+       }
+      },
+      {
+       "file": "shopify_payments_1.csv",
+       "method": "detected",
+       "source_type": "payouts",
+       "confidence": 1.0,
+       "detection": "top=payouts (1.12) next=sales_daily (0.28)",
+       "field_scores": {
+        "payout_date": 1.0,
+        "net": 1.0,
+        "charges": 1.0,
+        "refunds": 1.0,
+        "fees": 1.0,
+        "adjustments": 1.0,
+        "payout_id": 1.0,
+        "status": 1.0
+       },
+       "signature": "12c311ecdf39215d",
+       "fields": {
+        "payout_date": "Date",
+        "net": "Net",
+        "charges": "Gross",
+        "refunds": "Refunds",
+        "fees": "Fees",
+        "adjustments": "Adjustments",
+        "payout_id": "Payout ID",
+        "status": "Status"
+       },
+       "rows": 44,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "payouts": 44,
+        "grain": "payout",
+        "rows_in_file": 44,
+        "dropped_rows": 0
+       }
+      }
+     ]
+    },
+    "upload_2": {
+     "first_pass": {
+      "status": "blocked",
+      "failed_checks": [
+       "rows_read",
+       "shopify_payouts_to_bank",
+       "amazon_to_bank",
+       "faire_to_bank"
+      ],
+      "review_items": 1,
+      "review_by_kind": {
+       "account": 1
+      },
+      "seconds": 1.25,
+      "checks": [
+       {
+        "name": "bank_rows_present",
+        "status": "pass",
+        "value": 103,
+        "threshold": ">0",
+        "detail": "103 bank rows read",
+        "unmatched": []
+       },
+       {
+        "name": "rows_read",
+        "status": "fail",
+        "value": 1,
+        "threshold": 0,
+        "detail": "checking_history_2.csv: 114 of 114 rows unreadable",
+        "unmatched": [
+         "checking_history_2.csv: 114 of 114 rows unreadable"
+        ]
+       },
+       {
+        "name": "shopify_payouts_to_bank",
+        "status": "fail",
+        "value": 0.0,
+        "threshold": 0.98,
+        "detail": "0/39 records found in the bank within 3 days",
+        "unmatched": [
+         "2026-09-01 49,923.33",
+         "2026-09-02 13,771.56",
+         "2026-09-03 14,305.51",
+         "2026-09-04 21,923.08",
+         "2026-09-07 15,933.78",
+         "2026-09-08 47,544.66",
+         "2026-09-09 13,950.55",
+         "2026-09-10 14,876.47",
+         "2026-09-11 15,073.23",
+         "2026-09-14 15,974.53",
+         "2026-09-15 52,367.17",
+         "2026-09-16 13,056.21",
+         "2026-09-17 15,702.54",
+         "2026-09-18 14,838.27",
+         "2026-09-21 13,569.73",
+         "2026-09-22 52,438.72",
+         "2026-09-23 14,496.45",
+         "2026-09-24 14,020.38",
+         "2026-09-25 14,486.01",
+         "2026-09-28 18,512.39",
+         "2026-09-29 52,951.75",
+         "2026-09-30 12,018.95",
+         "2026-10-01 13,299.51",
+         "2026-10-02 16,640.27",
+         "2026-10-05 14,775.38"
+        ]
+       },
+       {
+        "name": "amazon_to_bank",
+        "status": "fail",
+        "value": 0.0,
+        "threshold": 0.98,
+        "detail": "0/4 records found in the bank within 5 days",
+        "unmatched": [
+         "2026-09-04 31,786.06",
+         "2026-09-18 29,514.57",
+         "2026-10-02 33,378.55",
+         "2026-10-16 30,770.00"
+        ]
+       },
+       {
+        "name": "faire_to_bank",
+        "status": "fail",
+        "value": 0.0,
+        "threshold": 0.98,
+        "detail": "0/32 records found in the bank within 3 days",
+        "unmatched": [
+         "2026-09-01 6,077.52",
+         "2026-09-02 1,263.01",
+         "2026-09-03 1,302.69",
+         "2026-09-04 2,708.47",
+         "2026-09-07 2,415.20",
+         "2026-09-08 8,897.82",
+         "2026-09-09 2,354.89",
+         "2026-09-10 1,040.86",
+         "2026-09-15 6,883.08",
+         "2026-09-16 1,537.52",
+         "2026-09-18 2,338.74",
+         "2026-09-22 10,417.48",
+         "2026-09-23 4,708.00",
+         "2026-09-25 2,326.78",
+         "2026-09-28 3,065.13",
+         "2026-09-29 10,962.19",
+         "2026-09-30 2,315.96",
+         "2026-10-01 798.86",
+         "2026-10-02 4,159.10",
+         "2026-10-05 4,965.24",
+         "2026-10-06 14,653.18",
+         "2026-10-07 3,274.52",
+         "2026-10-09 4,046.46",
+         "2026-10-13 6,107.42",
+         "2026-10-14 2,099.88"
+        ]
+       },
+       {
+        "name": "bank_balance_continuity",
+        "status": "n/a",
+        "value": null,
+        "threshold": null,
+        "detail": "no running balance column",
+        "unmatched": []
+       },
+       {
+        "name": "bank_balance_continuity",
+        "status": "n/a",
+        "value": null,
+        "threshold": null,
+        "detail": "no running balance column",
+        "unmatched": []
+       },
+       {
+        "name": "orders_to_payouts",
+        "status": "pass",
+        "value": 0.0,
+        "threshold": 0.005,
+        "detail": "orders 883,712.35 vs payout charges 883,712.35 over 37 payout days; payout lag 2 business days",
+        "unmatched": []
+       },
+       {
+        "name": "own_account_transfers",
+        "status": "n/a",
+        "value": null,
+        "threshold": null,
+        "detail": "only one account in the export",
+        "unmatched": []
+       },
+       {
+        "name": "deposits_without_source",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "detail": "every payout deposit is backed by an export",
+        "unmatched": []
+       }
+      ],
+      "files": [
+       {
+        "file": "amazon_date_range_2.csv",
+        "truth": "amazon_range",
+        "got": "amazon_range",
+        "method": "detected",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 10,
+        "fields_ok": 10,
+        "wrong_auto": false
+       },
+       {
+        "file": "card_transactions_2.csv",
+        "truth": "card",
+        "got": "bank",
+        "method": "detected",
+        "auto": true,
+        "type_ok": false,
+        "fields_total": 4,
+        "fields_ok": 4,
+        "wrong_auto": true
+       },
+       {
+        "file": "chart_of_accounts_2.xlsx",
+        "truth": "coa",
+        "got": "coa",
+        "method": "detected",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 3,
+        "fields_ok": 3,
+        "wrong_auto": false
+       },
+       {
+        "file": "checking_history_2.csv",
+        "truth": "bank",
+        "got": "bank",
+        "method": "memory",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 5,
+        "fields_ok": 5,
+        "wrong_auto": false
+       },
+       {
+        "file": "faire_payouts_2.xlsx",
+        "truth": "faire",
+        "got": "faire",
+        "method": "detected",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 8,
+        "fields_ok": 8,
+        "wrong_auto": false
+       },
+       {
+        "file": "orders_export_2.csv",
+        "truth": "orders_list",
+        "got": "orders_list",
+        "method": "detected",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 8,
+        "fields_ok": 8,
+        "wrong_auto": false
+       },
+       {
+        "file": "shopify_payments_2.csv",
+        "truth": "payouts",
+        "got": "payouts",
+        "method": "detected",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 8,
+        "fields_ok": 8,
+        "wrong_auto": false
+       }
+      ],
+      "lines": {
+       "lines": 199,
+       "auto_labeled": 96,
+       "coverage": 0.4824,
+       "precision": 1.0,
+       "errors": 0,
+       "to_review": 0,
+       "in_unmapped_files": 103,
+       "by_method": {
+        "memory": {
+         "n": 2,
+         "precision": 1.0
+        },
+        "model": {
+         "n": 94,
+         "precision": 1.0
+        }
+       },
+       "duplicates": {
+        "truth": 18,
+        "caught": 7,
+        "false_flags": 0,
+        "missed": 11
+       }
+      },
+      "accounts": {
+       "accounts": 25,
+       "auto_labeled": 24,
+       "coverage": 0.96,
+       "precision": 0.9167,
+       "errors": 2,
+       "to_review": 1
+      }
+     },
+     "reviewer_answers": {
+      "file": 0,
+      "line": 0,
+      "account": 1,
+      "unresolved": 0
+     },
+     "final": {
+      "status": "blocked",
+      "failed_checks": [
+       "rows_read",
+       "shopify_payouts_to_bank",
+       "amazon_to_bank",
+       "faire_to_bank"
+      ],
+      "review_items": 0,
+      "checks": [
+       {
+        "name": "bank_rows_present",
+        "status": "pass",
+        "value": 103,
+        "threshold": ">0",
+        "detail": "103 bank rows read",
+        "unmatched": []
+       },
+       {
+        "name": "rows_read",
+        "status": "fail",
+        "value": 1,
+        "threshold": 0,
+        "detail": "checking_history_2.csv: 114 of 114 rows unreadable",
+        "unmatched": [
+         "checking_history_2.csv: 114 of 114 rows unreadable"
+        ]
+       },
+       {
+        "name": "shopify_payouts_to_bank",
+        "status": "fail",
+        "value": 0.0,
+        "threshold": 0.98,
+        "detail": "0/39 records found in the bank within 3 days",
+        "unmatched": [
+         "2026-09-01 49,923.33",
+         "2026-09-02 13,771.56",
+         "2026-09-03 14,305.51",
+         "2026-09-04 21,923.08",
+         "2026-09-07 15,933.78",
+         "2026-09-08 47,544.66",
+         "2026-09-09 13,950.55",
+         "2026-09-10 14,876.47",
+         "2026-09-11 15,073.23",
+         "2026-09-14 15,974.53",
+         "2026-09-15 52,367.17",
+         "2026-09-16 13,056.21",
+         "2026-09-17 15,702.54",
+         "2026-09-18 14,838.27",
+         "2026-09-21 13,569.73",
+         "2026-09-22 52,438.72",
+         "2026-09-23 14,496.45",
+         "2026-09-24 14,020.38",
+         "2026-09-25 14,486.01",
+         "2026-09-28 18,512.39",
+         "2026-09-29 52,951.75",
+         "2026-09-30 12,018.95",
+         "2026-10-01 13,299.51",
+         "2026-10-02 16,640.27",
+         "2026-10-05 14,775.38"
+        ]
+       },
+       {
+        "name": "amazon_to_bank",
+        "status": "fail",
+        "value": 0.0,
+        "threshold": 0.98,
+        "detail": "0/4 records found in the bank within 5 days",
+        "unmatched": [
+         "2026-09-04 31,786.06",
+         "2026-09-18 29,514.57",
+         "2026-10-02 33,378.55",
+         "2026-10-16 30,770.00"
+        ]
+       },
+       {
+        "name": "faire_to_bank",
+        "status": "fail",
+        "value": 0.0,
+        "threshold": 0.98,
+        "detail": "0/32 records found in the bank within 3 days",
+        "unmatched": [
+         "2026-09-01 6,077.52",
+         "2026-09-02 1,263.01",
+         "2026-09-03 1,302.69",
+         "2026-09-04 2,708.47",
+         "2026-09-07 2,415.20",
+         "2026-09-08 8,897.82",
+         "2026-09-09 2,354.89",
+         "2026-09-10 1,040.86",
+         "2026-09-15 6,883.08",
+         "2026-09-16 1,537.52",
+         "2026-09-18 2,338.74",
+         "2026-09-22 10,417.48",
+         "2026-09-23 4,708.00",
+         "2026-09-25 2,326.78",
+         "2026-09-28 3,065.13",
+         "2026-09-29 10,962.19",
+         "2026-09-30 2,315.96",
+         "2026-10-01 798.86",
+         "2026-10-02 4,159.10",
+         "2026-10-05 4,965.24",
+         "2026-10-06 14,653.18",
+         "2026-10-07 3,274.52",
+         "2026-10-09 4,046.46",
+         "2026-10-13 6,107.42",
+         "2026-10-14 2,099.88"
+        ]
+       },
+       {
+        "name": "bank_balance_continuity",
+        "status": "n/a",
+        "value": null,
+        "threshold": null,
+        "detail": "no running balance column",
+        "unmatched": []
+       },
+       {
+        "name": "bank_balance_continuity",
+        "status": "n/a",
+        "value": null,
+        "threshold": null,
+        "detail": "no running balance column",
+        "unmatched": []
+       },
+       {
+        "name": "orders_to_payouts",
+        "status": "pass",
+        "value": 0.0,
+        "threshold": 0.005,
+        "detail": "orders 883,712.35 vs payout charges 883,712.35 over 37 payout days; payout lag 2 business days",
+        "unmatched": []
+       },
+       {
+        "name": "own_account_transfers",
+        "status": "n/a",
+        "value": null,
+        "threshold": null,
+        "detail": "only one account in the export",
+        "unmatched": []
+       },
+       {
+        "name": "deposits_without_source",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "detail": "every payout deposit is backed by an export",
+        "unmatched": []
+       }
+      ],
+      "lines": {
+       "lines": 199,
+       "auto_labeled": 96,
+       "coverage": 0.4824,
+       "precision": 1.0,
+       "errors": 0,
+       "to_review": 0,
+       "in_unmapped_files": 103,
+       "by_method": {
+        "memory": {
+         "n": 2,
+         "precision": 1.0
+        },
+        "model": {
+         "n": 94,
+         "precision": 1.0
+        }
+       },
+       "duplicates": {
+        "truth": 18,
+        "caught": 7,
+        "false_flags": 0,
+        "missed": 11
+       }
+      },
+      "summary": {
+       "customer_receipts": {
+        "dtc": 0.0,
+        "marketplace": 0.0,
+        "wholesale": 0.0
+       },
+       "customer_receipts_total": 0.0,
+       "pending_review_inflows": 0.0,
+       "pending_review_outflows": 0.0,
+       "naive_receipts_all_deposits": 177770.4,
+       "naive_receipts_breakdown": {},
+       "bank_spend": 156397.8,
+       "naive_bank_withdrawals": 169046.54,
+       "window": [
+        "2026-09-01",
+        "2026-10-25"
+       ],
+       "operating_spend": 156397.8,
+       "naive_spend": 169046.54
+      }
+     },
+     "receipts": {
+      "truth_total": 1139509.83,
+      "truth_by_channel": {
+       "dtc": 875936.75,
+       "marketplace": 125449.18,
+       "wholesale": 138123.9
+      },
+      "pipeline_total": 0.0,
+      "pipeline_by_channel": {
+       "dtc": 0.0,
+       "marketplace": 0.0,
+       "wholesale": 0.0
+      },
+      "pipeline_error_pct": -100.0,
+      "naive_all_deposits": 177770.4,
+      "naive_overstatement_pct": -84.4,
+      "operating_spend": 156397.8,
+      "naive_spend": 169046.54
+     },
+     "files_detail": [
+      {
+       "file": "amazon_date_range_2.csv",
+       "method": "detected",
+       "source_type": "amazon_range",
+       "confidence": 1.0,
+       "detection": "top=amazon_range (1.15) next=orders_list (0.96)",
+       "field_scores": {
+        "date_time": 1.0,
+        "type": 1.0,
+        "total": 1.0,
+        "product_sales": 1.0,
+        "selling_fees": 1.0,
+        "fba_fees": 1.0,
+        "order_id": 0.994,
+        "other": 0.843,
+        "description": 0.827,
+        "settlement_id": 0.79
+       },
+       "signature": "4f3c01415779f049",
+       "fields": {
+        "date_time": "date/time",
+        "type": "type",
+        "total": "total",
+        "product_sales": "product sales",
+        "selling_fees": "selling fees",
+        "fba_fees": "fba fees",
+        "order_id": "order id",
+        "other": "other",
+        "description": "description",
+        "settlement_id": "settlement id"
+       },
+       "rows": 2067,
+       "header_line": 7,
+       "status": "ok",
+       "info": {
+        "transfers": 4,
+        "rows": 2067
+       }
+      },
+      {
+       "file": "card_transactions_2.csv",
+       "method": "detected",
+       "source_type": "bank",
+       "confidence": 1.0,
+       "detection": "top=bank (1.38) next=card (0.43)",
+       "field_scores": {
+        "date": 1.0,
+        "description": 1.0,
+        "debit": 1.0,
+        "credit": 1.0
+       },
+       "signature": "c6dabe9c7aa16695",
+       "fields": {
+        "date": "Transaction Date",
+        "description": "Description",
+        "debit": "Debit",
+        "credit": "Credit"
+       },
+       "rows": 103,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "dropped_rows": 0,
+        "date_order": "mdy",
+        "date_ambiguous": false,
+        "sign_source": "convention",
+        "balance_consistency": null,
+        "row_order": null,
+        "rows_in_file": 103,
+        "direction_column_used": false
+       }
+      },
+      {
+       "file": "chart_of_accounts_2.xlsx",
+       "method": "detected",
+       "source_type": "coa",
+       "confidence": 1.0,
+       "detection": "top=coa (1.55) next=orders_list (0.17)",
+       "field_scores": {
+        "number": 1.0,
+        "name": 1.0,
+        "type": 1.0
+       },
+       "signature": "cc41ce7b295f572f",
+       "fields": {
+        "number": "Number",
+        "name": "Name",
+        "type": "Account Type"
+       },
+       "rows": 25,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "accounts": 25
+       }
+      },
+      {
+       "file": "checking_history_2.csv",
+       "method": "memory",
+       "source_type": "bank",
+       "confidence": 1.0,
+       "signature": "6cf121297054eca7",
+       "fields": {
+        "date": "Posted Date",
+        "description": "Transaction Description",
+        "debit": "Withdrawals",
+        "credit": "Deposits",
+        "balance": "Balance"
+       },
+       "rows": 114,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "dropped_rows": 114,
+        "date_order": "mdy",
+        "date_ambiguous": false,
+        "sign_source": "convention",
+        "balance_consistency": null,
+        "row_order": null,
+        "rows_in_file": 114,
+        "direction_column_used": false
+       }
+      },
+      {
+       "file": "faire_payouts_2.xlsx",
+       "method": "detected",
+       "source_type": "faire",
+       "confidence": 1.0,
+       "detection": "top=faire (1.15) next=orders_list (0.71)",
+       "field_scores": {
+        "order_number": 1.0,
+        "order_date": 1.0,
+        "ship_date": 1.0,
+        "payout_date": 1.0,
+        "wholesale_total": 1.0,
+        "commission": 1.0,
+        "payout_amount": 1.0,
+        "retailer": 0.93
+       },
+       "signature": "b5c836ff8c2269fc",
+       "fields": {
+        "order_number": "Order #",
+        "order_date": "Date Placed",
+        "ship_date": "Date Shipped",
+        "payout_date": "Paid Out On",
+        "wholesale_total": "Order Value",
+        "commission": "Faire Fee",
+        "payout_amount": "Net Payout",
+        "retailer": "Store Name"
+       },
+       "rows": 139,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "payout_days": 32,
+        "order_rows": 139,
+        "net_equals_gross_minus_fee": "139/139"
+       }
+      },
+      {
+       "file": "orders_export_2.csv",
+       "method": "detected",
+       "source_type": "orders_list",
+       "confidence": 1.0,
+       "detection": "top=orders_list (1.17) next=payouts (0.68)",
+       "field_scores": {
+        "created_at": 1.0,
+        "total": 1.0,
+        "subtotal": 1.0,
+        "shipping": 1.0,
+        "taxes": 1.0,
+        "discount": 1.0,
+        "currency": 1.0,
+        "order_id": 0.934
+       },
+       "signature": "e2a8834f80230245",
+       "fields": {
+        "created_at": "Created at",
+        "total": "Total",
+        "subtotal": "Subtotal",
+        "shipping": "Shipping",
+        "taxes": "Taxes",
+        "discount": "Discount Amount",
+        "currency": "Currency",
+        "order_id": "Name"
+       },
+       "rows": 12469,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "orders": 8531,
+        "line_rows": 12469,
+        "repeated_totals_skipped": 0
+       }
+      },
+      {
+       "file": "shopify_payments_2.csv",
+       "method": "detected",
+       "source_type": "payouts",
+       "confidence": 1.0,
+       "detection": "top=payouts (1.12) next=sales_daily (0.28)",
+       "field_scores": {
+        "payout_date": 1.0,
+        "net": 1.0,
+        "charges": 1.0,
+        "refunds": 1.0,
+        "fees": 1.0,
+        "adjustments": 1.0,
+        "payout_id": 1.0,
+        "status": 1.0
+       },
+       "signature": "12c311ecdf39215d",
+       "fields": {
+        "payout_date": "Date",
+        "net": "Net",
+        "charges": "Gross",
+        "refunds": "Refunds",
+        "fees": "Fees",
+        "adjustments": "Adjustments",
+        "payout_id": "Payout ID",
+        "status": "Status"
+       },
+       "rows": 39,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "payouts": 39,
+        "grain": "payout",
+        "rows_in_file": 39,
+        "dropped_rows": 0
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "slug": "vale-street-tea",
+   "brand": "Vale Street Tea",
+   "split": "holdout_v2",
+   "uploads": {
+    "upload_1": {
+     "first_pass": {
+      "status": "ties out, items open",
+      "failed_checks": [],
+      "review_items": 3,
+      "review_by_kind": {
+       "account": 2,
+       "line": 1
+      },
+      "seconds": 1.84,
+      "checks": [
+       {
+        "name": "bank_rows_present",
+        "status": "pass",
+        "value": 77,
+        "threshold": ">0",
+        "detail": "77 bank rows read",
+        "unmatched": []
+       },
+       {
+        "name": "rows_read",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "detail": "3 files read with at most a footer row skipped",
+        "unmatched": []
+       },
+       {
+        "name": "shopify_payouts_to_bank",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 0.98,
+        "detail": "44/44 records found in the bank within 3 days",
+        "unmatched": []
+       },
+       {
+        "name": "amazon_to_bank",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 0.98,
+        "detail": "4/4 records found in the bank within 5 days",
+        "unmatched": []
+       },
+       {
+        "name": "card_payments_to_bank",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 0.98,
+        "detail": "2/2 card payments found as bank debits",
+        "unmatched": []
+       },
+       {
+        "name": "bank_balance_continuity",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 0.99,
+        "detail": "running balance agrees with amounts on 100.0% of rows; sign from balance, rows newest_first",
+        "unmatched": []
+       },
+       {
+        "name": "orders_to_payouts",
+        "status": "pass",
+        "value": 0.0,
+        "threshold": 0.005,
+        "detail": "orders 669,890.78 vs payout charges 669,890.78 over 42 payout days; payout lag 2 business days",
+        "unmatched": []
+       },
+       {
+        "name": "card_statement_balance",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 1.0,
+        "detail": "1/1 statements equal the sum of their charges; statements close on day 28",
+        "unmatched": []
+       },
+       {
+        "name": "own_account_transfers",
+        "status": "n/a",
+        "value": null,
+        "threshold": null,
+        "detail": "only one account in the export",
+        "unmatched": []
+       },
+       {
+        "name": "deposits_without_source",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "detail": "every payout deposit is backed by an export",
+        "unmatched": []
+       }
+      ],
+      "files": [
+       {
+        "file": "accounts_1.csv",
+        "truth": "coa",
+        "got": "coa",
+        "method": "detected",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 2,
+        "fields_ok": 2,
+        "wrong_auto": false
+       },
+       {
+        "file": "bank_operating_1.csv",
+        "truth": "bank",
+        "got": "bank",
+        "method": "detected",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 4,
+        "fields_ok": 4,
+        "wrong_auto": false
+       },
+       {
+        "file": "card_activity_1.csv",
+        "truth": "card",
+        "got": "card",
+        "method": "detected",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 4,
+        "fields_ok": 4,
+        "wrong_auto": false
+       },
+       {
+        "file": "order_lines_1.csv",
+        "truth": "orders_list",
+        "got": "orders_list",
+        "method": "detected",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 7,
+        "fields_ok": 7,
+        "wrong_auto": false
+       },
+       {
+        "file": "payment_transactions_1.csv",
+        "truth": "payouts",
+        "got": "payouts",
+        "method": "detected",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 5,
+        "fields_ok": 5,
+        "wrong_auto": false
+       },
+       {
+        "file": "settlement_14002222000.txt",
+        "truth": "amazon_flat",
+        "got": "amazon_flat",
+        "method": "detected",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 12,
+        "fields_ok": 12,
+        "wrong_auto": false
+       },
+       {
+        "file": "settlement_14002222097.txt",
+        "truth": "amazon_flat",
+        "got": "amazon_flat",
+        "method": "detected",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 12,
+        "fields_ok": 12,
+        "wrong_auto": false
+       },
+       {
+        "file": "settlement_14002222194.txt",
+        "truth": "amazon_flat",
+        "got": "amazon_flat",
+        "method": "detected",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 12,
+        "fields_ok": 12,
+        "wrong_auto": false
+       },
+       {
+        "file": "settlement_14002222291.txt",
+        "truth": "amazon_flat",
+        "got": "amazon_flat",
+        "method": "detected",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 12,
+        "fields_ok": 12,
+        "wrong_auto": false
+       }
+      ],
+      "lines": {
+       "lines": 164,
+       "auto_labeled": 163,
+       "coverage": 0.9939,
+       "precision": 1.0,
+       "errors": 0,
+       "to_review": 1,
+       "in_unmapped_files": 0,
+       "by_method": {
+        "model": {
+         "n": 111,
+         "precision": 1.0
+        },
+        "tie-out": {
+         "n": 52,
+         "precision": 1.0
+        }
+       },
+       "duplicates": {
+        "truth": 0,
+        "caught": 0,
+        "false_flags": 0,
+        "missed": 0
+       }
+      },
+      "accounts": {
+       "accounts": 25,
+       "auto_labeled": 23,
+       "coverage": 0.92,
+       "precision": 0.913,
+       "errors": 2,
+       "to_review": 2
+      }
+     },
+     "reviewer_answers": {
+      "file": 0,
+      "line": 0,
+      "account": 2,
+      "unresolved": 1
+     },
+     "final": {
+      "status": "ties out, items open",
+      "failed_checks": [],
+      "review_items": 1,
+      "checks": [
+       {
+        "name": "bank_rows_present",
+        "status": "pass",
+        "value": 77,
+        "threshold": ">0",
+        "detail": "77 bank rows read",
+        "unmatched": []
+       },
+       {
+        "name": "rows_read",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "detail": "3 files read with at most a footer row skipped",
+        "unmatched": []
+       },
+       {
+        "name": "shopify_payouts_to_bank",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 0.98,
+        "detail": "44/44 records found in the bank within 3 days",
+        "unmatched": []
+       },
+       {
+        "name": "amazon_to_bank",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 0.98,
+        "detail": "4/4 records found in the bank within 5 days",
+        "unmatched": []
+       },
+       {
+        "name": "card_payments_to_bank",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 0.98,
+        "detail": "2/2 card payments found as bank debits",
+        "unmatched": []
+       },
+       {
+        "name": "bank_balance_continuity",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 0.99,
+        "detail": "running balance agrees with amounts on 100.0% of rows; sign from balance, rows newest_first",
+        "unmatched": []
+       },
+       {
+        "name": "orders_to_payouts",
+        "status": "pass",
+        "value": 0.0,
+        "threshold": 0.005,
+        "detail": "orders 669,890.78 vs payout charges 669,890.78 over 42 payout days; payout lag 2 business days",
+        "unmatched": []
+       },
+       {
+        "name": "card_statement_balance",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 1.0,
+        "detail": "1/1 statements equal the sum of their charges; statements close on day 28",
+        "unmatched": []
+       },
+       {
+        "name": "own_account_transfers",
+        "status": "n/a",
+        "value": null,
+        "threshold": null,
+        "detail": "only one account in the export",
+        "unmatched": []
+       },
+       {
+        "name": "deposits_without_source",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "detail": "every payout deposit is backed by an export",
+        "unmatched": []
+       }
+      ],
+      "lines": {
+       "lines": 164,
+       "auto_labeled": 163,
+       "coverage": 0.9939,
+       "precision": 1.0,
+       "errors": 0,
+       "to_review": 1,
+       "in_unmapped_files": 0,
+       "by_method": {
+        "model": {
+         "n": 111,
+         "precision": 1.0
+        },
+        "tie-out": {
+         "n": 52,
+         "precision": 1.0
+        }
+       },
+       "duplicates": {
+        "truth": 0,
+        "caught": 0,
+        "false_flags": 0,
+        "missed": 0
+       }
+      },
+      "summary": {
+       "customer_receipts": {
+        "dtc": 636570.07,
+        "marketplace": 108200.98,
+        "wholesale": 0.0
+       },
+       "customer_receipts_total": 744771.05,
+       "pending_review_inflows": 4405.34,
+       "pending_review_outflows": -0.0,
+       "naive_receipts_all_deposits": 749176.39,
+       "naive_receipts_breakdown": {
+        "still in review": 4405.34
+       },
+       "bank_spend": 604968.98,
+       "naive_bank_withdrawals": 921003.63,
+       "window": [
+        "2026-07-01",
+        "2026-08-31"
+       ],
+       "card_spend": 127093.46,
+       "naive_card_charges": 127093.46,
+       "operating_spend": 732062.44,
+       "naive_spend": 1048097.09
+      }
+     },
+     "receipts": {
+      "truth_total": 749176.39,
+      "truth_by_channel": {
+       "dtc": 636570.07,
+       "marketplace": 108200.98,
+       "wholesale": 4405.34
+      },
+      "pipeline_total": 744771.05,
+      "pipeline_by_channel": {
+       "dtc": 636570.07,
+       "marketplace": 108200.98,
+       "wholesale": 0.0
+      },
+      "pipeline_error_pct": -0.588,
+      "naive_all_deposits": 749176.39,
+      "naive_overstatement_pct": 0.0,
+      "operating_spend": 732062.44,
+      "naive_spend": 1048097.09
+     },
+     "files_detail": [
+      {
+       "file": "accounts_1.csv",
+       "method": "detected",
+       "source_type": "coa",
+       "confidence": 1.0,
+       "detection": "top=coa (1.55) next=orders_list (0.14)",
+       "field_scores": {
+        "name": 1.0,
+        "type": 1.0
+       },
+       "signature": "088d8fa62db3735c",
+       "fields": {
+        "name": "Full name",
+        "type": "Type"
+       },
+       "rows": 25,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "accounts": 25
+       }
+      },
+      {
+       "file": "bank_operating_1.csv",
+       "method": "detected",
+       "source_type": "bank",
+       "confidence": 1.0,
+       "detection": "top=bank (1.17) next=payouts (0.31)",
+       "field_scores": {
+        "date": 1.0,
+        "description": 1.0,
+        "amount": 1.0,
+        "balance": 1.0,
+        "direction": 1.0
+       },
+       "signature": "ba587a07f1f07279",
+       "fields": {
+        "date": "Posting Date",
+        "description": "Description",
+        "amount": "Amount",
+        "balance": "Balance",
+        "direction": "Type"
+       },
+       "rows": 77,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "dropped_rows": 0,
+        "date_order": "mdy",
+        "date_ambiguous": false,
+        "sign_source": "balance",
+        "balance_consistency": 1.0,
+        "row_order": "newest_first",
+        "rows_in_file": 77,
+        "direction_column_used": false
+       }
+      },
+      {
+       "file": "card_activity_1.csv",
+       "method": "detected",
+       "source_type": "card",
+       "confidence": 1.0,
+       "detection": "top=card (1.40) next=bank (0.75)",
+       "field_scores": {
+        "date": 1.0,
+        "description": 1.0,
+        "amount": 1.0,
+        "txn_type": 1.0
+       },
+       "signature": "951f647b62ed44d8",
+       "fields": {
+        "date": "Transaction Date",
+        "description": "Description",
+        "amount": "Amount",
+        "txn_type": "Type"
+       },
+       "rows": 87,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "dropped_rows": 0,
+        "rows_in_file": 87,
+        "charge_sign": "negative",
+        "date_order": "mdy",
+        "date_ambiguous": false
+       }
+      },
+      {
+       "file": "order_lines_1.csv",
+       "method": "detected",
+       "source_type": "orders_list",
+       "confidence": 1.0,
+       "detection": "top=orders_list (1.13) next=payouts (0.29)",
+       "field_scores": {
+        "created_at": 1.0,
+        "total": 1.0,
+        "subtotal": 1.0,
+        "shipping": 1.0,
+        "taxes": 1.0,
+        "discount": 1.0,
+        "order_id": 0.933
+       },
+       "signature": "129ecf1c5bf85385",
+       "fields": {
+        "created_at": "Order Date",
+        "total": "Order Total",
+        "subtotal": "Order Subtotal",
+        "shipping": "Order Shipping",
+        "taxes": "Order Tax",
+        "discount": "Order Discount",
+        "order_id": "Order ID"
+       },
+       "rows": 14418,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "orders": 9848,
+        "line_rows": 14418,
+        "repeated_totals_skipped": 4570
+       }
+      },
+      {
+       "file": "payment_transactions_1.csv",
+       "method": "detected",
+       "source_type": "payouts",
+       "confidence": 1.0,
+       "detection": "top=payouts (1.04) next=faire (0.74)",
+       "field_scores": {
+        "payout_date": 1.0,
+        "net": 1.0,
+        "charges": 1.0,
+        "txn_type": 1.0,
+        "fees": 1.0,
+        "status": 0.87,
+        "payout_id": 0.791
+       },
+       "signature": "9c418fc9a97af946",
+       "fields": {
+        "payout_date": "Payout Date",
+        "net": "Net",
+        "charges": "Amount",
+        "txn_type": "Type",
+        "fees": "Fee",
+        "status": "Payout Status",
+        "payout_id": "Payout ID"
+       },
+       "rows": 9905,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "payouts": 44,
+        "grain": "transaction rows rolled up by payout_id",
+        "rows_in_file": 9905,
+        "dropped_rows": 0
+       }
+      },
+      {
+       "file": "settlement_14002222000.txt",
+       "method": "detected",
+       "source_type": "amazon_flat",
+       "confidence": 1.0,
+       "detection": "top=amazon_flat (1.16) next=orders_list (0.99)",
+       "field_scores": {
+        "deposit_date": 1.0,
+        "total_amount": 1.0,
+        "amount": 1.0,
+        "amount_type": 1.0,
+        "transaction_type": 1.0,
+        "posted_date": 1.0,
+        "settlement_start": 1.0,
+        "settlement_end": 1.0,
+        "currency": 1.0,
+        "amount_description": 0.965,
+        "order_id": 0.859,
+        "settlement_id": 0.79
+       },
+       "signature": "fc83f5fb5e0c67f8",
+       "fields": {
+        "deposit_date": "deposit-date",
+        "total_amount": "total-amount",
+        "amount": "amount",
+        "amount_type": "amount-type",
+        "transaction_type": "transaction-type",
+        "posted_date": "posted-date",
+        "settlement_start": "settlement-start-date",
+        "settlement_end": "settlement-end-date",
+        "currency": "currency",
+        "amount_description": "amount-description",
+        "order_id": "order-id",
+        "settlement_id": "settlement-id"
+       },
+       "rows": 1731,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "settlements": 1,
+        "detail_ties_to_total": "1/1"
+       }
+      },
+      {
+       "file": "settlement_14002222097.txt",
+       "method": "detected",
+       "source_type": "amazon_flat",
+       "confidence": 1.0,
+       "detection": "top=amazon_flat (1.16) next=orders_list (0.99)",
+       "field_scores": {
+        "deposit_date": 1.0,
+        "total_amount": 1.0,
+        "amount": 1.0,
+        "amount_type": 1.0,
+        "transaction_type": 1.0,
+        "posted_date": 1.0,
+        "settlement_start": 1.0,
+        "settlement_end": 1.0,
+        "currency": 1.0,
+        "amount_description": 0.965,
+        "order_id": 0.858,
+        "settlement_id": 0.79
+       },
+       "signature": "fc83f5fb5e0c67f8",
+       "fields": {
+        "deposit_date": "deposit-date",
+        "total_amount": "total-amount",
+        "amount": "amount",
+        "amount_type": "amount-type",
+        "transaction_type": "transaction-type",
+        "posted_date": "posted-date",
+        "settlement_start": "settlement-start-date",
+        "settlement_end": "settlement-end-date",
+        "currency": "currency",
+        "amount_description": "amount-description",
+        "order_id": "order-id",
+        "settlement_id": "settlement-id"
+       },
+       "rows": 1686,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "settlements": 1,
+        "detail_ties_to_total": "1/1"
+       }
+      },
+      {
+       "file": "settlement_14002222194.txt",
+       "method": "detected",
+       "source_type": "amazon_flat",
+       "confidence": 1.0,
+       "detection": "top=amazon_flat (1.16) next=orders_list (0.99)",
+       "field_scores": {
+        "deposit_date": 1.0,
+        "total_amount": 1.0,
+        "amount": 1.0,
+        "amount_type": 1.0,
+        "transaction_type": 1.0,
+        "posted_date": 1.0,
+        "settlement_start": 1.0,
+        "settlement_end": 1.0,
+        "currency": 1.0,
+        "amount_description": 0.93,
+        "order_id": 0.859,
+        "settlement_id": 0.79
+       },
+       "signature": "fc83f5fb5e0c67f8",
+       "fields": {
+        "deposit_date": "deposit-date",
+        "total_amount": "total-amount",
+        "amount": "amount",
+        "amount_type": "amount-type",
+        "transaction_type": "transaction-type",
+        "posted_date": "posted-date",
+        "settlement_start": "settlement-start-date",
+        "settlement_end": "settlement-end-date",
+        "currency": "currency",
+        "amount_description": "amount-description",
+        "order_id": "order-id",
+        "settlement_id": "settlement-id"
+       },
+       "rows": 1651,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "settlements": 1,
+        "detail_ties_to_total": "1/1"
+       }
+      },
+      {
+       "file": "settlement_14002222291.txt",
+       "method": "detected",
+       "source_type": "amazon_flat",
+       "confidence": 1.0,
+       "detection": "top=amazon_flat (1.16) next=orders_list (0.99)",
+       "field_scores": {
+        "deposit_date": 1.0,
+        "total_amount": 1.0,
+        "amount": 1.0,
+        "amount_type": 1.0,
+        "transaction_type": 1.0,
+        "posted_date": 1.0,
+        "settlement_start": 1.0,
+        "settlement_end": 1.0,
+        "currency": 1.0,
+        "amount_description": 0.965,
+        "order_id": 0.859,
+        "settlement_id": 0.79
+       },
+       "signature": "fc83f5fb5e0c67f8",
+       "fields": {
+        "deposit_date": "deposit-date",
+        "total_amount": "total-amount",
+        "amount": "amount",
+        "amount_type": "amount-type",
+        "transaction_type": "transaction-type",
+        "posted_date": "posted-date",
+        "settlement_start": "settlement-start-date",
+        "settlement_end": "settlement-end-date",
+        "currency": "currency",
+        "amount_description": "amount-description",
+        "order_id": "order-id",
+        "settlement_id": "settlement-id"
+       },
+       "rows": 1669,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "settlements": 1,
+        "detail_ties_to_total": "1/1"
+       }
+      }
+     ]
+    },
+    "upload_2": {
+     "first_pass": {
+      "status": "ties out, items open",
+      "failed_checks": [],
+      "review_items": 7,
+      "review_by_kind": {
+       "line": 7
+      },
+      "seconds": 0.86,
+      "checks": [
+       {
+        "name": "bank_rows_present",
+        "status": "pass",
+        "value": 89,
+        "threshold": ">0",
+        "detail": "89 bank rows read",
+        "unmatched": []
+       },
+       {
+        "name": "rows_read",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "detail": "3 files read with at most a footer row skipped",
+        "unmatched": []
+       },
+       {
+        "name": "shopify_payouts_to_bank",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 0.98,
+        "detail": "39/39 records found in the bank within 3 days",
+        "unmatched": []
+       },
+       {
+        "name": "amazon_to_bank",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 0.98,
+        "detail": "4/4 records found in the bank within 5 days",
+        "unmatched": []
+       },
+       {
+        "name": "card_payments_to_bank",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 0.98,
+        "detail": "2/2 card payments found as bank debits",
+        "unmatched": []
+       },
+       {
+        "name": "bank_balance_continuity",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 0.99,
+        "detail": "running balance agrees with amounts on 100.0% of rows; sign from balance, rows newest_first",
+        "unmatched": []
+       },
+       {
+        "name": "orders_to_payouts",
+        "status": "pass",
+        "value": 0.0,
+        "threshold": 0.005,
+        "detail": "orders 644,632.04 vs payout charges 644,632.04 over 37 payout days; payout lag 2 business days",
+        "unmatched": []
+       },
+       {
+        "name": "card_statement_balance",
+        "status": "n/a",
+        "value": null,
+        "threshold": null,
+        "detail": "no statement fully inside the file",
+        "unmatched": []
+       },
+       {
+        "name": "own_account_transfers",
+        "status": "n/a",
+        "value": null,
+        "threshold": null,
+        "detail": "only one account in the export",
+        "unmatched": []
+       },
+       {
+        "name": "deposits_without_source",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "detail": "every payout deposit is backed by an export",
+        "unmatched": []
+       }
+      ],
+      "files": [
+       {
+        "file": "accounts_2.csv",
+        "truth": "coa",
+        "got": "coa",
+        "method": "memory",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 2,
+        "fields_ok": 2,
+        "wrong_auto": false
+       },
+       {
+        "file": "bank_operating_2.csv",
+        "truth": "bank",
+        "got": "bank",
+        "method": "memory",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 4,
+        "fields_ok": 4,
+        "wrong_auto": false
+       },
+       {
+        "file": "card_activity_2.csv",
+        "truth": "card",
+        "got": "card",
+        "method": "memory",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 4,
+        "fields_ok": 4,
+        "wrong_auto": false
+       },
+       {
+        "file": "order_lines_2.csv",
+        "truth": "orders_list",
+        "got": "orders_list",
+        "method": "memory",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 7,
+        "fields_ok": 7,
+        "wrong_auto": false
+       },
+       {
+        "file": "payment_transactions_2.csv",
+        "truth": "payouts",
+        "got": "payouts",
+        "method": "memory",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 5,
+        "fields_ok": 5,
+        "wrong_auto": false
+       },
+       {
+        "file": "settlement_14002222388.txt",
+        "truth": "amazon_flat",
+        "got": "amazon_flat",
+        "method": "memory",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 12,
+        "fields_ok": 12,
+        "wrong_auto": false
+       },
+       {
+        "file": "settlement_14002222485.txt",
+        "truth": "amazon_flat",
+        "got": "amazon_flat",
+        "method": "memory",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 12,
+        "fields_ok": 12,
+        "wrong_auto": false
+       },
+       {
+        "file": "settlement_14002222582.txt",
+        "truth": "amazon_flat",
+        "got": "amazon_flat",
+        "method": "memory",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 12,
+        "fields_ok": 12,
+        "wrong_auto": false
+       },
+       {
+        "file": "settlement_14002222679.txt",
+        "truth": "amazon_flat",
+        "got": "amazon_flat",
+        "method": "memory",
+        "auto": true,
+        "type_ok": true,
+        "fields_total": 12,
+        "fields_ok": 12,
+        "wrong_auto": false
+       }
+      ],
+      "lines": {
+       "lines": 152,
+       "auto_labeled": 145,
+       "coverage": 0.9539,
+       "precision": 1.0,
+       "errors": 0,
+       "to_review": 7,
+       "in_unmapped_files": 0,
+       "by_method": {
+        "model": {
+         "n": 98,
+         "precision": 1.0
+        },
+        "tie-out": {
+         "n": 47,
+         "precision": 1.0
+        }
+       },
+       "duplicates": {
+        "truth": 15,
+        "caught": 15,
+        "false_flags": 0,
+        "missed": 0
+       }
+      },
+      "accounts": {
+       "accounts": 26,
+       "auto_labeled": 26,
+       "coverage": 1.0,
+       "precision": 0.9231,
+       "errors": 2,
+       "to_review": 0
+      }
+     },
+     "reviewer_answers": {
+      "file": 0,
+      "line": 7,
+      "account": 0,
+      "unresolved": 0
+     },
+     "final": {
+      "status": "accepted",
+      "failed_checks": [],
+      "review_items": 0,
+      "checks": [
+       {
+        "name": "bank_rows_present",
+        "status": "pass",
+        "value": 89,
+        "threshold": ">0",
+        "detail": "89 bank rows read",
+        "unmatched": []
+       },
+       {
+        "name": "rows_read",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "detail": "3 files read with at most a footer row skipped",
+        "unmatched": []
+       },
+       {
+        "name": "shopify_payouts_to_bank",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 0.98,
+        "detail": "39/39 records found in the bank within 3 days",
+        "unmatched": []
+       },
+       {
+        "name": "amazon_to_bank",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 0.98,
+        "detail": "4/4 records found in the bank within 5 days",
+        "unmatched": []
+       },
+       {
+        "name": "card_payments_to_bank",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 0.98,
+        "detail": "2/2 card payments found as bank debits",
+        "unmatched": []
+       },
+       {
+        "name": "bank_balance_continuity",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 0.99,
+        "detail": "running balance agrees with amounts on 100.0% of rows; sign from balance, rows newest_first",
+        "unmatched": []
+       },
+       {
+        "name": "orders_to_payouts",
+        "status": "pass",
+        "value": 0.0,
+        "threshold": 0.005,
+        "detail": "orders 644,632.04 vs payout charges 644,632.04 over 37 payout days; payout lag 2 business days",
+        "unmatched": []
+       },
+       {
+        "name": "card_statement_balance",
+        "status": "n/a",
+        "value": null,
+        "threshold": null,
+        "detail": "no statement fully inside the file",
+        "unmatched": []
+       },
+       {
+        "name": "own_account_transfers",
+        "status": "n/a",
+        "value": null,
+        "threshold": null,
+        "detail": "only one account in the export",
+        "unmatched": []
+       },
+       {
+        "name": "deposits_without_source",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "detail": "every payout deposit is backed by an export",
+        "unmatched": []
+       }
+      ],
+      "lines": {
+       "lines": 152,
+       "auto_labeled": 152,
+       "coverage": 1.0,
+       "precision": 1.0,
+       "errors": 0,
+       "to_review": 0,
+       "in_unmapped_files": 0,
+       "by_method": {
+        "memory": {
+         "n": 7,
+         "precision": 1.0
+        },
+        "model": {
+         "n": 98,
+         "precision": 1.0
+        },
+        "tie-out": {
+         "n": 47,
+         "precision": 1.0
+        }
+       },
+       "duplicates": {
+        "truth": 15,
+        "caught": 15,
+        "false_flags": 0,
+        "missed": 0
+       }
+      },
+      "summary": {
+       "customer_receipts": {
+        "dtc": 638502.1,
+        "marketplace": 111424.62,
+        "wholesale": 13871.56
+       },
+       "customer_receipts_total": 763798.28,
+       "pending_review_inflows": 0.0,
+       "pending_review_outflows": -0.0,
+       "naive_receipts_all_deposits": 1241271.54,
+       "naive_receipts_breakdown": {
+        "duplicate rows from overlapping exports": 78611.74,
+        "transfers in from own accounts": 239000.0,
+        "loan and credit line draws": 156000.0,
+        "vendor refunds": 3861.52
+       },
+       "bank_spend": 735112.18,
+       "naive_bank_withdrawals": 1219071.48,
+       "window": [
+        "2026-09-01",
+        "2026-10-23"
+       ],
+       "card_spend": 105479.41,
+       "naive_card_charges": 114169.52,
+       "operating_spend": 840591.59,
+       "naive_spend": 1333241.0
+      }
+     },
+     "receipts": {
+      "truth_total": 763798.28,
+      "truth_by_channel": {
+       "dtc": 638502.1,
+       "marketplace": 111424.62,
+       "wholesale": 13871.56
+      },
+      "pipeline_total": 763798.28,
+      "pipeline_by_channel": {
+       "dtc": 638502.1,
+       "marketplace": 111424.62,
+       "wholesale": 13871.56
+      },
+      "pipeline_error_pct": 0.0,
+      "naive_all_deposits": 1241271.54,
+      "naive_overstatement_pct": 62.5,
+      "operating_spend": 840591.59,
+      "naive_spend": 1333241.0
+     },
+     "files_detail": [
+      {
+       "file": "accounts_2.csv",
+       "method": "memory",
+       "source_type": "coa",
+       "confidence": 1.0,
+       "signature": "088d8fa62db3735c",
+       "fields": {
+        "name": "Full name",
+        "type": "Type"
+       },
+       "rows": 26,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "accounts": 26
+       }
+      },
+      {
+       "file": "bank_operating_2.csv",
+       "method": "memory",
+       "source_type": "bank",
+       "confidence": 1.0,
+       "signature": "ba587a07f1f07279",
+       "fields": {
+        "date": "Posting Date",
+        "description": "Description",
+        "amount": "Amount",
+        "balance": "Balance",
+        "direction": "Type"
+       },
+       "rows": 89,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "dropped_rows": 0,
+        "date_order": "mdy",
+        "date_ambiguous": false,
+        "sign_source": "balance",
+        "balance_consistency": 1.0,
+        "row_order": "newest_first",
+        "rows_in_file": 89,
+        "direction_column_used": false
+       }
+      },
+      {
+       "file": "card_activity_2.csv",
+       "method": "memory",
+       "source_type": "card",
+       "confidence": 1.0,
+       "signature": "951f647b62ed44d8",
+       "fields": {
+        "date": "Transaction Date",
+        "description": "Description",
+        "amount": "Amount",
+        "txn_type": "Type"
+       },
+       "rows": 78,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "dropped_rows": 0,
+        "rows_in_file": 78,
+        "charge_sign": "negative",
+        "date_order": "mdy",
+        "date_ambiguous": false
+       }
+      },
+      {
+       "file": "order_lines_2.csv",
+       "method": "memory",
+       "source_type": "orders_list",
+       "confidence": 1.0,
+       "signature": "129ecf1c5bf85385",
+       "fields": {
+        "created_at": "Order Date",
+        "total": "Order Total",
+        "subtotal": "Order Subtotal",
+        "shipping": "Order Shipping",
+        "taxes": "Order Tax",
+        "discount": "Order Discount",
+        "order_id": "Order ID"
+       },
+       "rows": 14076,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "orders": 9585,
+        "line_rows": 14076,
+        "repeated_totals_skipped": 4491
+       }
+      },
+      {
+       "file": "payment_transactions_2.csv",
+       "method": "memory",
+       "source_type": "payouts",
+       "confidence": 1.0,
+       "signature": "9c418fc9a97af946",
+       "fields": {
+        "payout_date": "Payout Date",
+        "net": "Net",
+        "charges": "Amount",
+        "txn_type": "Type",
+        "fees": "Fee",
+        "status": "Payout Status",
+        "payout_id": "Payout ID"
+       },
+       "rows": 10043,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "payouts": 39,
+        "grain": "transaction rows rolled up by payout_id",
+        "rows_in_file": 10043,
+        "dropped_rows": 0
+       }
+      },
+      {
+       "file": "settlement_14002222388.txt",
+       "method": "memory",
+       "source_type": "amazon_flat",
+       "confidence": 1.0,
+       "signature": "fc83f5fb5e0c67f8",
+       "fields": {
+        "deposit_date": "deposit-date",
+        "total_amount": "total-amount",
+        "amount": "amount",
+        "amount_type": "amount-type",
+        "transaction_type": "transaction-type",
+        "posted_date": "posted-date",
+        "settlement_start": "settlement-start-date",
+        "settlement_end": "settlement-end-date",
+        "currency": "currency",
+        "amount_description": "amount-description",
+        "order_id": "order-id",
+        "settlement_id": "settlement-id"
+       },
+       "rows": 1768,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "settlements": 1,
+        "detail_ties_to_total": "1/1"
+       }
+      },
+      {
+       "file": "settlement_14002222485.txt",
+       "method": "memory",
+       "source_type": "amazon_flat",
+       "confidence": 1.0,
+       "signature": "fc83f5fb5e0c67f8",
+       "fields": {
+        "deposit_date": "deposit-date",
+        "total_amount": "total-amount",
+        "amount": "amount",
+        "amount_type": "amount-type",
+        "transaction_type": "transaction-type",
+        "posted_date": "posted-date",
+        "settlement_start": "settlement-start-date",
+        "settlement_end": "settlement-end-date",
+        "currency": "currency",
+        "amount_description": "amount-description",
+        "order_id": "order-id",
+        "settlement_id": "settlement-id"
+       },
+       "rows": 1775,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "settlements": 1,
+        "detail_ties_to_total": "1/1"
+       }
+      },
+      {
+       "file": "settlement_14002222582.txt",
+       "method": "memory",
+       "source_type": "amazon_flat",
+       "confidence": 1.0,
+       "signature": "fc83f5fb5e0c67f8",
+       "fields": {
+        "deposit_date": "deposit-date",
+        "total_amount": "total-amount",
+        "amount": "amount",
+        "amount_type": "amount-type",
+        "transaction_type": "transaction-type",
+        "posted_date": "posted-date",
+        "settlement_start": "settlement-start-date",
+        "settlement_end": "settlement-end-date",
+        "currency": "currency",
+        "amount_description": "amount-description",
+        "order_id": "order-id",
+        "settlement_id": "settlement-id"
+       },
+       "rows": 1708,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "settlements": 1,
+        "detail_ties_to_total": "1/1"
+       }
+      },
+      {
+       "file": "settlement_14002222679.txt",
+       "method": "memory",
+       "source_type": "amazon_flat",
+       "confidence": 1.0,
+       "signature": "fc83f5fb5e0c67f8",
+       "fields": {
+        "deposit_date": "deposit-date",
+        "total_amount": "total-amount",
+        "amount": "amount",
+        "amount_type": "amount-type",
+        "transaction_type": "transaction-type",
+        "posted_date": "posted-date",
+        "settlement_start": "settlement-start-date",
+        "settlement_end": "settlement-end-date",
+        "currency": "currency",
+        "amount_description": "amount-description",
+        "order_id": "order-id",
+        "settlement_id": "settlement-id"
+       },
+       "rows": 1667,
+       "header_line": 0,
+       "status": "ok",
+       "info": {
+        "settlements": 1,
+        "detail_ties_to_total": "1/1"
+       }
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "runtime_seconds": 16.6
+}
