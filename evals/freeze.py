@@ -3,6 +3,7 @@ Freezes the onboarding code and models before the holdout brands exist.
 
   python evals/freeze.py           writes evals/FREEZE.json (hashes of every onboard/*.py and model file)
   python evals/freeze.py --check   compares the current code and models with the freeze
+  python evals/freeze.py --out evals/FREEZE_v2.json   a second freeze, taken before holdout v2 was written
 
 run_evals.py prints the check result, so any change made after the freeze shows up
 next to the holdout numbers.
@@ -29,10 +30,11 @@ def current():
     return h, combined
 
 
-def check():
-    if not FREEZE.exists():
+def check(path=FREEZE):
+    path = Path(path)
+    if not path.exists():
         return None, []
-    fz = json.loads(FREEZE.read_text())
+    fz = json.loads(path.read_text())
     h, combined = current()
     changed = sorted(k for k in set(h) | set(fz["files"]) if h.get(k) != fz["files"].get(k))
     return combined == fz["combined"], changed
@@ -41,13 +43,14 @@ def check():
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--check", action="store_true")
+    ap.add_argument("--out", default=str(FREEZE))
     a = ap.parse_args()
     if a.check:
-        same, changed = check()
+        same, changed = check(a.out)
         print("no freeze recorded" if same is None else ("matches freeze" if same else f"changed: {changed}"))
         sys.exit(0 if same else 1)
     h, combined = current()
-    FREEZE.write_text(json.dumps({"frozen_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+    Path(a.out).write_text(json.dumps({"frozen_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
                                   "combined": combined, "files": h}, indent=2))
     print(f"frozen {len(h)} files, combined sha256 {combined[:16]}")
 
