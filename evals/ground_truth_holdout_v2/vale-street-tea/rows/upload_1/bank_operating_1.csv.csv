@@ -1,0 +1,78 @@
+label,account,amount,date,is_duplicate,counterparty
+wholesale_receipt,operating,4405.34,2026-08-31,False,Old Mill Market
+processor_payout,operating,11284.82,2026-08-31,False,Shopify
+payroll,operating,-16601.7,2026-08-28,False,Gusto
+payroll,operating,-5242.64,2026-08-28,False,Gusto
+processor_payout,operating,9861.08,2026-08-28,False,Shopify
+processor_payout,operating,10190.09,2026-08-27,False,Shopify
+processor_payout,operating,7798.8,2026-08-26,False,Shopify
+processor_payout,operating,35071.61,2026-08-25,False,Shopify
+processor_payout,operating,9382.95,2026-08-24,False,Shopify
+card_payment,operating,-59076.71,2026-08-22,False,Larchmont
+processor_payout,operating,11256.88,2026-08-21,False,Shopify
+marketplace_payout,operating,27048.81,2026-08-21,False,Amazon.com Services
+sales_tax,operating,-23784.83,2026-08-20,False,PA DEPT OF REVENUE
+processor_payout,operating,10541.24,2026-08-20,False,Shopify
+processor_payout,operating,10870.59,2026-08-19,False,Shopify
+processor_payout,operating,34820.5,2026-08-18,False,Shopify
+software_opex,operating,-275.0,2026-08-17,False,Intuit
+processor_payout,operating,13950.72,2026-08-17,False,Shopify
+payroll,operating,-16895.93,2026-08-14,False,Gusto
+payroll,operating,-5335.56,2026-08-14,False,Gusto
+processor_payout,operating,12865.95,2026-08-14,False,Shopify
+processor_payout,operating,10217.25,2026-08-13,False,Shopify
+inventory_purchase,operating,-180180.0,2026-08-12,False,Highmist Tea Gardens
+bank_fee,operating,-35.0,2026-08-12,False,Wire fee
+processor_payout,operating,10113.6,2026-08-12,False,Shopify
+processor_payout,operating,33508.36,2026-08-11,False,Shopify
+fulfillment_3pl,operating,-24234.33,2026-08-10,False,Keel Fulfillment
+processor_payout,operating,9960.44,2026-08-10,False,Shopify
+processor_payout,operating,10262.51,2026-08-07,False,Shopify
+marketplace_payout,operating,26240.26,2026-08-07,False,Amazon.com Services
+processor_payout,operating,10119.59,2026-08-06,False,Shopify
+inventory_purchase,operating,-147420.0,2026-08-05,False,Wren Tin & Can
+bank_fee,operating,-35.0,2026-08-05,False,Wire fee
+processor_payout,operating,9469.92,2026-08-05,False,Shopify
+processor_payout,operating,38346.52,2026-08-04,False,Shopify
+rent,operating,-4550.0,2026-08-03,False,Vale Street Realty
+processor_payout,operating,10971.27,2026-08-03,False,Shopify
+payroll,operating,-17356.14,2026-07-31,False,Gusto
+payroll,operating,-5480.89,2026-07-31,False,Gusto
+processor_payout,operating,9307.75,2026-07-31,False,Shopify
+processor_payout,operating,9204.28,2026-07-30,False,Shopify
+processor_payout,operating,9129.24,2026-07-29,False,Shopify
+processor_payout,operating,32002.39,2026-07-28,False,Shopify
+processor_payout,operating,9703.45,2026-07-27,False,Shopify
+own_account_transfer,operating,-96000.0,2026-07-27,False,Savings
+processor_payout,operating,11239.58,2026-07-24,False,Shopify
+marketplace_payout,operating,26843.09,2026-07-24,False,Amazon.com Services
+processor_payout,operating,9736.74,2026-07-23,False,Shopify
+card_payment,operating,-52957.94,2026-07-22,False,Larchmont
+processor_payout,operating,8684.36,2026-07-22,False,Shopify
+processor_payout,operating,33853.75,2026-07-21,False,Shopify
+sales_tax,operating,-8231.77,2026-07-20,False,PA DEPT OF REVENUE
+processor_payout,operating,10099.99,2026-07-20,False,Shopify
+payroll,operating,-16792.55,2026-07-17,False,Gusto
+payroll,operating,-5302.91,2026-07-17,False,Gusto
+processor_payout,operating,10328.97,2026-07-17,False,Shopify
+processor_payout,operating,10083.36,2026-07-16,False,Shopify
+software_opex,operating,-275.0,2026-07-15,False,Intuit
+processor_payout,operating,9207.36,2026-07-15,False,Shopify
+processor_payout,operating,31853.38,2026-07-14,False,Shopify
+processor_payout,operating,11202.84,2026-07-13,False,Shopify
+fulfillment_3pl,operating,-22454.36,2026-07-10,False,Keel Fulfillment
+processor_payout,operating,8940.55,2026-07-10,False,Shopify
+marketplace_payout,operating,28068.82,2026-07-10,False,Amazon.com Services
+processor_payout,operating,12729.92,2026-07-09,False,Shopify
+inventory_purchase,operating,-77220.0,2026-07-08,False,Highmist Tea Gardens
+bank_fee,operating,-35.0,2026-07-08,False,Wire fee
+processor_payout,operating,8889.32,2026-07-08,False,Shopify
+processor_payout,operating,34486.95,2026-07-07,False,Shopify
+processor_payout,operating,9130.45,2026-07-06,False,Shopify
+own_account_transfer,operating,-108000.0,2026-07-06,False,Savings
+payroll,operating,-17237.08,2026-07-03,False,Gusto
+payroll,operating,-5443.29,2026-07-03,False,Gusto
+processor_payout,operating,8659.59,2026-07-03,False,Shopify
+processor_payout,operating,8338.84,2026-07-02,False,Shopify
+rent,operating,-4550.0,2026-07-01,False,Vale Street Realty
+processor_payout,operating,8892.32,2026-07-01,False,Shopify

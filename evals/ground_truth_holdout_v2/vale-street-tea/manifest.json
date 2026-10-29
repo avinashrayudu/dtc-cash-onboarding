@@ -1,0 +1,294 @@
+{
+  "brand": "Vale Street Tea",
+  "slug": "vale-street-tea",
+  "split": "holdout_v2",
+  "currency": "USD",
+  "files": {
+    "upload_1/bank_operating_1.csv": {
+      "source_type": "bank",
+      "column_map": {
+        "date": "Posting Date",
+        "description": "Description",
+        "amount": "Amount",
+        "balance": "Balance"
+      },
+      "meta": {
+        "order": "newest_first",
+        "date_format": "iso"
+      },
+      "n_rows": 77
+    },
+    "upload_1/card_activity_1.csv": {
+      "source_type": "card",
+      "column_map": {
+        "date": "Transaction Date",
+        "description": "Description",
+        "amount": "Amount",
+        "txn_type": "Type"
+      },
+      "meta": {
+        "charge_sign": "negative",
+        "date_format": "iso"
+      },
+      "n_rows": 87
+    },
+    "upload_1/order_lines_1.csv": {
+      "source_type": "orders_list",
+      "column_map": {
+        "order_id": "Order ID",
+        "created_at": "Order Date",
+        "total": "Order Total",
+        "subtotal": "Order Subtotal",
+        "shipping": "Order Shipping",
+        "taxes": "Order Tax",
+        "discount": "Order Discount"
+      },
+      "meta": {
+        "totals": "repeated_per_line"
+      },
+      "n_rows": 14418
+    },
+    "upload_1/payment_transactions_1.csv": {
+      "source_type": "payouts",
+      "column_map": {
+        "payout_date": "Payout Date",
+        "net": "Net",
+        "charges": "Amount",
+        "payout_id": "Payout ID",
+        "status": "Payout Status"
+      },
+      "meta": {
+        "grain": "one row per transaction, not per payout"
+      },
+      "n_rows": 9905
+    },
+    "upload_1/settlement_14002222000.txt": {
+      "source_type": "amazon_flat",
+      "column_map": {
+        "settlement_id": "settlement-id",
+        "settlement_start": "settlement-start-date",
+        "settlement_end": "settlement-end-date",
+        "deposit_date": "deposit-date",
+        "total_amount": "total-amount",
+        "transaction_type": "transaction-type",
+        "amount_type": "amount-type",
+        "amount_description": "amount-description",
+        "amount": "amount",
+        "posted_date": "posted-date",
+        "order_id": "order-id",
+        "currency": "currency"
+      },
+      "meta": {},
+      "n_rows": 1731
+    },
+    "upload_1/settlement_14002222097.txt": {
+      "source_type": "amazon_flat",
+      "column_map": {
+        "settlement_id": "settlement-id",
+        "settlement_start": "settlement-start-date",
+        "settlement_end": "settlement-end-date",
+        "deposit_date": "deposit-date",
+        "total_amount": "total-amount",
+        "transaction_type": "transaction-type",
+        "amount_type": "amount-type",
+        "amount_description": "amount-description",
+        "amount": "amount",
+        "posted_date": "posted-date",
+        "order_id": "order-id",
+        "currency": "currency"
+      },
+      "meta": {},
+      "n_rows": 1686
+    },
+    "upload_1/settlement_14002222194.txt": {
+      "source_type": "amazon_flat",
+      "column_map": {
+        "settlement_id": "settlement-id",
+        "settlement_start": "settlement-start-date",
+        "settlement_end": "settlement-end-date",
+        "deposit_date": "deposit-date",
+        "total_amount": "total-amount",
+        "transaction_type": "transaction-type",
+        "amount_type": "amount-type",
+        "amount_description": "amount-description",
+        "amount": "amount",
+        "posted_date": "posted-date",
+        "order_id": "order-id",
+        "currency": "currency"
+      },
+      "meta": {},
+      "n_rows": 1651
+    },
+    "upload_1/settlement_14002222291.txt": {
+      "source_type": "amazon_flat",
+      "column_map": {
+        "settlement_id": "settlement-id",
+        "settlement_start": "settlement-start-date",
+        "settlement_end": "settlement-end-date",
+        "deposit_date": "deposit-date",
+        "total_amount": "total-amount",
+        "transaction_type": "transaction-type",
+        "amount_type": "amount-type",
+        "amount_description": "amount-description",
+        "amount": "amount",
+        "posted_date": "posted-date",
+        "order_id": "order-id",
+        "currency": "currency"
+      },
+      "meta": {},
+      "n_rows": 1669
+    },
+    "upload_1/accounts_1.csv": {
+      "source_type": "coa",
+      "column_map": {
+        "name": "Full name",
+        "type": "Type"
+      },
+      "meta": {},
+      "n_rows": 25
+    },
+    "upload_2/bank_operating_2.csv": {
+      "source_type": "bank",
+      "column_map": {
+        "date": "Posting Date",
+        "description": "Description",
+        "amount": "Amount",
+        "balance": "Balance"
+      },
+      "meta": {
+        "order": "newest_first",
+        "date_format": "iso"
+      },
+      "n_rows": 89
+    },
+    "upload_2/card_activity_2.csv": {
+      "source_type": "card",
+      "column_map": {
+        "date": "Transaction Date",
+        "description": "Description",
+        "amount": "Amount",
+        "txn_type": "Type"
+      },
+      "meta": {
+        "charge_sign": "negative",
+        "date_format": "iso"
+      },
+      "n_rows": 78
+    },
+    "upload_2/order_lines_2.csv": {
+      "source_type": "orders_list",
+      "column_map": {
+        "order_id": "Order ID",
+        "created_at": "Order Date",
+        "total": "Order Total",
+        "subtotal": "Order Subtotal",
+        "shipping": "Order Shipping",
+        "taxes": "Order Tax",
+        "discount": "Order Discount"
+      },
+      "meta": {
+        "totals": "repeated_per_line"
+      },
+      "n_rows": 14076
+    },
+    "upload_2/payment_transactions_2.csv": {
+      "source_type": "payouts",
+      "column_map": {
+        "payout_date": "Payout Date",
+        "net": "Net",
+        "charges": "Amount",
+        "payout_id": "Payout ID",
+        "status": "Payout Status"
+      },
+      "meta": {
+        "grain": "one row per transaction, not per payout"
+      },
+      "n_rows": 10043
+    },
+    "upload_2/settlement_14002222388.txt": {
+      "source_type": "amazon_flat",
+      "column_map": {
+        "settlement_id": "settlement-id",
+        "settlement_start": "settlement-start-date",
+        "settlement_end": "settlement-end-date",
+        "deposit_date": "deposit-date",
+        "total_amount": "total-amount",
+        "transaction_type": "transaction-type",
+        "amount_type": "amount-type",
+        "amount_description": "amount-description",
+        "amount": "amount",
+        "posted_date": "posted-date",
+        "order_id": "order-id",
+        "currency": "currency"
+      },
+      "meta": {},
+      "n_rows": 1768
+    },
+    "upload_2/settlement_14002222485.txt": {
+      "source_type": "amazon_flat",
+      "column_map": {
+        "settlement_id": "settlement-id",
+        "settlement_start": "settlement-start-date",
+        "settlement_end": "settlement-end-date",
+        "deposit_date": "deposit-date",
+        "total_amount": "total-amount",
+        "transaction_type": "transaction-type",
+        "amount_type": "amount-type",
+        "amount_description": "amount-description",
+        "amount": "amount",
+        "posted_date": "posted-date",
+        "order_id": "order-id",
+        "currency": "currency"
+      },
+      "meta": {},
+      "n_rows": 1775
+    },
+    "upload_2/settlement_14002222582.txt": {
+      "source_type": "amazon_flat",
+      "column_map": {
+        "settlement_id": "settlement-id",
+        "settlement_start": "settlement-start-date",
+        "settlement_end": "settlement-end-date",
+        "deposit_date": "deposit-date",
+        "total_amount": "total-amount",
+        "transaction_type": "transaction-type",
+        "amount_type": "amount-type",
+        "amount_description": "amount-description",
+        "amount": "amount",
+        "posted_date": "posted-date",
+        "order_id": "order-id",
+        "currency": "currency"
+      },
+      "meta": {},
+      "n_rows": 1708
+    },
+    "upload_2/settlement_14002222679.txt": {
+      "source_type": "amazon_flat",
+      "column_map": {
+        "settlement_id": "settlement-id",
+        "settlement_start": "settlement-start-date",
+        "settlement_end": "settlement-end-date",
+        "deposit_date": "deposit-date",
+        "total_amount": "total-amount",
+        "transaction_type": "transaction-type",
+        "amount_type": "amount-type",
+        "amount_description": "amount-description",
+        "amount": "amount",
+        "posted_date": "posted-date",
+        "order_id": "order-id",
+        "currency": "currency"
+      },
+      "meta": {},
+      "n_rows": 1667
+    },
+    "upload_2/accounts_2.csv": {
+      "source_type": "coa",
+      "column_map": {
+        "name": "Full name",
+        "type": "Type"
+      },
+      "meta": {},
+      "n_rows": 26
+    }
+  }
+}

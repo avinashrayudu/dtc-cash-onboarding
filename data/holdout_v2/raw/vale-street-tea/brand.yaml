@@ -1,0 +1,8 @@
+brand: Vale Street Tea
+currency: USD
+own_accounts:
+  operating_last4: '6050'
+  savings_last4: '7385'
+  card_last5: '84456'
+note: 'Synthetic brand. Captured on the kickoff call: name, currency, own account
+  numbers.'

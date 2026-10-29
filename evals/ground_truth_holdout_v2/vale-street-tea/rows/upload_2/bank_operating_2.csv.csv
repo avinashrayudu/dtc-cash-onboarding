@@ -1,0 +1,90 @@
+label,account,amount,date,is_duplicate,counterparty
+payroll,operating,-17064.63,2026-10-23,False,Gusto
+payroll,operating,-5388.83,2026-10-23,False,Gusto
+processor_payout,operating,12295.44,2026-10-23,False,Shopify
+card_payment,operating,-57430.09,2026-10-22,False,Larchmont
+processor_payout,operating,10677.29,2026-10-22,False,Shopify
+processor_payout,operating,10195.44,2026-10-21,False,Shopify
+sales_tax,operating,-25552.17,2026-10-20,False,PA DEPT OF REVENUE
+processor_payout,operating,41646.07,2026-10-20,False,Shopify
+financing_repayment,operating,-26000.0,2026-10-19,False,Bramble Capital
+freight_duty,operating,-24570.0,2026-10-19,False,US Customs CBP
+processor_payout,operating,9751.12,2026-10-19,False,Shopify
+freight_duty,operating,-44226.0,2026-10-16,False,Orchard Line Logistics
+processor_payout,operating,11517.21,2026-10-16,False,Shopify
+marketplace_payout,operating,26674.93,2026-10-16,False,Amazon.com Services
+software_opex,operating,-275.0,2026-10-15,False,Intuit
+processor_payout,operating,11307.4,2026-10-15,False,Shopify
+processor_payout,operating,11296.92,2026-10-14,False,Shopify
+processor_payout,operating,38350.48,2026-10-13,False,Shopify
+financing_repayment,operating,-26000.0,2026-10-12,False,Bramble Capital
+fulfillment_3pl,operating,-24175.28,2026-10-12,False,Keel Fulfillment
+processor_payout,operating,10465.96,2026-10-12,False,Shopify
+payroll,operating,-17356.8,2026-10-09,False,Gusto
+payroll,operating,-5481.1,2026-10-09,False,Gusto
+vendor_refund,operating,1837.52,2026-10-09,False,Highmist Tea Gardens
+processor_payout,operating,10558.65,2026-10-09,False,Shopify
+processor_payout,operating,13395.18,2026-10-08,False,Shopify
+processor_payout,operating,10189.83,2026-10-07,False,Shopify
+inventory_purchase,operating,-87750.0,2026-10-06,False,Highmist Tea Gardens
+bank_fee,operating,-35.0,2026-10-06,False,Wire fee
+processor_payout,operating,37340.45,2026-10-06,False,Shopify
+financing_repayment,operating,-26000.0,2026-10-05,False,Bramble Capital
+processor_payout,operating,12414.5,2026-10-05,False,Shopify
+processor_payout,operating,12393.37,2026-10-02,False,Shopify
+marketplace_payout,operating,27098.37,2026-10-02,False,Amazon.com Services
+rent,operating,-4550.0,2026-10-01,False,Vale Street Realty
+interest_expense,operating,-715.0,2026-10-01,False,Bramble Capital
+processor_payout,operating,10715.41,2026-10-01,False,Shopify
+processor_payout,operating,11036.86,2026-09-30,False,Shopify
+processor_payout,operating,36576.09,2026-09-29,False,Shopify
+processor_payout,operating,12710.18,2026-09-28,False,Shopify
+payroll,operating,-16882.48,2026-09-25,False,Gusto
+payroll,operating,-5331.31,2026-09-25,False,Gusto
+processor_payout,operating,11998.98,2026-09-25,False,Shopify
+processor_payout,operating,11085.76,2026-09-24,False,Shopify
+processor_payout,operating,11955.06,2026-09-23,False,Shopify
+inventory_purchase,operating,-343980.0,2026-09-22,False,Wren Tin & Can
+card_payment,operating,-63684.87,2026-09-22,False,Larchmont
+bank_fee,operating,-35.0,2026-09-22,False,Wire fee
+processor_payout,operating,36632.4,2026-09-22,False,Shopify
+own_account_transfer,operating,239000.0,2026-09-22,False,Savings
+sales_tax,operating,-25542.87,2026-09-21,False,PA DEPT OF REVENUE
+processor_payout,operating,11561.65,2026-09-21,False,Shopify
+own_account_transfer,operating,-263000.0,2026-09-21,False,Savings
+processor_payout,operating,12031.82,2026-09-18,False,Shopify
+marketplace_payout,operating,28978.62,2026-09-18,False,Amazon.com Services
+processor_payout,operating,9210.58,2026-09-17,False,Shopify
+processor_payout,operating,10166.22,2026-09-16,False,Shopify
+software_opex,operating,-275.0,2026-09-15,False,Intuit
+processor_payout,operating,35966.76,2026-09-15,False,Shopify
+financing_draw,operating,156000.0,2026-09-15,False,Bramble Capital
+wholesale_receipt,operating,1665.98,2026-09-14,False,Old Mill Market
+vendor_refund,operating,2024.0,2026-09-14,False,Keel Fulfillment
+processor_payout,operating,10230.44,2026-09-14,False,Shopify
+payroll,operating,-17307.86,2026-09-11,False,Gusto
+payroll,operating,-5465.64,2026-09-11,False,Gusto
+processor_payout,operating,7586.71,2026-09-11,False,Shopify
+fulfillment_3pl,operating,-22566.21,2026-09-10,False,Keel Fulfillment
+freight_duty,operating,-12870.0,2026-09-10,False,US Customs CBP
+processor_payout,operating,10762.6,2026-09-10,False,Shopify
+processor_payout,operating,9940.81,2026-09-09,False,Shopify
+wholesale_receipt,operating,8813.64,2026-09-08,False,Old Mill Market
+processor_payout,operating,36168.3,2026-09-08,False,Shopify
+freight_duty,operating,-23166.0,2026-09-07,False,Orchard Line Logistics
+processor_payout,operating,11312.44,2026-09-07,False,Shopify
+processor_payout,operating,11907.16,2026-09-04,False,Shopify
+marketplace_payout,operating,28672.7,2026-09-04,False,Amazon.com Services
+wholesale_receipt,operating,3391.94,2026-09-03,False,Old Mill Market
+processor_payout,operating,10406.47,2026-09-03,False,Shopify
+processor_payout,operating,9850.99,2026-09-02,False,Shopify
+rent,operating,-4550.0,2026-09-01,False,Vale Street Realty
+processor_payout,operating,34893.1,2026-09-01,False,Shopify
+wholesale_receipt,operating,4405.34,2026-08-31,True,Old Mill Market
+processor_payout,operating,11284.82,2026-08-31,True,Shopify
+payroll,operating,-16601.7,2026-08-28,True,Gusto
+payroll,operating,-5242.64,2026-08-28,True,Gusto
+processor_payout,operating,9861.08,2026-08-28,True,Shopify
+processor_payout,operating,10190.09,2026-08-27,True,Shopify
+processor_payout,operating,7798.8,2026-08-26,True,Shopify
+processor_payout,operating,35071.61,2026-08-25,True,Shopify

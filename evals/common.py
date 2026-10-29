@@ -20,15 +20,16 @@ from map_columns import Mapping        # noqa: E402
 from readers import read_any           # noqa: E402
 from transform import TRANSFORMS       # noqa: E402
 
-SPLITS = {"train": ROOT / "data" / "raw", "dev": ROOT / "data" / "raw", "holdout": ROOT / "data" / "holdout" / "raw"}
+SPLITS = {"train": ROOT / "data" / "raw", "dev": ROOT / "data" / "raw", "holdout": ROOT / "data" / "holdout" / "raw",
+          "holdout_v2": ROOT / "data" / "holdout_v2" / "raw"}
 TRUTH = {"train": ROOT / "evals" / "ground_truth", "dev": ROOT / "evals" / "ground_truth",
-         "holdout": ROOT / "evals" / "ground_truth_holdout"}
+         "holdout": ROOT / "evals" / "ground_truth_holdout", "holdout_v2": ROOT / "evals" / "ground_truth_holdout_v2"}
 
 
 def brands(split=None):
     """Yields (slug, split, raw_dir, truth_dir)."""
     seen = []
-    for sp in ("train", "dev", "holdout"):
+    for sp in ("train", "dev", "holdout", "holdout_v2"):
         troot = TRUTH[sp]
         if not troot.exists():
             continue

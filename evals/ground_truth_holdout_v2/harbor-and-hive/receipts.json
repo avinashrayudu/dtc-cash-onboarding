@@ -1,0 +1,24 @@
+{
+  "upload_1": {
+    "customer_receipts": {
+      "dtc": 892724.01,
+      "marketplace": 124803.17,
+      "wholesale": 174306.17
+    },
+    "window": [
+      "2026-07-01",
+      "2026-08-31"
+    ]
+  },
+  "upload_2": {
+    "customer_receipts": {
+      "dtc": 875936.75,
+      "marketplace": 125449.18,
+      "wholesale": 138123.9
+    },
+    "window": [
+      "2026-09-01",
+      "2026-10-25"
+    ]
+  }
+}

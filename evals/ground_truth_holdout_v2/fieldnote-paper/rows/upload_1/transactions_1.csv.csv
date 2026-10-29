@@ -1,0 +1,120 @@
+label,account,amount,date,is_duplicate,counterparty
+processor_payout,operating,7021.51,2026-07-01,False,Shopify
+wholesale_payout,operating,1566.1,2026-07-01,False,Faire Wholesale
+rent,operating,-2800.0,2026-07-01,False,Foundry Row LLC
+processor_payout,operating,6071.07,2026-07-02,False,Shopify
+wholesale_payout,operating,894.32,2026-07-02,False,Faire Wholesale
+processor_payout,operating,7738.8,2026-07-03,False,Shopify
+wholesale_payout,operating,1446.05,2026-07-03,False,Faire Wholesale
+payroll,operating,-3334.34,2026-07-03,False,Justworks
+payroll,operating,-10558.74,2026-07-03,False,Justworks
+own_account_transfer,operating,-97000.0,2026-07-06,False,Savings
+own_account_transfer,savings,97000.0,2026-07-06,False,Operating
+processor_payout,operating,7853.85,2026-07-06,False,Shopify
+wholesale_payout,operating,2064.11,2026-07-06,False,Faire Wholesale
+processor_payout,operating,25618.78,2026-07-07,False,Shopify
+wholesale_payout,operating,5885.12,2026-07-07,False,Faire Wholesale
+processor_payout,operating,7107.46,2026-07-08,False,Shopify
+wholesale_payout,operating,1210.56,2026-07-08,False,Faire Wholesale
+bank_fee,operating,-35.0,2026-07-08,False,Wire fee
+inventory_purchase,operating,-47520.0,2026-07-08,False,Mulberry Mill Paper
+processor_payout,operating,6753.67,2026-07-09,False,Shopify
+wholesale_payout,operating,1895.59,2026-07-09,False,Faire Wholesale
+processor_payout,operating,7962.62,2026-07-10,False,Shopify
+wholesale_payout,operating,1723.95,2026-07-10,False,Faire Wholesale
+fulfillment_3pl,operating,-16323.63,2026-07-10,False,Paperweight Logistics
+processor_payout,operating,7121.81,2026-07-13,False,Shopify
+wholesale_payout,operating,3463.63,2026-07-13,False,Faire Wholesale
+processor_payout,operating,22588.99,2026-07-14,False,Shopify
+wholesale_payout,operating,4261.68,2026-07-14,False,Faire Wholesale
+processor_payout,operating,6830.61,2026-07-15,False,Shopify
+software_opex,operating,-275.0,2026-07-15,False,Intuit
+processor_payout,operating,8203.91,2026-07-16,False,Shopify
+wholesale_payout,operating,4329.85,2026-07-16,False,Faire Wholesale
+processor_payout,operating,7386.73,2026-07-17,False,Shopify
+wholesale_payout,operating,709.85,2026-07-17,False,Faire Wholesale
+payroll,operating,-3294.35,2026-07-17,False,Justworks
+payroll,operating,-10432.12,2026-07-17,False,Justworks
+own_account_transfer,operating,-63000.0,2026-07-20,False,Savings
+own_account_transfer,savings,63000.0,2026-07-20,False,Operating
+processor_payout,operating,7272.28,2026-07-20,False,Shopify
+wholesale_payout,operating,3140.84,2026-07-20,False,Faire Wholesale
+sales_tax,operating,-5206.57,2026-07-20,False,MN DEPT OF REVENUE
+processor_payout,operating,27047.31,2026-07-21,False,Shopify
+wholesale_payout,operating,5844.09,2026-07-21,False,Faire Wholesale
+processor_payout,operating,7191.22,2026-07-22,False,Shopify
+wholesale_payout,operating,863.21,2026-07-22,False,Faire Wholesale
+card_payment,operating,-33148.09,2026-07-22,False,Pinecone
+processor_payout,operating,8193.02,2026-07-23,False,Shopify
+wholesale_payout,operating,595.85,2026-07-23,False,Faire Wholesale
+processor_payout,operating,8024.35,2026-07-24,False,Shopify
+wholesale_payout,operating,4399.41,2026-07-24,False,Faire Wholesale
+processor_payout,operating,7013.19,2026-07-27,False,Shopify
+wholesale_payout,operating,2805.85,2026-07-27,False,Faire Wholesale
+processor_payout,operating,26420.82,2026-07-28,False,Shopify
+wholesale_payout,operating,4780.38,2026-07-28,False,Faire Wholesale
+interest_income,savings,602.55,2026-07-28,False,Bank
+processor_payout,operating,6933.91,2026-07-29,False,Shopify
+wholesale_payout,operating,1594.42,2026-07-29,False,Faire Wholesale
+processor_payout,operating,8276.81,2026-07-30,False,Shopify
+wholesale_payout,operating,348.46,2026-07-30,False,Faire Wholesale
+processor_payout,operating,7521.55,2026-07-31,False,Shopify
+wholesale_payout,operating,1682.6,2026-07-31,False,Faire Wholesale
+payroll,operating,-3411.71,2026-07-31,False,Justworks
+payroll,operating,-10803.75,2026-07-31,False,Justworks
+own_account_transfer,operating,-83000.0,2026-08-03,False,Savings
+own_account_transfer,savings,83000.0,2026-08-03,False,Operating
+processor_payout,operating,7519.17,2026-08-03,False,Shopify
+wholesale_payout,operating,1848.35,2026-08-03,False,Faire Wholesale
+rent,operating,-2800.0,2026-08-03,False,Foundry Row LLC
+processor_payout,operating,26675.69,2026-08-04,False,Shopify
+wholesale_payout,operating,8894.39,2026-08-04,False,Faire Wholesale
+processor_payout,operating,8209.6,2026-08-05,False,Shopify
+wholesale_payout,operating,1012.36,2026-08-05,False,Faire Wholesale
+bank_fee,operating,-35.0,2026-08-05,False,Wire fee
+inventory_purchase,operating,-90720.0,2026-08-05,False,Inkline Printworks
+processor_payout,operating,7839.17,2026-08-06,False,Shopify
+wholesale_payout,operating,1789.37,2026-08-06,False,Faire Wholesale
+processor_payout,operating,6676.1,2026-08-07,False,Shopify
+wholesale_payout,operating,598.12,2026-08-07,False,Faire Wholesale
+processor_payout,operating,7491.08,2026-08-10,False,Shopify
+wholesale_payout,operating,2482.44,2026-08-10,False,Faire Wholesale
+fulfillment_3pl,operating,-14597.39,2026-08-10,False,Paperweight Logistics
+processor_payout,operating,26563.88,2026-08-11,False,Shopify
+wholesale_payout,operating,5187.24,2026-08-11,False,Faire Wholesale
+processor_payout,operating,7602.15,2026-08-12,False,Shopify
+wholesale_payout,operating,1160.26,2026-08-12,False,Faire Wholesale
+bank_fee,operating,-35.0,2026-08-12,False,Wire fee
+inventory_purchase,operating,-110880.0,2026-08-12,False,Mulberry Mill Paper
+processor_payout,operating,8189.33,2026-08-13,False,Shopify
+wholesale_payout,operating,1261.47,2026-08-13,False,Faire Wholesale
+processor_payout,operating,7376.88,2026-08-14,False,Shopify
+wholesale_payout,operating,3092.44,2026-08-14,False,Faire Wholesale
+payroll,operating,-3280.67,2026-08-14,False,Justworks
+payroll,operating,-10388.77,2026-08-14,False,Justworks
+processor_payout,operating,6315.44,2026-08-17,False,Shopify
+software_opex,operating,-275.0,2026-08-17,False,Intuit
+processor_payout,operating,25429.81,2026-08-18,False,Shopify
+wholesale_payout,operating,3622.05,2026-08-18,False,Faire Wholesale
+processor_payout,operating,9221.05,2026-08-19,False,Shopify
+wholesale_payout,operating,1256.74,2026-08-19,False,Faire Wholesale
+processor_payout,operating,5801.01,2026-08-20,False,Shopify
+wholesale_payout,operating,4403.48,2026-08-20,False,Faire Wholesale
+sales_tax,operating,-15532.87,2026-08-20,False,MN DEPT OF REVENUE
+processor_payout,operating,8473.97,2026-08-21,False,Shopify
+wholesale_payout,operating,2737.92,2026-08-21,False,Faire Wholesale
+card_payment,operating,-37086.74,2026-08-22,False,Pinecone
+processor_payout,operating,7342.81,2026-08-24,False,Shopify
+wholesale_payout,operating,2307.77,2026-08-24,False,Faire Wholesale
+processor_payout,operating,27155.36,2026-08-25,False,Shopify
+wholesale_payout,operating,2086.21,2026-08-25,False,Faire Wholesale
+processor_payout,operating,7151.11,2026-08-26,False,Shopify
+wholesale_payout,operating,3531.54,2026-08-26,False,Faire Wholesale
+processor_payout,operating,7441.91,2026-08-27,False,Shopify
+wholesale_payout,operating,245.7,2026-08-27,False,Faire Wholesale
+processor_payout,operating,6192.02,2026-08-28,False,Shopify
+payroll,operating,-3242.91,2026-08-28,False,Justworks
+payroll,operating,-10269.22,2026-08-28,False,Justworks
+interest_income,savings,782.3,2026-08-28,False,Bank
+processor_payout,operating,9335.0,2026-08-31,False,Shopify
+wholesale_payout,operating,3019.56,2026-08-31,False,Faire Wholesale

@@ -1,0 +1,122 @@
+label,account,amount,date,is_duplicate,counterparty
+processor_payout,operating,13363.14,2026-07-01,False,Shopify
+wholesale_payout,operating,1835.51,2026-07-01,False,Faire Wholesale
+rent,operating,-6766.67,2026-07-01,False,Pier Nine Partners LLC
+processor_payout,operating,13234.36,2026-07-02,False,Shopify
+wholesale_payout,operating,2394.77,2026-07-02,False,Faire Wholesale
+processor_payout,operating,12045.69,2026-07-03,False,Shopify
+wholesale_payout,operating,2548.86,2026-07-03,False,Faire Wholesale
+payroll,operating,-7920.89,2026-07-03,False,Paylocity
+payroll,operating,-25082.8,2026-07-03,False,Paylocity
+own_account_transfer,operating,-183000.0,2026-07-06,False,Savings
+processor_payout,operating,17452.45,2026-07-06,False,Shopify
+wholesale_payout,operating,6553.81,2026-07-06,False,Faire Wholesale
+processor_payout,operating,47663.67,2026-07-07,False,Shopify
+wholesale_payout,operating,16242.84,2026-07-07,False,Faire Wholesale
+processor_payout,operating,12232.17,2026-07-08,False,Shopify
+wholesale_payout,operating,3573.92,2026-07-08,False,Faire Wholesale
+bank_fee,operating,-35.0,2026-07-08,False,Wire fee
+inventory_purchase,operating,-114840.0,2026-07-08,False,Saltmeadow Apiaries
+processor_payout,operating,13103.59,2026-07-09,False,Shopify
+wholesale_payout,operating,7032.05,2026-07-09,False,Faire Wholesale
+marketplace_payout,operating,31651.1,2026-07-10,False,Amazon.com Services
+processor_payout,operating,13853.78,2026-07-10,False,Shopify
+wholesale_payout,operating,321.38,2026-07-10,False,Faire Wholesale
+fulfillment_3pl,operating,-35376.34,2026-07-10,False,Anchorline Fulfillment
+processor_payout,operating,13006.8,2026-07-13,False,Shopify
+wholesale_payout,operating,5629.83,2026-07-13,False,Faire Wholesale
+processor_payout,operating,46397.67,2026-07-14,False,Shopify
+wholesale_payout,operating,5532.02,2026-07-14,False,Faire Wholesale
+processor_payout,operating,12592.54,2026-07-15,False,Shopify
+wholesale_payout,operating,2192.46,2026-07-15,False,Faire Wholesale
+software_opex,operating,-275.0,2026-07-15,False,Intuit
+processor_payout,operating,15272.21,2026-07-16,False,Shopify
+wholesale_payout,operating,3807.66,2026-07-16,False,Faire Wholesale
+processor_payout,operating,15398.0,2026-07-17,False,Shopify
+wholesale_payout,operating,1186.51,2026-07-17,False,Faire Wholesale
+payroll,operating,-7879.11,2026-07-17,False,Paylocity
+payroll,operating,-24950.5,2026-07-17,False,Paylocity
+processor_payout,operating,12820.83,2026-07-20,False,Shopify
+wholesale_payout,operating,1173.94,2026-07-20,False,Faire Wholesale
+sales_tax,operating,-10200.42,2026-07-20,False,MA DOR
+processor_payout,operating,47054.71,2026-07-21,False,Shopify
+wholesale_payout,operating,4801.99,2026-07-21,False,Faire Wholesale
+processor_payout,operating,12761.71,2026-07-22,False,Shopify
+wholesale_payout,operating,6841.7,2026-07-22,False,Faire Wholesale
+card_payment,operating,-78276.58,2026-07-22,False,Northbridge
+processor_payout,operating,14084.23,2026-07-23,False,Shopify
+vendor_refund,operating,1256.16,2026-07-23,False,Saltmeadow Apiaries
+wholesale_payout,operating,527.7,2026-07-23,False,Faire Wholesale
+marketplace_payout,operating,30974.7,2026-07-24,False,Amazon.com Services
+processor_payout,operating,13394.51,2026-07-24,False,Shopify
+wholesale_payout,operating,3072.78,2026-07-24,False,Faire Wholesale
+own_account_transfer,operating,-171000.0,2026-07-27,False,Savings
+processor_payout,operating,15471.06,2026-07-27,False,Shopify
+wholesale_payout,operating,2255.27,2026-07-27,False,Faire Wholesale
+processor_payout,operating,45940.64,2026-07-28,False,Shopify
+wholesale_payout,operating,11864.85,2026-07-28,False,Faire Wholesale
+processor_payout,operating,13765.55,2026-07-29,False,Shopify
+wholesale_payout,operating,2354.23,2026-07-29,False,Faire Wholesale
+processor_payout,operating,15062.04,2026-07-30,False,Shopify
+wholesale_payout,operating,2379.26,2026-07-30,False,Faire Wholesale
+processor_payout,operating,14964.15,2026-07-31,False,Shopify
+wholesale_payout,operating,5212.83,2026-07-31,False,Faire Wholesale
+payroll,operating,-8104.38,2026-07-31,False,Paylocity
+payroll,operating,-25663.88,2026-07-31,False,Paylocity
+processor_payout,operating,17089.39,2026-08-03,False,Shopify
+wholesale_payout,operating,920.9,2026-08-03,False,Faire Wholesale
+rent,operating,-6766.67,2026-08-03,False,Pier Nine Partners LLC
+processor_payout,operating,48256.4,2026-08-04,False,Shopify
+wholesale_payout,operating,8001.16,2026-08-04,False,Faire Wholesale
+processor_payout,operating,11469.12,2026-08-05,False,Shopify
+wholesale_payout,operating,2800.69,2026-08-05,False,Faire Wholesale
+bank_fee,operating,-35.0,2026-08-05,False,Wire fee
+inventory_purchase,operating,-219240.0,2026-08-05,False,Corbel Glass Co
+processor_payout,operating,11561.27,2026-08-06,False,Shopify
+wholesale_payout,operating,2909.45,2026-08-06,False,Faire Wholesale
+marketplace_payout,operating,30325.15,2026-08-07,False,Amazon.com Services
+processor_payout,operating,14172.17,2026-08-07,False,Shopify
+wholesale_payout,operating,512.79,2026-08-07,False,Faire Wholesale
+processor_payout,operating,15240.77,2026-08-10,False,Shopify
+wholesale_payout,operating,2570.43,2026-08-10,False,Faire Wholesale
+fulfillment_3pl,operating,-35460.36,2026-08-10,False,Anchorline Fulfillment
+processor_payout,operating,48126.95,2026-08-11,False,Shopify
+wholesale_payout,operating,5875.99,2026-08-11,False,Faire Wholesale
+processor_payout,operating,9959.08,2026-08-12,False,Shopify
+wholesale_payout,operating,597.78,2026-08-12,False,Faire Wholesale
+bank_fee,operating,-35.0,2026-08-12,False,Wire fee
+inventory_purchase,operating,-267960.0,2026-08-12,False,Saltmeadow Apiaries
+processor_payout,operating,12631.17,2026-08-13,False,Shopify
+wholesale_payout,operating,2707.07,2026-08-13,False,Faire Wholesale
+processor_payout,operating,12806.21,2026-08-14,False,Shopify
+wholesale_payout,operating,5113.98,2026-08-14,False,Faire Wholesale
+payroll,operating,-8262.2,2026-08-14,False,Paylocity
+payroll,operating,-26163.63,2026-08-14,False,Paylocity
+processor_payout,operating,16297.22,2026-08-17,False,Shopify
+wholesale_payout,operating,4052.23,2026-08-17,False,Faire Wholesale
+vendor_refund,operating,1716.77,2026-08-17,False,Anchorline Fulfillment
+software_opex,operating,-275.0,2026-08-17,False,Intuit
+processor_payout,operating,54703.78,2026-08-18,False,Shopify
+wholesale_payout,operating,6125.65,2026-08-18,False,Faire Wholesale
+processor_payout,operating,13068.13,2026-08-19,False,Shopify
+wholesale_payout,operating,2819.67,2026-08-19,False,Faire Wholesale
+processor_payout,operating,15199.42,2026-08-20,False,Shopify
+wholesale_payout,operating,6735.71,2026-08-20,False,Faire Wholesale
+sales_tax,operating,-27989.46,2026-08-20,False,MA DOR
+marketplace_payout,operating,31852.22,2026-08-21,False,Amazon.com Services
+processor_payout,operating,14496.59,2026-08-21,False,Shopify
+wholesale_payout,operating,3877.29,2026-08-21,False,Faire Wholesale
+card_payment,operating,-84625.47,2026-08-22,False,Northbridge
+processor_payout,operating,15184.51,2026-08-24,False,Shopify
+wholesale_payout,operating,2118.71,2026-08-24,False,Faire Wholesale
+processor_payout,operating,50180.28,2026-08-25,False,Shopify
+wholesale_payout,operating,5997.11,2026-08-25,False,Faire Wholesale
+processor_payout,operating,13998.59,2026-08-26,False,Shopify
+wholesale_payout,operating,6027.3,2026-08-26,False,Faire Wholesale
+processor_payout,operating,14654.12,2026-08-27,False,Shopify
+wholesale_payout,operating,3498.65,2026-08-27,False,Faire Wholesale
+processor_payout,operating,17996.59,2026-08-28,False,Shopify
+wholesale_payout,operating,1707.44,2026-08-28,False,Faire Wholesale
+payroll,operating,-8193.18,2026-08-28,False,Paylocity
+payroll,operating,-25945.08,2026-08-28,False,Paylocity
+processor_payout,operating,14696.75,2026-08-31,False,Shopify
