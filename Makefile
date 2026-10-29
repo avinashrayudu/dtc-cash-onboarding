@@ -1,7 +1,7 @@
 # dtc-cash-onboarding. Built by Avinash Rayudu.
 PY ?= python3
 
-.PHONY: install demo eval quick test data holdout train freeze-check onboard clean
+.PHONY: install demo eval quick test data holdout holdout-v2-data holdout-v2 train freeze-check onboard clean
 
 install:
 	$(PY) -m pip install -r requirements.txt
@@ -25,6 +25,13 @@ data:
 
 holdout:
 	$(PY) data/holdout/generate_holdout.py
+
+holdout-v2-data:
+	$(PY) data/holdout_v2/generate_holdout_v2.py
+
+# runs once, blind; refuses if the code changed since evals/FREEZE_v2.json or a result already exists
+holdout-v2:
+	$(PY) evals/run_holdout_v2.py
 
 train:
 	$(PY) evals/train.py

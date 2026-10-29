@@ -55,3 +55,31 @@ remembered answers conflict, it should go quiet rather than pick one.
 
 **Success metric.** Precision of remembered answers on the next upload (here 100%) alongside the share of review
 items they remove.
+
+## 5. A customer seen once should still be remembered
+
+**What happened.** In holdout v2 (blind, frozen code), Vale Street Tea's direct wholesale customer Old Mill Market
+paid once in the first upload. The model was unsure, so it went to review and was answered. On the next upload the
+same customer paid three more times, and all three were asked again. Memory keeps only words that recur across an
+upload, so a counterparty that appears once leaves no key. That rule exists to drop one-off reference numbers, and it
+also drops one-off customers.
+
+**Ask.** When a reviewer answers a line, remember the counterparty itself (name plus direction), even if it appeared
+once. Keep reference IDs out by stripping digits, not by requiring repetition.
+
+**Success metric.** Share of next-upload review items that repeat a counterparty a reviewer already answered (here 3
+of 7 on that brand's second upload; the target is zero).
+
+## 6. Detect file type from the money, not only the headers
+
+**What happened.** Holdout v2's Harbor & Hive card export split charges and payments into Debit and Credit columns.
+Those headers look like a bank statement, so the file was read as one. Its bank file used year-first dates
+(2026/07/01), which were not recognized, so the real bank statement was never mapped. The gate blocked the brand with
+the payout checks named, which is the right outcome, but a reviewer would have to untangle two files.
+
+**Ask.** Before accepting a file as a bank statement, check that the money behaves like one: payouts land in it,
+the running balance holds, the brand's own account digits appear. A card file fails all three. Add year-first dates
+to the date profiles.
+
+**Success metric.** Files assigned the wrong source type on first pass (here 2 of 44 across holdout v2: the same card
+export in both uploads).
