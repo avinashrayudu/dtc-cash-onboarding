@@ -1,6 +1,6 @@
 # Changelog
 
-Each release is a git tag. Built by Avinash Rayudu.
+Each version lists the commits it covers. Built by Avinash Rayudu.
 
 ## How commits are structured
 
@@ -14,7 +14,7 @@ From v1.2.0 on, every commit message starts with its type:
 | `data:` | new or regenerated synthetic data |
 | `results:` | output of a run, committed as it came out; nothing else in the commit |
 | `docs:` | README and docs only; no number changes without a matching `results:` commit |
-| `chore:` | tooling, tags, housekeeping |
+| `chore:` | tooling and housekeeping |
 
 A blind holdout is always three commits in this order: `freeze:`, then `data:`, then `results:`.
 
