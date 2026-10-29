@@ -19,5 +19,5 @@ Built by Avinash Rayudu.
 
 Accounts payable is usually controlled by matching purchase order, receiving and vendor invoice before paying. This
 project does not see purchase orders or invoices; it sees the payment after it happens and labels it, for example as
-`inventory_purchase` or `fulfillment_3pl`. The PO-to-invoice side is what I worked on at Zacao Chocolate, where the
-check happens before money moves.
+`inventory_purchase` or `fulfillment_3pl`. A three-way match has to happen before money moves, from the purchase
+order, receiving and invoice records. The concepts are laid out in [finance_concepts.md](finance_concepts.md).

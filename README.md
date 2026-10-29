@@ -1,14 +1,16 @@
 # dtc-cash-onboarding
 
+**Why it matters.** A brand's first upload decides whether it trusts a finance platform, and money that looks right
+but is wrong does more damage than a question. This onboarding step proves each brand's numbers against the bank, and
+when it cannot, it blocks or asks instead of guessing.
 **What it is.** It maps a consumer brand's Shopify, Amazon, Faire, bank, card and chart-of-accounts exports into one
-cash ledger. It accepts the upload only when independent records of the same money agree, and sends what it cannot
-prove to a person instead of guessing.
+cash ledger, accepted only when independent records of the same money agree.
 **Best result.** On a second blind holdout (three new brands, run once on frozen code), it labeled about 79% of 1,180
 lines on its own with no wrong labels. The one brand it could not tie out was blocked with the failing checks named.
 **See it.** [Rendered onboarding report](https://avinashrayudu.github.io/dtc-cash-onboarding/reports/) ·
 [case study](https://www.avinashrayudu.com/work/dtc-cash-onboarding/) ·
 [how I'd onboard a brand](docs/onboarding_runbook.md) · [what I'd ask Product for](docs/product_asks.md) ·
-[how the money is treated](docs/accounting_treatment.md)
+[how the money is treated](docs/accounting_treatment.md) · [finance concepts](docs/finance_concepts.md)
 
 Built by Avinash Rayudu. All data is synthetic.
 
@@ -175,13 +177,15 @@ Each is written up as a product ask in [`docs/product_asks.md`](docs/product_ask
 
 ## Why these numbers
 
-| Setting | Value | Where it comes from |
-|---|---|---|
-| Line model threshold | 0.49 | The lowest confidence at which leave-one-brand-out predictions reach 99% precision on the brand left out (`evals/train.py`, `TARGET_PRECISION = 0.99`). Below it, the line goes to a person. |
-| Match rate to pass a tie-out | 98% | A source passes if at most about 1 record in 50 is not found. Requiring 100% would block a brand over one deposit delayed past the window; a lower bar would let a missing export through. |
-| Match window | 3 days (Shopify, Faire), 5 days (Amazon) | Amazon deposits land later after a settlement closes than Shopify or Faire payouts. Amounts must still match to the cent. |
-| Orders vs payout charges | within 0.5% | Wide enough for timing at the edges of the window, narrow enough that summed line items or a subtotal mapped as total (both several percent off) fail. |
-| Balance continuity | 99% of rows | A single rounding or ordering artifact does not block; a flipped sign or a dropped block of rows does. |
+Every threshold, in plain language, with where it comes from.
+
+| Setting | Value | In plain language | Where it comes from |
+|---|---|---|---|
+| Line model threshold | 0.49 | When the model is at least this sure, it was right 99 times in 100 on brands it had never seen. Below that, a person decides. | The lowest confidence at which leave-one-brand-out predictions reach 99% precision on the brand left out (`evals/train.py`, `TARGET_PRECISION = 0.99`). |
+| Match rate to pass a tie-out | 98% | A source passes if at most about 1 payout in 50 is missing from the bank. Requiring every one would block a brand over one late deposit; a lower bar would let a missing export through. | Set by hand. At this level all 51 injected faults were blocked or held for review. |
+| Match window | 3 days (Shopify, Faire), 5 days (Amazon) | How long a payout can take to show up in the bank. Amazon deposits land later after a settlement closes. The amount must still match to the cent. | The synthetic exports pay out 2 business days after the sale (Shopify, Faire) or 2 days after a settlement closes (Amazon). The windows add slack for weekends and bank posting. |
+| Orders vs payout charges | within 0.5% | Close enough to allow sales on the edge of the window; far enough off to catch summed line items or a subtotal mapped as the total, which are several percent off. | Set by hand between the two: timing at the window edges is well under it, and both mapping errors are several percent. |
+| Balance continuity | 99% of rows | One rounding or ordering quirk does not block a brand; a flipped sign or a dropped block of rows does. | Set by hand. |
 
 ## Repository
 
@@ -208,7 +212,7 @@ evals/
 models/                    line_model.joblib, coa_model.joblib, frozen.json
 reports/                   index.html and one page per brand (served by GitHub Pages)
 tests/                     18 tests
-docs/                      onboarding_runbook.md, product_asks.md, accounting_treatment.md
+docs/                      onboarding_runbook.md, product_asks.md, accounting_treatment.md, finance_concepts.md
 ```
 
 ## Run it on one brand
@@ -247,9 +251,47 @@ Tested with Python 3.13, pandas 3.0, scikit-learn 1.9. The saved models need the
   year-first bank dates, card exports with separate Debit and Credit columns. The gate blocks rather than guesses
   when it meets them.
 
+## Where this fits at Highbeam
+
+My reading of Highbeam's public Luma pages and the AI Implementation Associate posting. This project is not
+affiliated with Highbeam and uses no Highbeam data.
+
+| This project | Highbeam / Luma workflow it would show | The role's work it rehearses |
+|---|---|---|
+| Reading each brand's Shopify, Amazon, Faire, bank and card exports into one standard ledger | Luma "pulls in and cleans financial data" so forecasts, reports and workflows stay current | Configuring each customer's setup |
+| Labeling each line by proof, then memory, then a model with a 99%-precision threshold | The Bookkeeping assistant, which categorizes transactions across connected accounts and reconciles them | Evaluating outputs and tuning behavior |
+| Tie-outs that block an upload instead of guessing | Luma "generates, executes and maintains code against the underlying data" rather than giving a model direct access | Keeping outputs auditable and repeatable |
+| The review queue and the note to the founder | | Being someone a brand trusts to resolve issues completely |
+| [Product asks](docs/product_asks.md) from two blind holdouts | | Spotting patterns across customers and turning them into clear asks for Product |
+
+Sources: [Introducing Luma](https://www.highbeam.com/blog/introducing-luma-a-world-class-finance-team-for-every-d2c-brand),
+[Luma](https://www.highbeam.com/luma),
+[Highbeam Intelligence](https://www.highbeam.com/blog/expert-finance-agents-for-consumer-brands-highbeam-intelligence),
+[Building Luma](https://highbeam.com/blog/building-luma-an-approach-to-transform-financial-work-with-applied-ai).
+
+## Finance concepts
+
+This is a cash ledger. Payouts are net of fees and refunds, sales tax rides inside receipts, an unpaid wholesale
+invoice (accounts receivable) is invisible until the cash lands, and the project sees vendor payments after they
+happen, so there is no three-way match. [docs/finance_concepts.md](docs/finance_concepts.md) explains AP and AR,
+cash vs accrual and the three-way match across all three projects; [docs/accounting_treatment.md](docs/accounting_treatment.md)
+covers each item line by line.
+
+## How I built this
+
+I built this with Claude Code, Anthropic's coding agent. I chose the problem and set the rules the work had to
+follow: synthetic data only, freeze the code before writing a holdout, publish the blind result as it came out, block
+rather than guess, and no number in this README that a committed run did not produce. Claude Code wrote most of the
+code, tests and first drafts of the docs under that direction and ran the evals. I read the results, decided what to
+fix and what to leave visible, and ran reviews from an implementation team's point of view that drove the last
+rounds of changes. The commit history ([CHANGELOG.md](CHANGELOG.md)) shows the order things happened in.
+
 ## Why I built this
 
-At Zacao Chocolate, a consumer products brand in Brooklyn that sells through 150+ retail stores across New York plus
-Shopify and Amazon, I work across four sales channels. I built a PO-to-invoice matching agent there that cut the
-payment cycle by 15 days. The lesson from that work is the core of this project: a match you can prove beats a label
-you can only predict.
+At Zacao Chocolate, a consumer products brand in Brooklyn, I reconciled 106 open store invoices ($12,171.47 on the
+books) against two payment trackers and the bank, and found the stores actually owed about $910. Three records of
+the same money disagreed and none of them was simply right. That is the core of this project: a match you can prove
+beats a label you can only predict. The [Zacao case study](https://www.avinashrayudu.com/work/zacao-receivables/)
+has the rules and the exceptions.
+
+Built by Avinash Rayudu. MIT License.
